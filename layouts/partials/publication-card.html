@@ -1,0 +1,45 @@
+{{ $page := .page }}
+{{ $variant := .variant | default "standard" }}
+{{ $thumb := $page.Params.thumbnail }}
+{{ $thumbURL := "" }}
+{{ if $thumb }}
+  {{ if hasPrefix $thumb "media/" }}
+    {{ $thumbURL = ($thumb | relURL) }}
+  {{ else }}
+    {{ $thumbURL = printf "%s%s" $page.RelPermalink $thumb }}
+  {{ end }}
+{{ end }}
+<a class="publication-card publication-card--{{ $variant }} publication-card--{{ $page.Params.tier | default "archive" }}" href="{{ $page.RelPermalink }}">
+  <div class="publication-card__media">
+    {{ if $thumb }}
+    <img src="{{ $thumbURL }}" alt="">
+    {{ else }}
+    <div class="publication-card__placeholder" aria-hidden="true"></div>
+    {{ end }}
+  </div>
+  <div class="publication-card__body">
+    <div class="publication-card__meta">
+      <span>{{ $page.Params.year }}</span>
+      <span>{{ $page.Params.publication_type }}</span>
+      <span>{{ $page.Params.tier | default "archive" }}</span>
+    </div>
+    <h3>{{ $page.Title }}</h3>
+    {{ with $page.Params.authors }}
+    <p class="publication-card__authors">{{ index . 0 }}{{ if gt (len .) 1 }} et al.{{ end }}</p>
+    {{ end }}
+    {{ with $page.Params.publication }}<p class="publication-card__venue">{{ . }}</p>{{ end }}
+    {{ with $page.Params.card_significance }}
+    <p class="publication-card__significance">{{ . }}</p>
+    {{ else }}
+    {{ with $page.Params.why_this_matters }}
+    <p class="publication-card__significance">{{ . }}</p>
+    {{ else }}
+    {{ with $page.Params.plain_language_summary }}
+    <p class="publication-card__significance">{{ . }}</p>
+    {{ else }}
+    <p class="publication-card__significance">{{ $page.Summary | plainify | truncate 180 }}</p>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+</a>

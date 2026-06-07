@@ -1,0 +1,1037 @@
+source_asset_folder: "/Users/work/Dropbox/Website/website-redesign-2026/publications"
+assignment_policy: "Only candidates with score >= 0.86 are auto-assigned; ambiguous candidates are report-only."
+entries:
+  dastgheyb2015quantifying:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Quantifying focal disruptions in axonal microtubules Publisher- IEEE Cite This .pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  dastgheyb2015investigating:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Mechanisms of axonal pathology in the context of traumatic brain injury.pdf"
+        score: 0.375
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  dastgheyb2012interactions:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  dastgheyb2014secondary:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  dastgheyb2014role:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/The role of intracellular calcium in axonal injury.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Mechanisms of axonal pathology in the context of traumatic brain injury.pdf"
+        score: 0.385
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  chaudhuri2017exosomes:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  dastgheyb2011quantification:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Quantification of beading intensity in cultured neurons.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  dastgheyb2016astrocyte:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  dastgheyb2005pulmonary:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/PULMONARY HYPERTENSION IN CHUVASH POLYCYTHEMIA.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  dastgheyb2014mechanisms:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Mechanisms of axonal pathology in the context of traumatic brain injury.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/The role of intracellular calcium in axonal injury.pdf"
+        score: 0.385
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  chaudhuri2018tnfalpha:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  dastgheyb2018machine:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  miller2019molecularly:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  habela201915q11:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  taga2019multielectrode:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  taga2019role:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Role of human-induced pluripotent stem cell-derived spinal cord astrocytes in the functional maturation of motor neurons in a multielectrode array system.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  dastgheyb2019cognitive:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Cognitive trajectory phenotypes in human immunodeficiency virus–infected patients.pdf"
+        score: 0.7
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  rubin2019heterogeneity:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  dastgheyb2020meanalyzer:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/MEAnalyzer–a spike train analysis tool for multi electrode arrays.pdf"
+        score: 0.727
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  jha2019monocarboxylate:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Monocarboxylate transporter 1 in Schwann cells contributes to maintenance of sensory nerve myelination during aging.pdf"
+        score: 0.722
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  jha2020monocarboxylate:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Monocarboxylate transporter 1 in Schwann cells contributes to maintenance of sensory nerve myelination during aging.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging.pdf"
+        score: 0.722
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  chen2019lipidomic:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/chen-et-al-2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  williams2021associations:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  moniruzzaman2019elevated:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Plasma microRNAs are associated with domain-specific cognitive function in people with HIV.pdf"
+        score: 0.35
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  dastgheyb2019neurocognitive:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Identifying and distinguishing cognitive profiles among virally suppressed people with HIV..pdf"
+        score: 0.462
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
+        score: 0.429
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Parkinsonism in people with virally suppressed HIV.pdf"
+        score: 0.364
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan–Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV.pdf"
+        score: 0.357
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  kumar2019modulation:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  jurgens2019loss:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  westergard2019molecularly:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  almad2020connexin:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Connexin 43 hemichannels mediate spatial and temporal disease spread in ALS.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2021associations:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Associations between antiretrovirals and cognitive function in women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
+        score: 0.375
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  rubin2020early:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Early inflammatory signatures predict subsequent cognition in long-term virally suppressed women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan–Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV.pdf"
+        score: 0.389
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  taga2020modeling:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  kamkwalala2021starting:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Starting or switching to an integrase inhibitor-based regimen affects PTSD symptoms in women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  fitzgerald2020factors:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Factors predicting detrimental change in declarative memory among women with HIV- A study of heterogeneity in cognition.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2020sex:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Sex Differences in the Patterns and Predictors of Cognitive Function in HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
+        score: 0.438
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  o2021integrase:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Integrase strand transfer inhibitor start or switch impacts learning in women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  li2020astrocytes:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/J of Extracellular Vesicle - 2021 - Li - Astrocytes deliver CK1 to neurons via extracellular vesicles in response to.pdf"
+        score: 0.9
+        reason: "title prefix matches asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  dastgheyb2021patterns:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Identifying and distinguishing cognitive profiles among virally suppressed people with HIV..pdf"
+        score: 0.438
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Sex Differences in the Patterns and Predictors of Cognitive Function in HIV.pdf"
+        score: 0.438
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Cognitive Predictors of Everyday Functioning in Older Virally Suppressed Women with HIV in the Women’s Interagency HIV Study.pdf"
+        score: 0.4
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
+        score: 0.389
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  rubin2021dietary:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Dietary intake is associated with neuropsychological impairment in women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  aparicio2021plasma:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Plasma microRNAs are associated with domain-specific cognitive function in people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  williams2019associations:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2023integrase:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Integrase Inhibitors are Associated with Neuropsychiatric Symptoms in Women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Common antiretroviral combinations are associated with somatic depressive symptoms in women with HIV.pdf"
+        score: 0.467
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  almad2022cx43:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/almad-et-al-2022-cx43-hemichannels-contribute-to-astrocyte-mediated-toxicity-in-sporadic-and-familial-als.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  williams2022t:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/T-cell activation state differentially contributes to neuropsychiatric complications in women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  wang2022tumor:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  morales2023first:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/First Organoid Intelligence (OI) workshop to form an OI community.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  hartung2023baltimore:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/The Baltimore declaration toward the exploration of organoid intelligence.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  mukerji2023machine:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Machine learning approaches to understand cognitive phenotypes in people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2023trauma:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Trauma across the life span and multisystem morbidity in women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2023pilot:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  salimpour2024phase:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Phase-amplitude coupling detection and analysis of human 2-dimensional neural cultures in multi-well microelectrode array in vitro.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  parra2024common:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Common antiretroviral combinations are associated with somatic depressive symptoms in women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Integrase Inhibitors are Associated with Neuropsychiatric Symptoms in Women with HIV.pdf"
+        score: 0.467
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  sundermann2024identifying:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Identifying and distinguishing cognitive profiles among virally suppressed people with HIV..pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
+        score: 0.438
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Parkinsonism in people with virally suppressed HIV.pdf"
+        score: 0.385
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  shorer2024tryptophan:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan–Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV.pdf"
+        score: 0.769
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV.pdf"
+        score: 0.533
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Early inflammatory signatures predict subsequent cognition in long-term virally suppressed women with HIV.pdf"
+        score: 0.368
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Parkinsonism in people with virally suppressed HIV.pdf"
+        score: 0.357
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Multiplexing Proteomic and Ingenuity Pathway Analysis of Attention:Working Memory in Virally Suppressed Women with HIV- A Feasibility Study.pdf"
+        score: 0.348
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  wiseman2024brain:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
+        score: 0.45
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Parkinsonism in people with virally suppressed HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  wiseman2023brain:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"
+        score: 0.833
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
+        score: 0.429
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  tang2024biopsychosocial:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Biopsychosocial phenotypes in people with HIV in the CHARTER cohort.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  yoo2024emotional:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area- A Cross-sectional Study.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2025intact:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"
+        score: 0.45
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
+        score: 0.389
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Dietary intake is associated with neuropsychological impairment in women with HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Associations between antiretrovirals and cognitive function in women with HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  habela2025altered:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Altered development and network connectivity in a human neuronal model of 15q11. 2 deletion-related neurodevelopmental disorders.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  chaudhuritnfalpha:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  rubin2025imaging:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Imaging the translocator protein 18 KDa within cognitive control and declarative memory circuits in virally suppressed people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  lang2025development:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Development of a refined harmonization approach for longitudinal cognitive data in people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/International application of an optimized harmonization approach for longitudinal cognitive data in people with HIV.pdf"
+        score: 0.611
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  rubin2025mental:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Mental health phenotypes of well-controlled HIV in Uganda.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  vance2024does:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Does cognitive intra-individual variability predict change in everyday functioning performance in women with and without HIV in the Women’s Interagency HIV Study.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Cognitive predictors of everyday functioning in women with HIV- findings from the women’s interagency HIV study.pdf"
+        score: 0.458
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Cognitive Predictors of Everyday Functioning in Older Virally Suppressed Women with HIV in the Women’s Interagency HIV Study.pdf"
+        score: 0.44
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  mukerji2025plasma:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Plasma neurofilament light chain and glial fibrillary acidic protein as biomarkers of cognitive decline in people with human immunodeficiency virus.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2023intact:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
+        score: 0.688
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
+        score: 0.368
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Plasma microRNAs are associated with domain-specific cognitive function in people with HIV.pdf"
+        score: 0.368
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"
+        score: 0.364
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  shorer2023tryptophan:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV.pdf"
+        score: 0.9
+        reason: "title prefix matches asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan–Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  trunfio2025cerebrospinal:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/The cerebrospinal fluid virome in people with HIV- links to neuroinflammation and cognition.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  vance2025cognitive:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Cognitive predictors of everyday functioning in women with HIV- findings from the women’s interagency HIV study.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Cognitive Predictors of Everyday Functioning in Older Virally Suppressed Women with HIV in the Women’s Interagency HIV Study.pdf"
+        score: 0.722
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Does cognitive intra-individual variability predict change in everyday functioning performance in women with and without HIV in the Women’s Interagency HIV Study.pdf"
+        score: 0.458
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  tavasoli2025systemic:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  yoo2025loneliness:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Loneliness is related to facial emotion perception in people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Beyond accuracy- facial emotion perception bias in people with HIV in Uganda.pdf"
+        score: 0.467
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  rubin2025blood:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Blood-Brain barrier disruption in long COVID and cognitive correlates- A cross-sectional MRI study.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  zaikos2025neuropathologic:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Parkinsonism in people with virally suppressed HIV.pdf"
+        score: 0.375
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  lang2025international:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/International application of an optimized harmonization approach for longitudinal cognitive data in people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Development of a refined harmonization approach for longitudinal cognitive data in people with HIV.pdf"
+        score: 0.611
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  chandra2022associations:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"
+        score: 0.455
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Associations between antiretrovirals and cognitive function in women with HIV.pdf"
+        score: 0.444
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV.pdf"
+        score: 0.391
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  korpela2026longitudinal:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/longitudinal_effects_of_polypharmacy_on_cognitive.13.pdf"
+        score: 0.5
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Development of a refined harmonization approach for longitudinal cognitive data in people with HIV.pdf"
+        score: 0.389
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/International application of an optimized harmonization approach for longitudinal cognitive data in people with HIV.pdf"
+        score: 0.368
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Plasma microRNAs are associated with domain-specific cognitive function in people with HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  li2025multiplexing:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Multiplexing Proteomic and Ingenuity Pathway Analysis of Attention:Working Memory in Virally Suppressed Women with HIV- A Feasibility Study.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan–Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV.pdf"
+        score: 0.364
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  azola2025putting:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Putting the PASC Score to the Test- Clinical vs. Statistical Accuracy in Long COVID Diagnosis- Azola et al..pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  shorer2026parkinsonism:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Parkinsonism in people with virally suppressed HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Identifying and distinguishing cognitive profiles among virally suppressed people with HIV..pdf"
+        score: 0.385
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Tryptophan–Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV.pdf"
+        score: 0.385
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV.pdf"
+        score: 0.375
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"
+        score: 0.353
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  tejera2025metabolic:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Alzheimer s   Dementia - 2025 - Tejera - Metabolic changes mediate the link between social determinants and declarative.pdf"
+        score: 0.9
+        reason: "title prefix matches asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV.pdf"
+        score: 0.65
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  tejera2025alzheimer:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  vance2025associations:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Associations between antiretrovirals and cognitive function in women with HIV.pdf"
+        score: 0.533
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  rubin2026cognitive:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Cognitive sequala of loneliness in long COVID- Differential associations by loneliness subtypes.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  yoo2025association:
+    pdf_candidates:
+      []
+    figure_candidates:
+      []
+  rubin2026n:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  ridgeway2026beyond:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Beyond accuracy- facial emotion perception bias in people with HIV in Uganda.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Loneliness is related to facial emotion perception in people with HIV.pdf"
+        score: 0.467
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  tejera2026metabolomic:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV.pdf"
+        score: 0.99
+        reason: "title contained in asset filename"
+        auto_assign: true
+    figure_candidates:
+      []
+  rubin2026stability:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/Imaging the translocator protein 18 KDa within cognitive control and declarative memory circuits in virally suppressed people with HIV.pdf"
+        score: 0.609
+        reason: "token overlap"
+        auto_assign: false
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/stability_of_the_translocator_protein_18_kda.18.pdf"
+        score: 0.389
+        reason: "token overlap"
+        auto_assign: false
+    figure_candidates:
+      []
+  rubin2025brace:
+    pdf_candidates:
+      -
+        file: "/Users/work/Dropbox/Website/website-redesign-2026/publications/ BRACE-ing for the future- Establishing iPad-based norms for cognitive function in the MACS:WIHS Combined Cohort Study.pdf"
+        score: 0.92
+        reason: "asset filename contained in title"
+        auto_assign: true
+    figure_candidates:
+      []

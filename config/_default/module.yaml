@@ -1,0 +1,5 @@
+# V1 uses local layouts and SCSS for a reliable cinematic academic site build.
+# The content model and directory conventions remain Hugo Blox-compatible so
+# upstream blocks/modules can be reintroduced selectively once the visual system
+# is stable.
+imports: []

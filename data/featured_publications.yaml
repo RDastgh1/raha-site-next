@@ -1,0 +1,11 @@
+items:
+  - title: "Hidden structure in translational brain health data"
+    summary: "A placeholder publication portal showing the intended enriched publication format."
+    venue: "Publication portal template"
+    year: "2026"
+    url: "publication/hidden-structure-brain-health/"
+    links:
+      - label: "Software"
+        url: "software/scidatareportr/"
+      - label: "Research"
+        url: "research/computational-phenotyping/"

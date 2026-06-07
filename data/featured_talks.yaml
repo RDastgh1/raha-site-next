@@ -1,0 +1,5 @@
+items:
+  - title: "Biomedical Data Science for Brain Health"
+    venue: "Research talk"
+    summary: "From patient cohorts to cellular circuits through reproducible computational systems."
+    url: "talks/biomedical-data-science-brain-health/"

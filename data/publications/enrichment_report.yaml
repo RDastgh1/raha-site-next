@@ -1,0 +1,759 @@
+successful:
+  -
+    title: "Quantification of beading intensity in cultured neurons"
+    slug: "2011-quantification-of-beading-intensity-in-cultured-neurons"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells"
+    slug: "2012-interactions-of-fluorescein-isothiocyanate-labeled-poloxamer-p188-with-cultured-cells"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Mechanisms of axonal pathology in the context of traumatic brain injury"
+    slug: "2014-mechanisms-of-axonal-pathology-in-the-context-of-traumatic-brain-injury"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "The role of intracellular calcium in axonal injury"
+    slug: "2014-the-role-of-intracellular-calcium-in-axonal-injury"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Investigating sources of axonal calcium in neuronal cultures modeling Traumatic Brain Injury"
+    slug: "2015-investigating-sources-of-axonal-calcium-in-neuronal-cultures-modeling-traumatic-brain-injury"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Quantifying focal disruptions in axonal microtubules"
+    slug: "2015-quantifying-focal-disruptions-in-axonal-microtubules"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons"
+    slug: "2018-tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons"
+    score: 0.89
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "15q11. 2 Deletion Results in Altered Excitability and Connectivity in Human Induced Pluripotent Stem Cell Derived Neurons (S51. 009)"
+    slug: "2019-15q11-2-deletion-results-in-altered-excitability-and-connectivity-in-human-induced-pluripotent-stem-cell-derived-neurons-s51-009"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV"
+    slug: "2019-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda"
+    slug: "2019-heterogeneity-in-neurocognitive-change-trajectories-among-people-with-hiv-starting-antiretroviral-therapy-in-rakai-uganda"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Lipidomic characterization of extracellular vesicles in human serum"
+    slug: "2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Loss of function variants in PCYT1A causing spondylometaphyseal dysplasia with cone/rod dystrophy have broad consequences on lipid metabolism, chondrocyte differentiation, and lipid droplet formation"
+    slug: "2019-loss-of-function-variants-in-pcyt1a-causing-spondylometaphyseal-dysplasia-with-cone-rod-dystrophy-have-broad-consequences-on-lipid-metabolism-chondrocyte-differentiation-and-lipid-droplet-formation"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin"
+    slug: "2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin"
+    slug: "2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin-2"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging"
+    slug: "2019-monocarboxylate-transporter-1-in-schwann-cells-is-critical-for-maintenance-of-sensory-nerve-myelination-during-aging"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Multielectrode array analysis of human iPSC-motor neuron maturation following coculture with iPSC-spinal cord astrocytes (P4. 4-031)"
+    slug: "2019-multielectrode-array-analysis-of-human-ipsc-motor-neuron-maturation-following-coculture-with-ipsc-spinal-cord-astrocytes-p4-4-031"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Role of human-induced pluripotent stem cell-derived spinal cord astrocytes in the functional maturation of motor neurons in a multielectrode array system"
+    slug: "2019-role-of-human-induced-pluripotent-stem-cell-derived-spinal-cord-astrocytes-in-the-functional-maturation-of-motor-neurons-in-a-multielectrode-array-system"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Astrocytes deliver CK1 to neurons via extracellular vesicles in response to inflammation promoting the translation and amyloidogenic processing of APP"
+    slug: "2020-astrocytes-deliver-ck1-to-neurons-via-extracellular-vesicles-in-response-to-inflammation-promoting-the-translation-and-amyloidogenic-processing-of-app"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Connexin 43 hemichannels mediate spatial and temporal disease spread in ALS"
+    slug: "2020-connexin-43-hemichannels-mediate-spatial-and-temporal-disease-spread-in-als"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Early inflammatory signatures predict subsequent cognition in long-term virally suppressed women with HIV"
+    slug: "2020-early-inflammatory-signatures-predict-subsequent-cognition-in-long-term-virally-suppressed-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Factors predicting detrimental change in declarative memory among women with HIV: A study of heterogeneity in cognition"
+    slug: "2020-factors-predicting-detrimental-change-in-declarative-memory-among-women-with-hiv-a-study-of-heterogeneity-in-cognition"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "MEAnalyzer-a spike train analysis tool for multi electrode arrays"
+    slug: "2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Modeling the Human Corticospinal Tract-on-a-chip with Regionally-specific hiPSC-derived Neurons and Astrocytes (4811)"
+    slug: "2020-modeling-the-human-corticospinal-tract-on-a-chip-with-regionally-specific-hipsc-derived-neurons-and-astrocytes-4811"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Monocarboxylate transporter 1 in Schwann cells contributes to maintenance of sensory nerve myelination during aging"
+    slug: "2020-monocarboxylate-transporter-1-in-schwann-cells-contributes-to-maintenance-of-sensory-nerve-myelination-during-aging"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Sex differences in the patterns and predictors of cognitive function in HIV"
+    slug: "2020-sex-differences-in-the-patterns-and-predictors-of-cognitive-function-in-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV"
+    slug: "2021-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Associations between antiretrovirals and cognitive function in women with HIV"
+    slug: "2021-associations-between-antiretrovirals-and-cognitive-function-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Dietary intake is associated with neuropsychological impairment in women with HIV"
+    slug: "2021-dietary-intake-is-associated-with-neuropsychological-impairment-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Integrase strand transfer inhibitor start or switch impacts learning in women with HIV"
+    slug: "2021-integrase-strand-transfer-inhibitor-start-or-switch-impacts-learning-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Patterns and predictors of cognitive function among virally suppressed women with HIV"
+    slug: "2021-patterns-and-predictors-of-cognitive-function-among-virally-suppressed-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Plasma microRNAs are associated with domain-specific cognitive function in people with HIV"
+    slug: "2021-plasma-micrornas-are-associated-with-domain-specific-cognitive-function-in-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Starting or switching to an integrase inhibitor-based regimen affects PTSD symptoms in women with HIV"
+    slug: "2021-starting-or-switching-to-an-integrase-inhibitor-based-regimen-affects-ptsd-symptoms-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Associations between cerebrospinal fluid N-acetyl-aspartyl-glutamate (NAAG) and cognitive function in people with HIV"
+    slug: "2022-associations-between-cerebrospinal-fluid-n-acetyl-aspartyl-glutamate-naag-and-cognitive-function-in-people-with-hiv"
+    score: 0.938
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Cx43 hemichannels contribute to astrocyte-mediated toxicity in sporadic and familial ALS"
+    slug: "2022-cx43-hemichannels-contribute-to-astrocyte-mediated-toxicity-in-sporadic-and-familial-als"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "T-cell activation state differentially contributes to neuropsychiatric complications in women with HIV"
+    slug: "2022-t-cell-activation-state-differentially-contributes-to-neuropsychiatric-complications-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression"
+    slug: "2022-tumor-derived-extracellular-vesicles-modulate-innate-immune-responses-to-affect-tumor-progression"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Brain N-acetyl-aspartyl-glutamate (NAAG) is associated with cognitive function in virally-suppressed people living with HIV"
+    slug: "2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-living-with-hiv"
+    score: 0.833
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Brain N-Acetyl-Aspartyl-Glutamate (NAAG) is Associated With Cognitive Function in Virally-Suppressed People With HIV"
+    slug: "2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-with-hiv"
+    score: 0.882
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "First Organoid Intelligence (OI) workshop to form an OI community"
+    slug: "2023-first-organoid-intelligence-oi-workshop-to-form-an-oi-community"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Integrase inhibitors are associated with neuropsychiatric symptoms in women with HIV"
+    slug: "2023-integrase-inhibitors-are-associated-with-neuropsychiatric-symptoms-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Machine learning approaches to understand cognitive phenotypes in people with HIV"
+    slug: "2023-machine-learning-approaches-to-understand-cognitive-phenotypes-in-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV"
+    slug: "2023-pilot-imaging-of-the-colony-stimulating-factor-1-receptor-in-the-brains-of-virally-suppressed-individuals-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "The Baltimore declaration toward the exploration of organoid intelligence"
+    slug: "2023-the-baltimore-declaration-toward-the-exploration-of-organoid-intelligence"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Trauma across the life span and multisystem morbidity in women with HIV"
+    slug: "2023-trauma-across-the-life-span-and-multisystem-morbidity-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Tryptophan-Kynurenine Metabolic Pathway and Daytime Dysfunction in Women Living With HIV"
+    slug: "2023-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-living-with-hiv"
+    score: 0.917
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Biopsychosocial phenotypes in people with HIV in the CHARTER cohort"
+    slug: "2024-biopsychosocial-phenotypes-in-people-with-hiv-in-the-charter-cohort"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV"
+    slug: "2024-brain-n-acetyl-aspartyl-glutamate-is-associated-with-cognitive-function-in-older-virally-suppressed-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Common antiretroviral combinations are associated with somatic depressive symptoms in women with HIV"
+    slug: "2024-common-antiretroviral-combinations-are-associated-with-somatic-depressive-symptoms-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Does cognitive intra-individual variability predict change in everyday functioning performance in women with and without HIV in the Women’s Interagency HIV Study?"
+    slug: "2024-does-cognitive-intra-individual-variability-predict-change-in-everyday-functioning-performance-in-women-with-and-without-hiv-in-the-womens-interagency-hiv-study"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area: A Cross-sectional Study"
+    slug: "2024-emotional-loneliness-is-related-to-objective-cognitive-function-in-older-people-with-hiv-in-the-washington-baltimore-area-a-cross-sectional-study"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV."
+    slug: "2024-identifying-and-distinguishing-cognitive-profiles-among-virally-suppressed-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Phase-amplitude coupling detection and analysis of human 2-dimensional neural cultures in multi-well microelectrode array in vitro"
+    slug: "2024-phase-amplitude-coupling-detection-and-analysis-of-human-2-dimensional-neural-cultures-in-multi-well-microelectrode-array-in-vitro"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV"
+    slug: "2024-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Tryptophan-Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV"
+    slug: "2024-tryptophan-kynurenine-pathway-activation-and-cognition-in-virally-suppressed-women-with-hiv"
+    score: 0.849
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Altered development and network connectivity in a human neuronal model of 15q11. 2 deletion-related neurodevelopmental disorders"
+    slug: "2025-altered-development-and-network-connectivity-in-a-human-neuronal-model-of-15q11-2-deletion-related-neurodevelopmental-disorders"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Association Between Loneliness Subtypes and Brain Volume in Older Adults With HIV"
+    slug: "2025-association-between-loneliness-subtypes-and-brain-volume-in-older-adults-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Associations Between Specific IADLs And Objective Cognitive Performance In Older Women With HIV"
+    slug: "2025-associations-between-specific-iadls-and-objective-cognitive-performance-in-older-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Blood-Brain barrier disruption in long COVID and cognitive correlates: A cross-sectional MRI study"
+    slug: "2025-blood-brain-barrier-disruption-in-long-covid-and-cognitive-correlates-a-cross-sectional-mri-study"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "BRACE-ing for the future: Establishing iPad-based norms for cognitive function in the MACS/WIHS Combined Cohort Study (Preprint)"
+    slug: "2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint"
+    score: 0.975
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Cognitive Predictors of Everyday Functioning in Older Virally Suppressed Women with HIV in the Women’s Interagency HIV Study"
+    slug: "2025-cognitive-predictors-of-everyday-functioning-in-older-virally-suppressed-women-with-hiv-in-the-womens-interagency-hiv-study"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Cognitive predictors of everyday functioning in women with HIV: findings from the women’s interagency HIV study"
+    slug: "2025-cognitive-predictors-of-everyday-functioning-in-women-with-hiv-findings-from-the-womens-interagency-hiv-study"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Development of a refined harmonization approach for longitudinal cognitive data in people with HIV"
+    slug: "2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Imaging the translocator protein 18 KDa within cognitive control and declarative memory circuits in virally suppressed people with HIV"
+    slug: "2025-imaging-the-translocator-protein-18-kda-within-cognitive-control-and-declarative-memory-circuits-in-virally-suppressed-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV"
+    slug: "2025-intact-hiv-reservoir-in-monocytes-is-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "International application of an optimized harmonization approach for longitudinal cognitive data in people with HIV"
+    slug: "2025-international-application-of-an-optimized-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Loneliness is related to facial emotion perception in people with HIV"
+    slug: "2025-loneliness-is-related-to-facial-emotion-perception-in-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Mental health phenotypes of well-controlled HIV in Uganda"
+    slug: "2025-mental-health-phenotypes-of-well-controlled-hiv-in-uganda"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Metabolic changes mediate the link between social determinants and declarative memory in women with and without HIV"
+    slug: "2025-metabolic-changes-mediate-the-link-between-social-determinants-and-declarative-memory-in-women-with-and-without-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Multiplexing Proteomic and Ingenuity Pathway Analysis of Attention/Working Memory in Virally Suppressed Women with HIV: A Feasibility Study"
+    slug: "2025-multiplexing-proteomic-and-ingenuity-pathway-analysis-of-attention-working-memory-in-virally-suppressed-women-with-hiv-a-feasibility-study"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV"
+    slug: "2025-neuropathologic-findings-in-a-community-based-autopsy-cohort-of-older-virally-suppressed-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Plasma neurofilament light chain and glial fibrillary acidic protein as biomarkers of cognitive decline in people with human immunodeficiency virus"
+    slug: "2025-plasma-neurofilament-light-chain-and-glial-fibrillary-acidic-protein-as-biomarkers-of-cognitive-decline-in-people-with-human-immunodeficiency-virus"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Putting the PASC Score to the Test: Clinical vs. Statistical Accuracy in Long COVID Diagnosis: Azola et al."
+    slug: "2025-putting-the-pasc-score-to-the-test-clinical-vs-statistical-accuracy-in-long-covid-diagnosis-azola-et-al"
+    score: 0.904
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Systemic inflammation and Its impact on comorbidities in people with HIV (PWH)(P8-10.001)"
+    slug: "2025-systemic-inflammation-and-its-impact-on-comorbidities-in-people-with-hiv-pwh-p8-10-001"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "The cerebrospinal fluid virome in people with HIV: links to neuroinflammation and cognition"
+    slug: "2025-the-cerebrospinal-fluid-virome-in-people-with-hiv-links-to-neuroinflammation-and-cognition"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Beyond accuracy: facial emotion perception bias in people with HIV in Uganda"
+    slug: "2026-beyond-accuracy-facial-emotion-perception-bias-in-people-with-hiv-in-uganda"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Cognitive sequala of loneliness in long COVID: Differential associations by loneliness subtypes"
+    slug: "2026-cognitive-sequala-of-loneliness-in-long-covid-differential-associations-by-loneliness-subtypes"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Longitudinal effects of polypharmacy on cognitive function in people with HIV"
+    slug: "2026-longitudinal-effects-of-polypharmacy-on-cognitive-function-in-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV"
+    slug: "2026-metabolomic-levels-mediate-the-link-between-socioeconomic-factors-and-changes-in-declarative-memory-in-women-with-and-without-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV"
+    slug: "2026-n-acetyl-aspartyl-glutamate-connects-neuroinflammatory-signatures-to-attention-and-working-memory-in-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+  -
+    title: "Parkinsonism in people with virally suppressed HIV"
+    slug: "2026-parkinsonism-in-people-with-virally-suppressed-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+  -
+    title: "Stability of the translocator protein 18 kDa density within cognitive circuits in brains of virally-suppressed people with HIV"
+    slug: "2026-stability-of-the-translocator-protein-18-kda-density-within-cognitive-circuits-in-brains-of-virally-suppressed-people-with-hiv"
+    score: 1.0
+    source: "CrossRef title/year match"
+    updated_fields:
+      - "doi"
+      - "url_doi"
+      - "abstract"
+ambiguous:
+  -
+    title: "Cognitive trajectory phenotypes in human immunodeficiency virus-infected patients"
+    slug: "2019-cognitive-trajectory-phenotypes-in-human-immunodeficiency-virus-infected-patients"
+    score: 0.78
+    reason: "CrossRef match below auto-apply threshold"
+  -
+    title: "Intact HIV genomes within monocytes are associated with cognitive function in virally suppressed women with HIV"
+    slug: "2023-intact-hiv-genomes-within-monocytes-are-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv"
+    score: 0.688
+    reason: "CrossRef match below auto-apply threshold"
+  -
+    title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons. Cell Death Dis. 2018; 9 (3): 363"
+    slug: "tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons-cell-death-dis-2018-9-3-363"
+    score: 0.607
+    reason: "CrossRef match below auto-apply threshold"
+unresolved:
+  -
+    title: "Pulmonary hypertension in Chuvash polycythemia"
+    slug: "2005-pulmonary-hypertension-in-chuvash-polycythemia"
+    reason: "CrossRef title/year match"
+    score: 0.5
+  -
+    title: "SECONDARY MEMBRANE DAMAGE AND THE POTEN-TIAL FOR MEMBRANE-TARGETED NEUROPROTECTION"
+    slug: "2014-secondary-membrane-damage-and-the-poten-tial-for-membrane-targeted-neuroprotection"
+    reason: "CrossRef title/year match"
+    score: 0.188
+  -
+    title: "Astrocyte-shed extracellular vesicles regulate synchronous network burst activity"
+    slug: "2016-astrocyte-shed-extracellular-vesicles-regulate-synchronous-network-burst-activity"
+    reason: "CrossRef title/year match"
+    score: 0.294
+  -
+    title: "Exosomes released from astrocytes in response to morphine and inflammatory cytokines deconstruct synaptic connections through modulation of microRNA cargo"
+    slug: "2017-exosomes-released-from-astrocytes-in-response-to-morphine-and-inflammatory-cytokines-deconstruct-synaptic-connections-through-modulation-of-microrna-cargo"
+    reason: "CrossRef title/year match"
+    score: 0.276
+  -
+    title: "Machine learning interrogation of clinical and plasma markers identify prognostic models for cognitive trajectory"
+    slug: "2018-machine-learning-interrogation-of-clinical-and-plasma-markers-identify-prognostic-models-for-cognitive-trajectory"
+    reason: "CrossRef title/year match"
+    score: 0.33
+  -
+    title: "Elevated plasma eicosanoids are associated HIV-disease status and working memory in people living with HIV"
+    slug: "2019-elevated-plasma-eicosanoids-are-associated-hiv-disease-status-and-working-memory-in-people-living-with-hiv"
+    reason: "CrossRef title/year match"
+    score: 0.368
+  -
+    title: "Modulation of neuronal dendritic spine morphology and function by astrocyte derived extracellular vesicles following morphine withdrawal"
+    slug: "2019-modulation-of-neuronal-dendritic-spine-morphology-and-function-by-astrocyte-derived-extracellular-vesicles-following-morphine-withdrawal"
+    reason: "CrossRef title/year match"
+    score: 0.211
+  -
+    title: "Neurocognitive Profiles Among Virally Suppressed Women with HIV"
+    slug: "2019-neurocognitive-profiles-among-virally-suppressed-women-with-hiv"
+    reason: "CrossRef title/year match"
+    score: 0.462
+  -
+    title: "Alzheimer's Imaging Consortium"
+    slug: "2025-alzheimer-s-imaging-consortium"
+    reason: "CrossRef title/year match"
+    score: 0.4
+  -
+    title: "Hidden Structure in Translational Brain Health Data"
+    slug: "hidden-structure-brain-health"
+    reason: "CrossRef title/year match"
+    score: 0.333

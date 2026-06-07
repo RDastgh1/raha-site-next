@@ -1,0 +1,8 @@
+---
+title: "Biomedical Data Science for Brain Health"
+date: 2026-05-29
+summary: "Quarto source scaffold for a talk page or talk-adjacent technical narrative."
+categories: ["talks", "brain health", "data science"]
+---
+
+This file can become the reproducible source for a talk narrative, companion notes, or computational appendix.

@@ -1,0 +1,15 @@
+{{ $title := .title }}
+{{ $items := .items }}
+{{ $base := .base }}
+{{ if $items }}
+<div class="relationship-list">
+  <h3>{{ $title }}</h3>
+  {{ range $items }}
+    {{ if $base }}
+    <a href="{{ printf "%s/%s/" $base . | relURL }}">{{ replace . "-" " " | title }}</a>
+    {{ else }}
+    <span>{{ . }}</span>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

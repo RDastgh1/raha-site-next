@@ -1,0 +1,57 @@
+phase: "Iteration 5 publication content quality pass"
+scope: "Highlighted publications only"
+notes:
+  - "Publication pages now render only Why this matters, Key findings, Plain-language summary, and Research ecosystem."
+  - "Research significance and Research story sections were removed from the rendered page model."
+  - "Card significance statements are publication-specific and avoid generic ecosystem language."
+items:
+  -
+    slug: "2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint"
+    title: "BRACE-ing for the future: Establishing iPad-based norms for cognitive function in the MACS/WIHS Combined Cohort Study (Preprint)"
+    source_quality: "high: PDF text available; abstract, methods, results, and conclusions extracted"
+    card_significance: "Establishes regression-based iPad cognitive norms for BRACE in the MACS/WIHS Combined Cohort Study."
+  -
+    slug: "2024-identifying-and-distinguishing-cognitive-profiles-among-virally-suppressed-people-with-hiv"
+    title: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV."
+    source_quality: "high: PDF text available; abstract and results extracted"
+    card_significance: "Identifies six cognitive profiles among virally suppressed people with HIV and the factors that distinguish them."
+  -
+    slug: "2023-machine-learning-approaches-to-understand-cognitive-phenotypes-in-people-with-hiv"
+    title: "Machine learning approaches to understand cognitive phenotypes in people with HIV"
+    source_quality: "high: PDF text and abstract available"
+    card_significance: "Frames machine learning as a tool for discovering cognitive biotypes in people with HIV."
+  -
+    slug: "2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays"
+    title: "MEAnalyzer-a spike train analysis tool for multi electrode arrays"
+    source_quality: "moderate: DOI metadata available; no local PDF or abstract was available"
+    card_significance: "Introduces MEAnalyzer as reproducible software for spike train analysis in multi-electrode array experiments."
+  -
+    slug: "2025-blood-brain-barrier-disruption-in-long-covid-and-cognitive-correlates-a-cross-sectional-mri-study"
+    title: "Blood-Brain barrier disruption in long COVID and cognitive correlates: A cross-sectional MRI study"
+    source_quality: "high: PDF text available; abstract and findings extracted"
+    card_significance: "Uses non-contrast MRI to study blood-brain barrier permeability and cognition in Long COVID."
+  -
+    slug: "2023-the-baltimore-declaration-toward-the-exploration-of-organoid-intelligence"
+    title: "The Baltimore declaration toward the exploration of organoid intelligence"
+    source_quality: "moderate: PDF text available; declaration format limits empirical findings"
+    card_significance: "Defines organoid intelligence as an emerging discipline requiring technical, ethical, and community infrastructure."
+  -
+    slug: "2021-patterns-and-predictors-of-cognitive-function-among-virally-suppressed-women-with-hiv"
+    title: "Patterns and predictors of cognitive function among virally suppressed women with HIV"
+    source_quality: "high: PDF text and abstract available"
+    card_significance: "Uses self-organizing maps and random forests to characterize cognitive profiles in virally suppressed women with HIV."
+  -
+    slug: "2026-metabolomic-levels-mediate-the-link-between-socioeconomic-factors-and-changes-in-declarative-memory-in-women-with-and-without-hiv"
+    title: "Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV"
+    source_quality: "high: PDF text available; structured abstract and results extracted"
+    card_significance: "Links socioeconomic conditions, metabolomic profiles, and longitudinal declarative memory change in women with and without HIV."
+  -
+    slug: "2026-longitudinal-effects-of-polypharmacy-on-cognitive-function-in-people-with-hiv"
+    title: "Longitudinal effects of polypharmacy on cognitive function in people with HIV"
+    source_quality: "limited: DOI metadata only; no local PDF and abstract field incomplete"
+    card_significance: "Examines how polypharmacy relates to cognitive function over time in people with HIV."
+  -
+    slug: "2024-tryptophan-kynurenine-pathway-activation-and-cognition-in-virally-suppressed-women-with-hiv"
+    title: "Tryptophan-Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV"
+    source_quality: "limited: DOI metadata only; no local PDF and abstract field incomplete"
+    card_significance: "Studies whether tryptophan-kynurenine pathway activation is associated with cognition in virally suppressed women with HIV."

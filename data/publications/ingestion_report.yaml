@@ -1,0 +1,1171 @@
+source_bib: "/Users/work/Dropbox/Website/website-redesign-2026/raha-site-next/data/publications/publications.bib"
+total_entries: 93
+type_counts:
+  inproceedings: 19
+  article: 72
+  book: 1
+  misc: 1
+imported:
+  -
+    key: "dastgheyb2015quantifying"
+    slug: "2015-quantifying-focal-disruptions-in-axonal-microtubules"
+    title: "Quantifying focal disruptions in axonal microtubules"
+    year: "2015"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2015-quantifying-focal-disruptions-in-axonal-microtubules.svg"
+  -
+    key: "dastgheyb2015investigating"
+    slug: "2015-investigating-sources-of-axonal-calcium-in-neuronal-cultures-modeling-traumatic-brain-injury"
+    title: "Investigating sources of axonal calcium in neuronal cultures modeling Traumatic Brain Injury"
+    year: "2015"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2015-investigating-sources-of-axonal-calcium-in-neuronal-cultures-modeling-traumatic-brain-injury.svg"
+  -
+    key: "dastgheyb2012interactions"
+    slug: "2012-interactions-of-fluorescein-isothiocyanate-labeled-poloxamer-p188-with-cultured-cells"
+    title: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells"
+    year: "2012"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2012-interactions-of-fluorescein-isothiocyanate-labeled-poloxamer-p188-with-cultured-cells.svg"
+  -
+    key: "dastgheyb2014secondary"
+    slug: "2014-secondary-membrane-damage-and-the-poten-tial-for-membrane-targeted-neuroprotection"
+    title: "SECONDARY MEMBRANE DAMAGE AND THE POTEN-TIAL FOR MEMBRANE-TARGETED NEUROPROTECTION"
+    year: "2014"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2014-secondary-membrane-damage-and-the-poten-tial-for-membrane-targeted-neuroprotection.svg"
+  -
+    key: "dastgheyb2014role"
+    slug: "2014-the-role-of-intracellular-calcium-in-axonal-injury"
+    title: "The role of intracellular calcium in axonal injury"
+    year: "2014"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2014-the-role-of-intracellular-calcium-in-axonal-injury.svg"
+  -
+    key: "chaudhuri2017exosomes"
+    slug: "2017-exosomes-released-from-astrocytes-in-response-to-morphine-and-inflammatory-cytokines-deconstruct-synaptic-connections-through-modulation-of-microrna-cargo"
+    title: "Exosomes released from astrocytes in response to morphine and inflammatory cytokines deconstruct synaptic connections through modulation of microRNA cargo"
+    year: "2017"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2017-exosomes-released-from-astrocytes-in-response-to-morphine-and-inflammatory-cytokines-deconstruct-synaptic-connections-through-modulation-of-microrna-cargo.svg"
+  -
+    key: "dastgheyb2011quantification"
+    slug: "2011-quantification-of-beading-intensity-in-cultured-neurons"
+    title: "Quantification of beading intensity in cultured neurons"
+    year: "2011"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2011-quantification-of-beading-intensity-in-cultured-neurons.svg"
+  -
+    key: "dastgheyb2016astrocyte"
+    slug: "2016-astrocyte-shed-extracellular-vesicles-regulate-synchronous-network-burst-activity"
+    title: "Astrocyte-shed extracellular vesicles regulate synchronous network burst activity"
+    year: "2016"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2016-astrocyte-shed-extracellular-vesicles-regulate-synchronous-network-burst-activity.svg"
+  -
+    key: "dastgheyb2005pulmonary"
+    slug: "2005-pulmonary-hypertension-in-chuvash-polycythemia"
+    title: "Pulmonary hypertension in Chuvash polycythemia"
+    year: "2005"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2005-pulmonary-hypertension-in-chuvash-polycythemia.svg"
+  -
+    key: "dastgheyb2014mechanisms"
+    slug: "2014-mechanisms-of-axonal-pathology-in-the-context-of-traumatic-brain-injury"
+    title: "Mechanisms of axonal pathology in the context of traumatic brain injury"
+    year: "2014"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2014-mechanisms-of-axonal-pathology-in-the-context-of-traumatic-brain-injury.svg"
+  -
+    key: "chaudhuri2018tnfalpha"
+    slug: "2018-tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons"
+    title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons"
+    year: "2018"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2018-tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons.svg"
+  -
+    key: "dastgheyb2018machine"
+    slug: "2018-machine-learning-interrogation-of-clinical-and-plasma-markers-identify-prognostic-models-for-cognitive-trajectory"
+    title: "Machine learning interrogation of clinical and plasma markers identify prognostic models for cognitive trajectory"
+    year: "2018"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2018-machine-learning-interrogation-of-clinical-and-plasma-markers-identify-prognostic-models-for-cognitive-trajectory.svg"
+  -
+    key: "miller2019molecularly"
+    slug: "2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin"
+    title: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin.svg"
+  -
+    key: "habela201915q11"
+    slug: "2019-15q11-2-deletion-results-in-altered-excitability-and-connectivity-in-human-induced-pluripotent-stem-cell-derived-neurons-s51-009"
+    title: "15q11. 2 Deletion Results in Altered Excitability and Connectivity in Human Induced Pluripotent Stem Cell Derived Neurons (S51. 009)"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-15q11-2-deletion-results-in-altered-excitability-and-connectivity-in-human-induced-pluripotent-stem-cell-derived-neurons-s51-009.svg"
+  -
+    key: "taga2019multielectrode"
+    slug: "2019-multielectrode-array-analysis-of-human-ipsc-motor-neuron-maturation-following-coculture-with-ipsc-spinal-cord-astrocytes-p4-4-031"
+    title: "Multielectrode array analysis of human iPSC-motor neuron maturation following coculture with iPSC-spinal cord astrocytes (P4. 4-031)"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-multielectrode-array-analysis-of-human-ipsc-motor-neuron-maturation-following-coculture-with-ipsc-spinal-cord-astrocytes-p4-4-031.svg"
+  -
+    key: "taga2019role"
+    slug: "2019-role-of-human-induced-pluripotent-stem-cell-derived-spinal-cord-astrocytes-in-the-functional-maturation-of-motor-neurons-in-a-multielectrode-array-system"
+    title: "Role of human-induced pluripotent stem cell-derived spinal cord astrocytes in the functional maturation of motor neurons in a multielectrode array system"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-role-of-human-induced-pluripotent-stem-cell-derived-spinal-cord-astrocytes-in-the-functional-maturation-of-motor-neurons-in-a-multielectrode-array-system.svg"
+  -
+    key: "dastgheyb2019cognitive"
+    slug: "2019-cognitive-trajectory-phenotypes-in-human-immunodeficiency-virus-infected-patients"
+    title: "Cognitive trajectory phenotypes in human immunodeficiency virus-infected patients"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-cognitive-trajectory-phenotypes-in-human-immunodeficiency-virus-infected-patients.svg"
+  -
+    key: "rubin2019heterogeneity"
+    slug: "2019-heterogeneity-in-neurocognitive-change-trajectories-among-people-with-hiv-starting-antiretroviral-therapy-in-rakai-uganda"
+    title: "Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-heterogeneity-in-neurocognitive-change-trajectories-among-people-with-hiv-starting-antiretroviral-therapy-in-rakai-uganda.svg"
+  -
+    key: "dastgheyb2020meanalyzer"
+    slug: "2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays"
+    title: "MEAnalyzer-a spike train analysis tool for multi electrode arrays"
+    year: "2020"
+    tier: "highlighted"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays.svg"
+  -
+    key: "jha2019monocarboxylate"
+    slug: "2019-monocarboxylate-transporter-1-in-schwann-cells-is-critical-for-maintenance-of-sensory-nerve-myelination-during-aging"
+    title: "Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-monocarboxylate-transporter-1-in-schwann-cells-is-critical-for-maintenance-of-sensory-nerve-myelination-during-aging.svg"
+  -
+    key: "jha2020monocarboxylate"
+    slug: "2020-monocarboxylate-transporter-1-in-schwann-cells-contributes-to-maintenance-of-sensory-nerve-myelination-during-aging"
+    title: "Monocarboxylate transporter 1 in Schwann cells contributes to maintenance of sensory nerve myelination during aging"
+    year: "2020"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-monocarboxylate-transporter-1-in-schwann-cells-contributes-to-maintenance-of-sensory-nerve-myelination-during-aging.svg"
+  -
+    key: "chen2019lipidomic"
+    slug: "2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum"
+    title: "Lipidomic characterization of extracellular vesicles in human serum"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum.svg"
+  -
+    key: "williams2021associations"
+    slug: "2021-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv"
+    title: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV"
+    year: "2021"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2021-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv.svg"
+  -
+    key: "moniruzzaman2019elevated"
+    slug: "2019-elevated-plasma-eicosanoids-are-associated-hiv-disease-status-and-working-memory-in-people-living-with-hiv"
+    title: "Elevated plasma eicosanoids are associated HIV-disease status and working memory in people living with HIV"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-elevated-plasma-eicosanoids-are-associated-hiv-disease-status-and-working-memory-in-people-living-with-hiv.svg"
+  -
+    key: "dastgheyb2019neurocognitive"
+    slug: "2019-neurocognitive-profiles-among-virally-suppressed-women-with-hiv"
+    title: "Neurocognitive Profiles Among Virally Suppressed Women with HIV"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-neurocognitive-profiles-among-virally-suppressed-women-with-hiv.svg"
+  -
+    key: "kumar2019modulation"
+    slug: "2019-modulation-of-neuronal-dendritic-spine-morphology-and-function-by-astrocyte-derived-extracellular-vesicles-following-morphine-withdrawal"
+    title: "Modulation of neuronal dendritic spine morphology and function by astrocyte derived extracellular vesicles following morphine withdrawal"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-modulation-of-neuronal-dendritic-spine-morphology-and-function-by-astrocyte-derived-extracellular-vesicles-following-morphine-withdrawal.svg"
+  -
+    key: "jurgens2019loss"
+    slug: "2019-loss-of-function-variants-in-pcyt1a-causing-spondylometaphyseal-dysplasia-with-cone-rod-dystrophy-have-broad-consequences-on-lipid-metabolism-chondrocyte-differentiation-and-lipid-droplet-formation"
+    title: "Loss of function variants in PCYT1A causing spondylometaphyseal dysplasia with cone/rod dystrophy have broad consequences on lipid metabolism, chondrocyte differentiation, and lipid droplet formation"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-loss-of-function-variants-in-pcyt1a-causing-spondylometaphyseal-dysplasia-with-cone-rod-dystrophy-have-broad-consequences-on-lipid-metabolism-chondrocyte-differentiation-and-lipid-droplet-formation.svg"
+  -
+    key: "westergard2019molecularly"
+    slug: "2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin-2"
+    title: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin-2.svg"
+  -
+    key: "almad2020connexin"
+    slug: "2020-connexin-43-hemichannels-mediate-spatial-and-temporal-disease-spread-in-als"
+    title: "Connexin 43 hemichannels mediate spatial and temporal disease spread in ALS"
+    year: "2020"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-connexin-43-hemichannels-mediate-spatial-and-temporal-disease-spread-in-als.svg"
+  -
+    key: "rubin2021associations"
+    slug: "2021-associations-between-antiretrovirals-and-cognitive-function-in-women-with-hiv"
+    title: "Associations between antiretrovirals and cognitive function in women with HIV"
+    year: "2021"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2021-associations-between-antiretrovirals-and-cognitive-function-in-women-with-hiv.svg"
+  -
+    key: "rubin2020early"
+    slug: "2020-early-inflammatory-signatures-predict-subsequent-cognition-in-long-term-virally-suppressed-women-with-hiv"
+    title: "Early inflammatory signatures predict subsequent cognition in long-term virally suppressed women with HIV"
+    year: "2020"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-early-inflammatory-signatures-predict-subsequent-cognition-in-long-term-virally-suppressed-women-with-hiv.svg"
+  -
+    key: "taga2020modeling"
+    slug: "2020-modeling-the-human-corticospinal-tract-on-a-chip-with-regionally-specific-hipsc-derived-neurons-and-astrocytes-4811"
+    title: "Modeling the Human Corticospinal Tract-on-a-chip with Regionally-specific hiPSC-derived Neurons and Astrocytes (4811)"
+    year: "2020"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-modeling-the-human-corticospinal-tract-on-a-chip-with-regionally-specific-hipsc-derived-neurons-and-astrocytes-4811.svg"
+  -
+    key: "kamkwalala2021starting"
+    slug: "2021-starting-or-switching-to-an-integrase-inhibitor-based-regimen-affects-ptsd-symptoms-in-women-with-hiv"
+    title: "Starting or switching to an integrase inhibitor-based regimen affects PTSD symptoms in women with HIV"
+    year: "2021"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2021-starting-or-switching-to-an-integrase-inhibitor-based-regimen-affects-ptsd-symptoms-in-women-with-hiv.svg"
+  -
+    key: "fitzgerald2020factors"
+    slug: "2020-factors-predicting-detrimental-change-in-declarative-memory-among-women-with-hiv-a-study-of-heterogeneity-in-cognition"
+    title: "Factors predicting detrimental change in declarative memory among women with HIV: A study of heterogeneity in cognition"
+    year: "2020"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-factors-predicting-detrimental-change-in-declarative-memory-among-women-with-hiv-a-study-of-heterogeneity-in-cognition.svg"
+  -
+    key: "rubin2020sex"
+    slug: "2020-sex-differences-in-the-patterns-and-predictors-of-cognitive-function-in-hiv"
+    title: "Sex differences in the patterns and predictors of cognitive function in HIV"
+    year: "2020"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-sex-differences-in-the-patterns-and-predictors-of-cognitive-function-in-hiv.svg"
+  -
+    key: "o2021integrase"
+    slug: "2021-integrase-strand-transfer-inhibitor-start-or-switch-impacts-learning-in-women-with-hiv"
+    title: "Integrase strand transfer inhibitor start or switch impacts learning in women with HIV"
+    year: "2021"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2021-integrase-strand-transfer-inhibitor-start-or-switch-impacts-learning-in-women-with-hiv.svg"
+  -
+    key: "li2020astrocytes"
+    slug: "2020-astrocytes-deliver-ck1-to-neurons-via-extracellular-vesicles-in-response-to-inflammation-promoting-the-translation-and-amyloidogenic-processing-of-app"
+    title: "Astrocytes deliver CK1 to neurons via extracellular vesicles in response to inflammation promoting the translation and amyloidogenic processing of APP"
+    year: "2020"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2020-astrocytes-deliver-ck1-to-neurons-via-extracellular-vesicles-in-response-to-inflammation-promoting-the-translation-and-amyloidogenic-processing-of-app.svg"
+  -
+    key: "dastgheyb2021patterns"
+    slug: "2021-patterns-and-predictors-of-cognitive-function-among-virally-suppressed-women-with-hiv"
+    title: "Patterns and predictors of cognitive function among virally suppressed women with HIV"
+    year: "2021"
+    tier: "highlighted"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2021-patterns-and-predictors-of-cognitive-function-among-virally-suppressed-women-with-hiv.svg"
+  -
+    key: "rubin2021dietary"
+    slug: "2021-dietary-intake-is-associated-with-neuropsychological-impairment-in-women-with-hiv"
+    title: "Dietary intake is associated with neuropsychological impairment in women with HIV"
+    year: "2021"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2021-dietary-intake-is-associated-with-neuropsychological-impairment-in-women-with-hiv.svg"
+  -
+    key: "aparicio2021plasma"
+    slug: "2021-plasma-micrornas-are-associated-with-domain-specific-cognitive-function-in-people-with-hiv"
+    title: "Plasma microRNAs are associated with domain-specific cognitive function in people with HIV"
+    year: "2021"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2021-plasma-micrornas-are-associated-with-domain-specific-cognitive-function-in-people-with-hiv.svg"
+  -
+    key: "williams2019associations"
+    slug: "2019-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv"
+    title: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV"
+    year: "2019"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2019-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv.svg"
+  -
+    key: "rubin2023integrase"
+    slug: "2023-integrase-inhibitors-are-associated-with-neuropsychiatric-symptoms-in-women-with-hiv"
+    title: "Integrase inhibitors are associated with neuropsychiatric symptoms in women with HIV"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-integrase-inhibitors-are-associated-with-neuropsychiatric-symptoms-in-women-with-hiv.svg"
+  -
+    key: "almad2022cx43"
+    slug: "2022-cx43-hemichannels-contribute-to-astrocyte-mediated-toxicity-in-sporadic-and-familial-als"
+    title: "Cx43 hemichannels contribute to astrocyte-mediated toxicity in sporadic and familial ALS"
+    year: "2022"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2022-cx43-hemichannels-contribute-to-astrocyte-mediated-toxicity-in-sporadic-and-familial-als.svg"
+  -
+    key: "williams2022t"
+    slug: "2022-t-cell-activation-state-differentially-contributes-to-neuropsychiatric-complications-in-women-with-hiv"
+    title: "T-cell activation state differentially contributes to neuropsychiatric complications in women with HIV"
+    year: "2022"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2022-t-cell-activation-state-differentially-contributes-to-neuropsychiatric-complications-in-women-with-hiv.svg"
+  -
+    key: "wang2022tumor"
+    slug: "2022-tumor-derived-extracellular-vesicles-modulate-innate-immune-responses-to-affect-tumor-progression"
+    title: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression"
+    year: "2022"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2022-tumor-derived-extracellular-vesicles-modulate-innate-immune-responses-to-affect-tumor-progression.svg"
+  -
+    key: "morales2023first"
+    slug: "2023-first-organoid-intelligence-oi-workshop-to-form-an-oi-community"
+    title: "First Organoid Intelligence (OI) workshop to form an OI community"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-first-organoid-intelligence-oi-workshop-to-form-an-oi-community.svg"
+  -
+    key: "hartung2023baltimore"
+    slug: "2023-the-baltimore-declaration-toward-the-exploration-of-organoid-intelligence"
+    title: "The Baltimore declaration toward the exploration of organoid intelligence"
+    year: "2023"
+    tier: "highlighted"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-the-baltimore-declaration-toward-the-exploration-of-organoid-intelligence.svg"
+  -
+    key: "mukerji2023machine"
+    slug: "2023-machine-learning-approaches-to-understand-cognitive-phenotypes-in-people-with-hiv"
+    title: "Machine learning approaches to understand cognitive phenotypes in people with HIV"
+    year: "2023"
+    tier: "highlighted"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-machine-learning-approaches-to-understand-cognitive-phenotypes-in-people-with-hiv.svg"
+  -
+    key: "rubin2023trauma"
+    slug: "2023-trauma-across-the-life-span-and-multisystem-morbidity-in-women-with-hiv"
+    title: "Trauma across the life span and multisystem morbidity in women with HIV"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-trauma-across-the-life-span-and-multisystem-morbidity-in-women-with-hiv.svg"
+  -
+    key: "rubin2023pilot"
+    slug: "2023-pilot-imaging-of-the-colony-stimulating-factor-1-receptor-in-the-brains-of-virally-suppressed-individuals-with-hiv"
+    title: "Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-pilot-imaging-of-the-colony-stimulating-factor-1-receptor-in-the-brains-of-virally-suppressed-individuals-with-hiv.svg"
+  -
+    key: "salimpour2024phase"
+    slug: "2024-phase-amplitude-coupling-detection-and-analysis-of-human-2-dimensional-neural-cultures-in-multi-well-microelectrode-array-in-vitro"
+    title: "Phase-amplitude coupling detection and analysis of human 2-dimensional neural cultures in multi-well microelectrode array in vitro"
+    year: "2024"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-phase-amplitude-coupling-detection-and-analysis-of-human-2-dimensional-neural-cultures-in-multi-well-microelectrode-array-in-vitro.svg"
+  -
+    key: "parra2024common"
+    slug: "2024-common-antiretroviral-combinations-are-associated-with-somatic-depressive-symptoms-in-women-with-hiv"
+    title: "Common antiretroviral combinations are associated with somatic depressive symptoms in women with HIV"
+    year: "2024"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-common-antiretroviral-combinations-are-associated-with-somatic-depressive-symptoms-in-women-with-hiv.svg"
+  -
+    key: "sundermann2024identifying"
+    slug: "2024-identifying-and-distinguishing-cognitive-profiles-among-virally-suppressed-people-with-hiv"
+    title: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV."
+    year: "2024"
+    tier: "highlighted"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-identifying-and-distinguishing-cognitive-profiles-among-virally-suppressed-people-with-hiv.svg"
+  -
+    key: "shorer2024tryptophan"
+    slug: "2024-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-with-hiv"
+    title: "Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV"
+    year: "2024"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-with-hiv.svg"
+  -
+    key: "wiseman2024brain"
+    slug: "2024-brain-n-acetyl-aspartyl-glutamate-is-associated-with-cognitive-function-in-older-virally-suppressed-people-with-hiv"
+    title: "Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV"
+    year: "2024"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-brain-n-acetyl-aspartyl-glutamate-is-associated-with-cognitive-function-in-older-virally-suppressed-people-with-hiv.svg"
+  -
+    key: "wiseman2023brain"
+    slug: "2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-with-hiv"
+    title: "Brain N-Acetyl-Aspartyl-Glutamate (NAAG) is Associated With Cognitive Function in Virally-Suppressed People With HIV"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-with-hiv.svg"
+  -
+    key: "shorer2024tryptophan"
+    slug: "2024-tryptophan-kynurenine-pathway-activation-and-cognition-in-virally-suppressed-women-with-hiv"
+    title: "Tryptophan-Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV"
+    year: "2024"
+    tier: "highlighted"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-tryptophan-kynurenine-pathway-activation-and-cognition-in-virally-suppressed-women-with-hiv.svg"
+  -
+    key: "tang2024biopsychosocial"
+    slug: "2024-biopsychosocial-phenotypes-in-people-with-hiv-in-the-charter-cohort"
+    title: "Biopsychosocial phenotypes in people with HIV in the CHARTER cohort"
+    year: "2024"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-biopsychosocial-phenotypes-in-people-with-hiv-in-the-charter-cohort.svg"
+  -
+    key: "yoo2024emotional"
+    slug: "2024-emotional-loneliness-is-related-to-objective-cognitive-function-in-older-people-with-hiv-in-the-washington-baltimore-area-a-cross-sectional-study"
+    title: "Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area: A Cross-sectional Study"
+    year: "2024"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-emotional-loneliness-is-related-to-objective-cognitive-function-in-older-people-with-hiv-in-the-washington-baltimore-area-a-cross-sectional-study.svg"
+  -
+    key: "rubin2025intact"
+    slug: "2025-intact-hiv-reservoir-in-monocytes-is-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv"
+    title: "Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-intact-hiv-reservoir-in-monocytes-is-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv.svg"
+  -
+    key: "habela2025altered"
+    slug: "2025-altered-development-and-network-connectivity-in-a-human-neuronal-model-of-15q11-2-deletion-related-neurodevelopmental-disorders"
+    title: "Altered development and network connectivity in a human neuronal model of 15q11. 2 deletion-related neurodevelopmental disorders"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-altered-development-and-network-connectivity-in-a-human-neuronal-model-of-15q11-2-deletion-related-neurodevelopmental-disorders.svg"
+  -
+    key: "chaudhuritnfalpha"
+    slug: "tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons-cell-death-dis-2018-9-3-363"
+    title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons. Cell Death Dis. 2018; 9 (3): 363"
+    year: ""
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons-cell-death-dis-2018-9-3-363.svg"
+  -
+    key: "rubin2025imaging"
+    slug: "2025-imaging-the-translocator-protein-18-kda-within-cognitive-control-and-declarative-memory-circuits-in-virally-suppressed-people-with-hiv"
+    title: "Imaging the translocator protein 18 KDa within cognitive control and declarative memory circuits in virally suppressed people with HIV"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-imaging-the-translocator-protein-18-kda-within-cognitive-control-and-declarative-memory-circuits-in-virally-suppressed-people-with-hiv.svg"
+  -
+    key: "lang2025development"
+    slug: "2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
+    title: "Development of a refined harmonization approach for longitudinal cognitive data in people with HIV"
+    year: "2025"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv.svg"
+  -
+    key: "rubin2025mental"
+    slug: "2025-mental-health-phenotypes-of-well-controlled-hiv-in-uganda"
+    title: "Mental health phenotypes of well-controlled HIV in Uganda"
+    year: "2025"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-mental-health-phenotypes-of-well-controlled-hiv-in-uganda.svg"
+  -
+    key: "vance2024does"
+    slug: "2024-does-cognitive-intra-individual-variability-predict-change-in-everyday-functioning-performance-in-women-with-and-without-hiv-in-the-womens-interagency-hiv-study"
+    title: "Does cognitive intra-individual variability predict change in everyday functioning performance in women with and without HIV in the Women’s Interagency HIV Study?"
+    year: "2024"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2024-does-cognitive-intra-individual-variability-predict-change-in-everyday-functioning-performance-in-women-with-and-without-hiv-in-the-womens-interagency-hiv-study.svg"
+  -
+    key: "mukerji2025plasma"
+    slug: "2025-plasma-neurofilament-light-chain-and-glial-fibrillary-acidic-protein-as-biomarkers-of-cognitive-decline-in-people-with-human-immunodeficiency-virus"
+    title: "Plasma neurofilament light chain and glial fibrillary acidic protein as biomarkers of cognitive decline in people with human immunodeficiency virus"
+    year: "2025"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-plasma-neurofilament-light-chain-and-glial-fibrillary-acidic-protein-as-biomarkers-of-cognitive-decline-in-people-with-human-immunodeficiency-virus.svg"
+  -
+    key: "wiseman2023brain"
+    slug: "2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-living-with-hiv"
+    title: "Brain N-acetyl-aspartyl-glutamate (NAAG) is associated with cognitive function in virally-suppressed people living with HIV"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-living-with-hiv.svg"
+  -
+    key: "rubin2023intact"
+    slug: "2023-intact-hiv-genomes-within-monocytes-are-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv"
+    title: "Intact HIV genomes within monocytes are associated with cognitive function in virally suppressed women with HIV"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-intact-hiv-genomes-within-monocytes-are-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv.svg"
+  -
+    key: "shorer2023tryptophan"
+    slug: "2023-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-living-with-hiv"
+    title: "Tryptophan-Kynurenine Metabolic Pathway and Daytime Dysfunction in Women Living With HIV"
+    year: "2023"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2023-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-living-with-hiv.svg"
+  -
+    key: "trunfio2025cerebrospinal"
+    slug: "2025-the-cerebrospinal-fluid-virome-in-people-with-hiv-links-to-neuroinflammation-and-cognition"
+    title: "The cerebrospinal fluid virome in people with HIV: links to neuroinflammation and cognition"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-the-cerebrospinal-fluid-virome-in-people-with-hiv-links-to-neuroinflammation-and-cognition.svg"
+  -
+    key: "vance2025cognitive"
+    slug: "2025-cognitive-predictors-of-everyday-functioning-in-older-virally-suppressed-women-with-hiv-in-the-womens-interagency-hiv-study"
+    title: "Cognitive Predictors of Everyday Functioning in Older Virally Suppressed Women with HIV in the Women’s Interagency HIV Study"
+    year: "2025"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-cognitive-predictors-of-everyday-functioning-in-older-virally-suppressed-women-with-hiv-in-the-womens-interagency-hiv-study.svg"
+  -
+    key: "tavasoli2025systemic"
+    slug: "2025-systemic-inflammation-and-its-impact-on-comorbidities-in-people-with-hiv-pwh-p8-10-001"
+    title: "Systemic inflammation and Its impact on comorbidities in people with HIV (PWH)(P8-10.001)"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-systemic-inflammation-and-its-impact-on-comorbidities-in-people-with-hiv-pwh-p8-10-001.svg"
+  -
+    key: "yoo2025loneliness"
+    slug: "2025-loneliness-is-related-to-facial-emotion-perception-in-people-with-hiv"
+    title: "Loneliness is related to facial emotion perception in people with HIV"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-loneliness-is-related-to-facial-emotion-perception-in-people-with-hiv.svg"
+  -
+    key: "rubin2025blood"
+    slug: "2025-blood-brain-barrier-disruption-in-long-covid-and-cognitive-correlates-a-cross-sectional-mri-study"
+    title: "Blood-Brain barrier disruption in long COVID and cognitive correlates: A cross-sectional MRI study"
+    year: "2025"
+    tier: "highlighted"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-blood-brain-barrier-disruption-in-long-covid-and-cognitive-correlates-a-cross-sectional-mri-study.svg"
+  -
+    key: "zaikos2025neuropathologic"
+    slug: "2025-neuropathologic-findings-in-a-community-based-autopsy-cohort-of-older-virally-suppressed-people-with-hiv"
+    title: "Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-neuropathologic-findings-in-a-community-based-autopsy-cohort-of-older-virally-suppressed-people-with-hiv.svg"
+  -
+    key: "lang2025international"
+    slug: "2025-international-application-of-an-optimized-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
+    title: "International application of an optimized harmonization approach for longitudinal cognitive data in people with HIV"
+    year: "2025"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-international-application-of-an-optimized-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv.svg"
+  -
+    key: "chandra2022associations"
+    slug: "2022-associations-between-cerebrospinal-fluid-n-acetyl-aspartyl-glutamate-naag-and-cognitive-function-in-people-with-hiv"
+    title: "Associations between cerebrospinal fluid N-acetyl-aspartyl-glutamate (NAAG) and cognitive function in people with HIV"
+    year: "2022"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2022-associations-between-cerebrospinal-fluid-n-acetyl-aspartyl-glutamate-naag-and-cognitive-function-in-people-with-hiv.svg"
+  -
+    key: "korpela2026longitudinal"
+    slug: "2026-longitudinal-effects-of-polypharmacy-on-cognitive-function-in-people-with-hiv"
+    title: "Longitudinal effects of polypharmacy on cognitive function in people with HIV"
+    year: "2026"
+    tier: "highlighted"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2026-longitudinal-effects-of-polypharmacy-on-cognitive-function-in-people-with-hiv.svg"
+  -
+    key: "li2025multiplexing"
+    slug: "2025-multiplexing-proteomic-and-ingenuity-pathway-analysis-of-attention-working-memory-in-virally-suppressed-women-with-hiv-a-feasibility-study"
+    title: "Multiplexing Proteomic and Ingenuity Pathway Analysis of Attention/Working Memory in Virally Suppressed Women with HIV: A Feasibility Study"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-multiplexing-proteomic-and-ingenuity-pathway-analysis-of-attention-working-memory-in-virally-suppressed-women-with-hiv-a-feasibility-study.svg"
+  -
+    key: "azola2025putting"
+    slug: "2025-putting-the-pasc-score-to-the-test-clinical-vs-statistical-accuracy-in-long-covid-diagnosis-azola-et-al"
+    title: "Putting the PASC Score to the Test: Clinical vs. Statistical Accuracy in Long COVID Diagnosis: Azola et al."
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-putting-the-pasc-score-to-the-test-clinical-vs-statistical-accuracy-in-long-covid-diagnosis-azola-et-al.svg"
+  -
+    key: "vance2025cognitive"
+    slug: "2025-cognitive-predictors-of-everyday-functioning-in-women-with-hiv-findings-from-the-womens-interagency-hiv-study"
+    title: "Cognitive predictors of everyday functioning in women with HIV: findings from the women’s interagency HIV study"
+    year: "2025"
+    tier: "selected"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-cognitive-predictors-of-everyday-functioning-in-women-with-hiv-findings-from-the-womens-interagency-hiv-study.svg"
+  -
+    key: "shorer2026parkinsonism"
+    slug: "2026-parkinsonism-in-people-with-virally-suppressed-hiv"
+    title: "Parkinsonism in people with virally suppressed HIV"
+    year: "2026"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2026-parkinsonism-in-people-with-virally-suppressed-hiv.svg"
+  -
+    key: "tejera2025metabolic"
+    slug: "2025-metabolic-changes-mediate-the-link-between-social-determinants-and-declarative-memory-in-women-with-and-without-hiv"
+    title: "Metabolic changes mediate the link between social determinants and declarative memory in women with and without HIV"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-metabolic-changes-mediate-the-link-between-social-determinants-and-declarative-memory-in-women-with-and-without-hiv.svg"
+  -
+    key: "tejera2025alzheimer"
+    slug: "2025-alzheimer-s-imaging-consortium"
+    title: "Alzheimer's Imaging Consortium"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-alzheimer-s-imaging-consortium.svg"
+  -
+    key: "vance2025associations"
+    slug: "2025-associations-between-specific-iadls-and-objective-cognitive-performance-in-older-women-with-hiv"
+    title: "Associations Between Specific IADLs And Objective Cognitive Performance In Older Women With HIV"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-associations-between-specific-iadls-and-objective-cognitive-performance-in-older-women-with-hiv.svg"
+  -
+    key: "rubin2026cognitive"
+    slug: "2026-cognitive-sequala-of-loneliness-in-long-covid-differential-associations-by-loneliness-subtypes"
+    title: "Cognitive sequala of loneliness in long COVID: Differential associations by loneliness subtypes"
+    year: "2026"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2026-cognitive-sequala-of-loneliness-in-long-covid-differential-associations-by-loneliness-subtypes.svg"
+  -
+    key: "yoo2025association"
+    slug: "2025-association-between-loneliness-subtypes-and-brain-volume-in-older-adults-with-hiv"
+    title: "Association Between Loneliness Subtypes and Brain Volume in Older Adults With HIV"
+    year: "2025"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-association-between-loneliness-subtypes-and-brain-volume-in-older-adults-with-hiv.svg"
+  -
+    key: "rubin2026n"
+    slug: "2026-n-acetyl-aspartyl-glutamate-connects-neuroinflammatory-signatures-to-attention-and-working-memory-in-people-with-hiv"
+    title: "N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV"
+    year: "2026"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2026-n-acetyl-aspartyl-glutamate-connects-neuroinflammatory-signatures-to-attention-and-working-memory-in-people-with-hiv.svg"
+  -
+    key: "ridgeway2026beyond"
+    slug: "2026-beyond-accuracy-facial-emotion-perception-bias-in-people-with-hiv-in-uganda"
+    title: "Beyond accuracy: facial emotion perception bias in people with HIV in Uganda"
+    year: "2026"
+    tier: "archive"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2026-beyond-accuracy-facial-emotion-perception-bias-in-people-with-hiv-in-uganda.svg"
+  -
+    key: "tejera2026metabolomic"
+    slug: "2026-metabolomic-levels-mediate-the-link-between-socioeconomic-factors-and-changes-in-declarative-memory-in-women-with-and-without-hiv"
+    title: "Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV"
+    year: "2026"
+    tier: "highlighted"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2026-metabolomic-levels-mediate-the-link-between-socioeconomic-factors-and-changes-in-declarative-memory-in-women-with-and-without-hiv.svg"
+  -
+    key: "rubin2026stability"
+    slug: "2026-stability-of-the-translocator-protein-18-kda-density-within-cognitive-circuits-in-brains-of-virally-suppressed-people-with-hiv"
+    title: "Stability of the translocator protein 18 kDa density within cognitive circuits in brains of virally-suppressed people with HIV"
+    year: "2026"
+    tier: "archive"
+    pdf_assigned: false
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2026-stability-of-the-translocator-protein-18-kda-density-within-cognitive-circuits-in-brains-of-virally-suppressed-people-with-hiv.svg"
+  -
+    key: "rubin2025brace"
+    slug: "2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint"
+    title: "BRACE-ing for the future: Establishing iPad-based norms for cognitive function in the MACS/WIHS Combined Cohort Study (Preprint)"
+    year: "2025"
+    tier: "highlighted"
+    pdf_assigned: true
+    figure_assigned: false
+    thumbnail: "media/publications/generated/2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint.svg"
+duplicates_detected:
+  -
+    normalized_title: "molecularly defined cortical astroglia subpopulation modulates neurons via secretion of norrin"
+    keys:
+      - "miller2019molecularly"
+      - "westergard2019molecularly"
+  -
+    normalized_title: "associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with hiv"
+    keys:
+      - "williams2021associations"
+      - "williams2019associations"
+missing_doi:
+  - "dastgheyb2015quantifying"
+  - "dastgheyb2015investigating"
+  - "dastgheyb2012interactions"
+  - "dastgheyb2014secondary"
+  - "dastgheyb2014role"
+  - "chaudhuri2017exosomes"
+  - "dastgheyb2011quantification"
+  - "dastgheyb2016astrocyte"
+  - "dastgheyb2005pulmonary"
+  - "dastgheyb2014mechanisms"
+  - "chaudhuri2018tnfalpha"
+  - "dastgheyb2018machine"
+  - "miller2019molecularly"
+  - "habela201915q11"
+  - "taga2019multielectrode"
+  - "taga2019role"
+  - "dastgheyb2019cognitive"
+  - "rubin2019heterogeneity"
+  - "dastgheyb2020meanalyzer"
+  - "jha2019monocarboxylate"
+  - "jha2020monocarboxylate"
+  - "chen2019lipidomic"
+  - "williams2021associations"
+  - "moniruzzaman2019elevated"
+  - "dastgheyb2019neurocognitive"
+  - "kumar2019modulation"
+  - "jurgens2019loss"
+  - "westergard2019molecularly"
+  - "almad2020connexin"
+  - "rubin2021associations"
+  - "rubin2020early"
+  - "taga2020modeling"
+  - "kamkwalala2021starting"
+  - "fitzgerald2020factors"
+  - "rubin2020sex"
+  - "o2021integrase"
+  - "li2020astrocytes"
+  - "dastgheyb2021patterns"
+  - "rubin2021dietary"
+  - "aparicio2021plasma"
+  - "williams2019associations"
+  - "rubin2023integrase"
+  - "almad2022cx43"
+  - "williams2022t"
+  - "wang2022tumor"
+  - "morales2023first"
+  - "hartung2023baltimore"
+  - "mukerji2023machine"
+  - "rubin2023trauma"
+  - "rubin2023pilot"
+  - "salimpour2024phase"
+  - "parra2024common"
+  - "sundermann2024identifying"
+  - "shorer2024tryptophan"
+  - "wiseman2024brain"
+  - "wiseman2023brain"
+  - "shorer2024tryptophan"
+  - "tang2024biopsychosocial"
+  - "yoo2024emotional"
+  - "rubin2025intact"
+  - "habela2025altered"
+  - "chaudhuritnfalpha"
+  - "rubin2025imaging"
+  - "lang2025development"
+  - "rubin2025mental"
+  - "vance2024does"
+  - "mukerji2025plasma"
+  - "wiseman2023brain"
+  - "rubin2023intact"
+  - "shorer2023tryptophan"
+  - "trunfio2025cerebrospinal"
+  - "vance2025cognitive"
+  - "tavasoli2025systemic"
+  - "yoo2025loneliness"
+  - "rubin2025blood"
+  - "zaikos2025neuropathologic"
+  - "lang2025international"
+  - "chandra2022associations"
+  - "korpela2026longitudinal"
+  - "li2025multiplexing"
+  - "azola2025putting"
+  - "vance2025cognitive"
+  - "shorer2026parkinsonism"
+  - "tejera2025metabolic"
+  - "tejera2025alzheimer"
+  - "vance2025associations"
+  - "rubin2026cognitive"
+  - "yoo2025association"
+  - "rubin2026n"
+  - "ridgeway2026beyond"
+  - "tejera2026metabolomic"
+  - "rubin2026stability"
+  - "rubin2025brace"
+missing_pdfs:
+  - "dastgheyb2015investigating"
+  - "dastgheyb2014secondary"
+  - "chaudhuri2017exosomes"
+  - "dastgheyb2016astrocyte"
+  - "chaudhuri2018tnfalpha"
+  - "dastgheyb2018machine"
+  - "habela201915q11"
+  - "taga2019multielectrode"
+  - "dastgheyb2019cognitive"
+  - "dastgheyb2020meanalyzer"
+  - "moniruzzaman2019elevated"
+  - "dastgheyb2019neurocognitive"
+  - "kumar2019modulation"
+  - "jurgens2019loss"
+  - "taga2020modeling"
+  - "shorer2024tryptophan"
+  - "wiseman2023brain"
+  - "shorer2024tryptophan"
+  - "chaudhuritnfalpha"
+  - "wiseman2023brain"
+  - "rubin2023intact"
+  - "tavasoli2025systemic"
+  - "chandra2022associations"
+  - "korpela2026longitudinal"
+  - "tejera2025alzheimer"
+  - "vance2025associations"
+  - "yoo2025association"
+  - "rubin2026stability"
+missing_figures:
+  - "dastgheyb2015quantifying"
+  - "dastgheyb2015investigating"
+  - "dastgheyb2012interactions"
+  - "dastgheyb2014secondary"
+  - "dastgheyb2014role"
+  - "chaudhuri2017exosomes"
+  - "dastgheyb2011quantification"
+  - "dastgheyb2016astrocyte"
+  - "dastgheyb2005pulmonary"
+  - "dastgheyb2014mechanisms"
+  - "chaudhuri2018tnfalpha"
+  - "dastgheyb2018machine"
+  - "miller2019molecularly"
+  - "habela201915q11"
+  - "taga2019multielectrode"
+  - "taga2019role"
+  - "dastgheyb2019cognitive"
+  - "rubin2019heterogeneity"
+  - "dastgheyb2020meanalyzer"
+  - "jha2019monocarboxylate"
+  - "jha2020monocarboxylate"
+  - "chen2019lipidomic"
+  - "williams2021associations"
+  - "moniruzzaman2019elevated"
+  - "dastgheyb2019neurocognitive"
+  - "kumar2019modulation"
+  - "jurgens2019loss"
+  - "westergard2019molecularly"
+  - "almad2020connexin"
+  - "rubin2021associations"
+  - "rubin2020early"
+  - "taga2020modeling"
+  - "kamkwalala2021starting"
+  - "fitzgerald2020factors"
+  - "rubin2020sex"
+  - "o2021integrase"
+  - "li2020astrocytes"
+  - "dastgheyb2021patterns"
+  - "rubin2021dietary"
+  - "aparicio2021plasma"
+  - "williams2019associations"
+  - "rubin2023integrase"
+  - "almad2022cx43"
+  - "williams2022t"
+  - "wang2022tumor"
+  - "morales2023first"
+  - "hartung2023baltimore"
+  - "mukerji2023machine"
+  - "rubin2023trauma"
+  - "rubin2023pilot"
+  - "salimpour2024phase"
+  - "parra2024common"
+  - "sundermann2024identifying"
+  - "shorer2024tryptophan"
+  - "wiseman2024brain"
+  - "wiseman2023brain"
+  - "shorer2024tryptophan"
+  - "tang2024biopsychosocial"
+  - "yoo2024emotional"
+  - "rubin2025intact"
+  - "habela2025altered"
+  - "chaudhuritnfalpha"
+  - "rubin2025imaging"
+  - "lang2025development"
+  - "rubin2025mental"
+  - "vance2024does"
+  - "mukerji2025plasma"
+  - "wiseman2023brain"
+  - "rubin2023intact"
+  - "shorer2023tryptophan"
+  - "trunfio2025cerebrospinal"
+  - "vance2025cognitive"
+  - "tavasoli2025systemic"
+  - "yoo2025loneliness"
+  - "rubin2025blood"
+  - "zaikos2025neuropathologic"
+  - "lang2025international"
+  - "chandra2022associations"
+  - "korpela2026longitudinal"
+  - "li2025multiplexing"
+  - "azola2025putting"
+  - "vance2025cognitive"
+  - "shorer2026parkinsonism"
+  - "tejera2025metabolic"
+  - "tejera2025alzheimer"
+  - "vance2025associations"
+  - "rubin2026cognitive"
+  - "yoo2025association"
+  - "rubin2026n"
+  - "ridgeway2026beyond"
+  - "tejera2026metabolomic"
+  - "rubin2026stability"
+  - "rubin2025brace"
+missing_visual_abstracts:
+  - "dastgheyb2015quantifying"
+  - "dastgheyb2015investigating"
+  - "dastgheyb2012interactions"
+  - "dastgheyb2014secondary"
+  - "dastgheyb2014role"
+  - "chaudhuri2017exosomes"
+  - "dastgheyb2011quantification"
+  - "dastgheyb2016astrocyte"
+  - "dastgheyb2005pulmonary"
+  - "dastgheyb2014mechanisms"
+  - "chaudhuri2018tnfalpha"
+  - "dastgheyb2018machine"
+  - "miller2019molecularly"
+  - "habela201915q11"
+  - "taga2019multielectrode"
+  - "taga2019role"
+  - "dastgheyb2019cognitive"
+  - "rubin2019heterogeneity"
+  - "dastgheyb2020meanalyzer"
+  - "jha2019monocarboxylate"
+  - "jha2020monocarboxylate"
+  - "chen2019lipidomic"
+  - "williams2021associations"
+  - "moniruzzaman2019elevated"
+  - "dastgheyb2019neurocognitive"
+  - "kumar2019modulation"
+  - "jurgens2019loss"
+  - "westergard2019molecularly"
+  - "almad2020connexin"
+  - "rubin2021associations"
+  - "rubin2020early"
+  - "taga2020modeling"
+  - "kamkwalala2021starting"
+  - "fitzgerald2020factors"
+  - "rubin2020sex"
+  - "o2021integrase"
+  - "li2020astrocytes"
+  - "dastgheyb2021patterns"
+  - "rubin2021dietary"
+  - "aparicio2021plasma"
+  - "williams2019associations"
+  - "rubin2023integrase"
+  - "almad2022cx43"
+  - "williams2022t"
+  - "wang2022tumor"
+  - "morales2023first"
+  - "hartung2023baltimore"
+  - "mukerji2023machine"
+  - "rubin2023trauma"
+  - "rubin2023pilot"
+  - "salimpour2024phase"
+  - "parra2024common"
+  - "sundermann2024identifying"
+  - "shorer2024tryptophan"
+  - "wiseman2024brain"
+  - "wiseman2023brain"
+  - "shorer2024tryptophan"
+  - "tang2024biopsychosocial"
+  - "yoo2024emotional"
+  - "rubin2025intact"
+  - "habela2025altered"
+  - "chaudhuritnfalpha"
+  - "rubin2025imaging"
+  - "lang2025development"
+  - "rubin2025mental"
+  - "vance2024does"
+  - "mukerji2025plasma"
+  - "wiseman2023brain"
+  - "rubin2023intact"
+  - "shorer2023tryptophan"
+  - "trunfio2025cerebrospinal"
+  - "vance2025cognitive"
+  - "tavasoli2025systemic"
+  - "yoo2025loneliness"
+  - "rubin2025blood"
+  - "zaikos2025neuropathologic"
+  - "lang2025international"
+  - "chandra2022associations"
+  - "korpela2026longitudinal"
+  - "li2025multiplexing"
+  - "azola2025putting"
+  - "vance2025cognitive"
+  - "shorer2026parkinsonism"
+  - "tejera2025metabolic"
+  - "tejera2025alzheimer"
+  - "vance2025associations"
+  - "rubin2026cognitive"
+  - "yoo2025association"
+  - "rubin2026n"
+  - "ridgeway2026beyond"
+  - "tejera2026metabolomic"
+  - "rubin2026stability"
+  - "rubin2025brace"
+missing_year:
+  - "chaudhuritnfalpha"
+metadata_warnings:
+  []

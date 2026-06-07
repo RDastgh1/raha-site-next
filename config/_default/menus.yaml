@@ -1,0 +1,19 @@
+main:
+  - name: Research
+    url: /research/
+    weight: 10
+  - name: Software
+    url: /software/
+    weight: 20
+  - name: Publications
+    url: /publication/
+    weight: 30
+  - name: Talks
+    url: /talks/
+    weight: 40
+  - name: Community
+    url: /community/
+    weight: 50
+  - name: Contact
+    url: /#contact
+    weight: 60

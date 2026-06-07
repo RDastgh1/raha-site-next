@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.positai
+public/
+resources/
+.cache/
+.hugo_build.lock
+.quarto/

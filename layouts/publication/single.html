@@ -1,0 +1,94 @@
+{{ define "main" }}
+<nav class="raha-nav" aria-label="Primary navigation">
+  <a class="raha-brand" href="{{ "" | relURL }}">{{ site.Title }}</a>
+  <div class="raha-nav__links">
+    <a href="{{ "research/" | relURL }}">Research</a>
+    <a href="{{ "software/" | relURL }}">Software</a>
+    <a href="{{ "publication/" | relURL }}">Publications</a>
+    <a href="{{ "talks/" | relURL }}">Talks</a>
+    <a href="{{ "community/" | relURL }}">Community</a>
+    <a href="{{ "#contact" | relURL }}">Contact</a>
+  </div>
+</nav>
+<main class="publication-page publication-page--{{ .Params.tier | default "archive" }}">
+  <header class="publication-hero">
+    <div>
+      {{ $tierLabel := .Params.tier | default "archive" }}
+      <p class="raha-kicker">{{ if eq $tierLabel "highlighted" }}Highlighted{{ else }}{{ title $tierLabel }}{{ end }} Publication</p>
+      <h1>{{ .Title }}</h1>
+      <div class="publication-meta">
+        {{ with .Params.year }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.publication }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.publication_type }}<span>{{ . }}</span>{{ end }}
+      </div>
+      {{ with .Params.authors }}
+      <p class="publication-authors">
+        {{ $count := len . }}
+        {{ range $index, $author := first 8 . }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}{{ if gt $count 8 }}, and {{ sub $count 8 }} others{{ end }}
+      </p>
+      {{ end }}
+    </div>
+    {{ with .Params.thumbnail }}
+    {{ $thumbURL := "" }}
+    {{ if hasPrefix . "media/" }}
+      {{ $thumbURL = (. | relURL) }}
+    {{ else }}
+      {{ $thumbURL = printf "%s%s" $.RelPermalink . }}
+    {{ end }}
+    <figure class="publication-hero__thumb">
+      <img src="{{ $thumbURL }}" alt="">
+    </figure>
+    {{ end }}
+  </header>
+
+  <section class="publication-actions">
+    {{ with .Params.url_pdf }}<a class="raha-button" href="{{ . }}">PDF</a>{{ end }}
+    {{ with .Params.doi }}<a class="raha-button" href="https://doi.org/{{ . }}">DOI</a>{{ end }}
+    {{ with .Params.pubmed }}<a class="raha-button" href="https://pubmed.ncbi.nlm.nih.gov/{{ . }}/">PubMed</a>{{ end }}
+    {{ with .Params.url_code }}<a class="raha-button" href="{{ . }}">GitHub</a>{{ end }}
+    {{ with .Params.url_dataset }}<a class="raha-button" href="{{ . }}">Dataset</a>{{ end }}
+  </section>
+
+  <section class="publication-portal">
+    <article class="publication-main">
+      {{ with .Params.why_this_matters }}
+      {{ if not (in . "helps define a research thread") }}
+      <div class="portal-panel">
+        <div class="raha-section__eyebrow">Why This Matters</div>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ end }}
+      {{ with .Params.key_findings }}
+      {{ if not (in (delimit . " ") "Summarize the primary empirical or methodological finding") }}
+      <div class="portal-panel">
+        <div class="raha-section__eyebrow">Key Findings</div>
+        <ul>
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      {{ end }}
+      {{ with .Params.plain_language_summary }}
+      {{ if not (in . "connected research program") }}
+      <div class="portal-panel">
+        <div class="raha-section__eyebrow">Plain-Language Summary</div>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ end }}
+    </article>
+
+    <aside class="publication-sidebar">
+      <div class="portal-panel">
+        <div class="raha-section__eyebrow">Research Ecosystem</div>
+        {{ partial "relationship-list.html" (dict "title" "Software" "items" .Params.related_software "base" "software") }}
+        {{ partial "relationship-list.html" (dict "title" "Research Areas" "items" .Params.related_research "base" "research") }}
+        {{ partial "relationship-list.html" (dict "title" "Talks" "items" .Params.related_talks "base" "talks") }}
+        {{ partial "relationship-list.html" (dict "title" "Datasets" "items" .Params.related_datasets "base" "") }}
+        {{ partial "relationship-list.html" (dict "title" "Community" "items" .Params.related_community "base" "community") }}
+      </div>
+    </aside>
+  </section>
+</main>
+{{ end }}

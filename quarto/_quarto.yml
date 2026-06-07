@@ -1,0 +1,13 @@
+project:
+  type: default
+  output-dir: ../content/quarto-generated
+
+format:
+  hugo-md:
+    html-math-method: katex
+    wrap: preserve
+
+execute:
+  freeze: auto
+  warning: false
+  message: false

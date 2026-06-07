@@ -1,0 +1,13 @@
+items:
+  - title: "SynaptiCoders"
+    summary: "Community infrastructure for scientific coding, mentoring, and reproducible practice."
+    url: "community/synapticoders/"
+  - title: "R-Ladies Baltimore"
+    summary: "Local data science community building, training, and inclusive technical leadership."
+    url: "community/r-ladies-baltimore/"
+  - title: "Neuromatch"
+    summary: "Open computational neuroscience education and global scientific community."
+    url: "community/neuromatch/"
+  - title: "Moveable Feast"
+    summary: "Board involvement supporting community health, care, and service."
+    url: "community/moveable-feast/"

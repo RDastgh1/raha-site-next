@@ -1,0 +1,39 @@
+features:
+  syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
+  math:
+    enable: true
+  privacy_pack:
+    enable: false
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ""
+    org_name: ""
+    description: "Designing reproducible computational systems for translational brain health research."
+    twitter: ""
+  analytics:
+    google_analytics: ""
+
+appearance:
+  mode: dark
+  color: raha
+
+social:
+  - icon: github
+    icon_pack: fab
+    link: "https://github.com/RDastgh1"
+  - icon: linkedin
+    icon_pack: fab
+    link: "#"
+  - icon: google-scholar
+    icon_pack: ai
+    link: "#"
+  - icon: orcid
+    icon_pack: ai
+    link: "#"
+  - icon: bluesky
+    icon_pack: fab
+    link: "#"

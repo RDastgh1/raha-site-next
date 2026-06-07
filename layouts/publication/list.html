@@ -1,0 +1,60 @@
+{{ define "main" }}
+<nav class="raha-nav" aria-label="Primary navigation">
+  <a class="raha-brand" href="{{ "" | relURL }}">{{ site.Title }}</a>
+  <div class="raha-nav__links">
+    <a href="{{ "research/" | relURL }}">Research</a>
+    <a href="{{ "software/" | relURL }}">Software</a>
+    <a href="{{ "publication/" | relURL }}">Publications</a>
+    <a href="{{ "talks/" | relURL }}">Talks</a>
+    <a href="{{ "community/" | relURL }}">Community</a>
+    <a href="{{ "#contact" | relURL }}">Contact</a>
+  </div>
+</nav>
+<main class="content-page publication-index">
+  <p class="raha-kicker">Publication Ecosystem</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+
+  {{ $pages := where .Pages "Params.tier" "!=" "report" }}
+  {{ $highlightedConfig := hugo.Data.highlighted_publications.items }}
+  {{ $selected := where $pages "Params.tier" "selected" }}
+  {{ $archive := where $pages "Params.tier" "archive" }}
+
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Highlighted Publications</div>
+    <div class="publication-grid publication-grid--highlighted">
+      {{ range $highlightedConfig }}
+        {{ $key := .key }}
+        {{ $title := .title | lower }}
+        {{ range $pages }}
+          {{ if or (and $key (eq .Params.bibtex_key $key) (in (.Title | lower) $title)) (in (.Title | lower) $title) }}
+            {{ partial "publication-card.html" (dict "page" . "variant" "highlighted") }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Selected Publications</div>
+    <div class="publication-grid">
+      {{ range $selected.ByDate.Reverse }}
+        {{ partial "publication-card.html" (dict "page" . "variant" "standard") }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Archive</div>
+    <div class="publication-archive">
+      {{ range $archive.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}">
+        <span>{{ .Params.year }}</span>
+        <strong>{{ .Title }}</strong>
+        <em>{{ .Params.publication }}</em>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

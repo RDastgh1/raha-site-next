@@ -1,0 +1,82 @@
+---
+bibtex_key: "chaudhuri2018tnfalpha"
+slug: "2018-tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons"
+title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons"
+date: 2018-01-01
+year: "2018"
+publication_type: "article"
+publication: "Cell death & disease"
+authors:
+  - "Chaudhuri, Amrita Datta"
+  - "Dastgheyb, Raha M"
+  - "Yoo, Seung-Wan"
+  - "Trout, Amanda"
+  - "Talbot Jr, C Conover"
+  - "Hao, Haiping"
+  - "Witwer, Kenneth W"
+  - "Haughey, Norman J"
+doi: "10.1038/s41419-018-0369-4"
+pubmed: ""
+url_pdf: ""
+url_code: ""
+url_dataset: ""
+url_doi: "https://doi.org/10.1038/s41419-018-0369-4"
+tier: "archive"
+featured: false
+thumbnail: "media/publications/generated/2018-tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons.svg"
+visual_abstract: ""
+abstract: "AbstractAstrocytes are known to be critical regulators of neuronal function. However, relatively few mediators of astrocyte to neuron communication have been identified. Recent advancements in the biology of extracellular vesicles have begun to implicate astrocyte derived extracellular vesicles (ADEV) as mediators of astrocyte to neuron communication, suggesting that alterations in the release and/or composition of ADEVs could influence gliotransmission. TNFα and IL-1β are key mediators of glial activation and neuronal damage, but the effects of these cytokines on the release or molecular composition of ADEVs is unknown. We found that ADEVs released in response to IL-1β (ADEV-IL-1β) and TNFα (ADEV-TNFα) were enriched with miRNAs that target proteins involved in neurotrophin signaling. We confirmed that miR-125a-5p and miR-16-5p (both enriched in ADEV-IL-1β and ADEV-TNFα) targeted NTKR3 and its downstream effector Bcl2. Downregulation of these targets in neurons was associated with reductions in dendritic growth, dendritic complexity, reduced spike rates, and burst activity. Molecular interference of miR-125a-5p and miR-16-5p prevented ADEV-IL-1β from reducing dendritic complexity, spike, and burst rates. These findings suggest that astrocytes respond to inflammatory challenge by modifying the miRNA cargo of ADEVs to diminish the activity of target neurons by regulating the translational expression of proteins controlling programs essential for synaptic stability and neuronal excitability."
+extracted_figure: ""
+extracted_figure_source_pdf: ""
+extracted_figure_page: ""
+extracted_figure_confidence: ""
+plain_language_summary: "Published in Cell death & disease in 2018 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
+why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
+research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
+research_story: "Within the site ecosystem, this paper connects to the research architecture and helps show how individual studies accumulate into a systems-level research agenda."
+key_findings:
+  - "Summarize the primary empirical or methodological finding after manual review."
+  - "Identify the cohort, system, or data modality most central to the paper."
+  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+related_software:
+  []
+related_research:
+  []
+related_talks:
+  []
+related_datasets:
+  []
+related_community:
+  []
+tags:
+  - "article"
+---
+## Why this paper matters
+
+This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
+
+## Key findings
+
+- Summarize the primary empirical or methodological finding after manual review.
+- Identify the cohort, system, or data modality most central to the paper.
+- Connect the finding to related software, research areas, datasets, or talks where relevant.
+
+## Research significance
+
+The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
+
+## Research story
+
+Within the site ecosystem, this paper connects to the research architecture and helps show how individual studies accumulate into a systems-level research agenda.
+
+## Plain-language summary
+
+Published in Cell death & disease in 2018 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
+
+## Commentary
+
+Add manual scientific context, interpretation, and links to related systems.
+
+## Figures and visual abstracts
+
+Add publication figures, visual abstracts, and explanatory graphics to this bundle.

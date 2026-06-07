@@ -1,0 +1,48 @@
+baseURL: "https://rdastgh1.github.io/raha-site-next/"
+title: "Raha Dastgheyb"
+locale: "en-us"
+defaultContentLanguage: "en"
+enableRobotsTXT: true
+summaryLength: 24
+ignoreFiles:
+  - "data/publications/publications\\.bib$"
+pagination:
+  pagerSize: 12
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+
+permalinks:
+  publication: "/publication/:slug/"
+  software: "/software/:slug/"
+  talks: "/talks/:slug/"
+  research: "/research/:slug/"
+  community: "/community/:slug/"
+
+params:
+  description: "Designing reproducible computational systems for translational brain health research."
+  author: "Raha Dastgheyb"
+  contact_email: ""
+  theme: "raha-dark"
+  color_scheme: "dark"
+  default_appearance: "dark"
+  day_night: true
+  mainSections:
+    - publication
+    - software
+    - talks
+    - research

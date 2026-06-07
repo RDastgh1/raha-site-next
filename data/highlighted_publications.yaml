@@ -1,0 +1,51 @@
+items:
+  -
+    title: "BRACE-ing for the future: Establishing iPad-based norms for cognitive function in the MACS/WIHS Combined Cohort Study"
+    key: "rubin2025brace"
+    order: "1"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV"
+    key: "sundermann2024identifying"
+    order: "2"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "Machine learning approaches to understand cognitive phenotypes in people with HIV"
+    key: "mukerji2023machine"
+    order: "3"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "MEAnalyzer-a spike train analysis tool for multi electrode arrays"
+    key: "dastgheyb2020meanalyzer"
+    order: "4"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "Blood-Brain barrier disruption in long COVID and cognitive correlates: A cross-sectional MRI study"
+    key: "rubin2025blood"
+    order: "5"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "The Baltimore declaration toward the exploration of organoid intelligence"
+    key: "hartung2023baltimore"
+    order: "6"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "Patterns and predictors of cognitive function among virally suppressed women with HIV"
+    key: "dastgheyb2021patterns"
+    order: "7"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV"
+    key: "tejera2026metabolomic"
+    order: "8"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "Longitudinal effects of polypharmacy on cognitive function in people with HIV"
+    key: "korpela2026longitudinal"
+    order: "9"
+    note: "Title-driven highlighted publication set"
+  -
+    title: "Tryptophan-Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV"
+    key: "shorer2024tryptophan"
+    order: "10"
+    note: "Title-driven highlighted publication set"
