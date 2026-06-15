@@ -6,31 +6,10 @@
   <h1>{{ .Title }}</h1>
   {{ with .Content }}{{ . }}{{ end }}
 
-  <section class="software-ecosystem" aria-label="SciDataReportR software ecosystem">
-    <div class="software-ecosystem__layer software-ecosystem__layer--agent">
-      {{ with index $ecosystem.ecosystem 0 }}
-      <a class="ecosystem-node ecosystem-node--agent" href="{{ .url | relURL }}">
-        <span>{{ .status }}</span>
-        <h2>{{ .title }}</h2>
-        <strong>{{ .role }}</strong>
-        <p>{{ .summary }}</p>
-      </a>
-      {{ end }}
-    </div>
-    <div class="software-ecosystem__connector" aria-hidden="true"></div>
-    <div class="software-ecosystem__layer software-ecosystem__layer--core">
-      {{ with index $ecosystem.ecosystem 1 }}
-      <a class="ecosystem-node ecosystem-node--core" href="{{ .url | relURL }}">
-        <span>{{ .status }}</span>
-        <h2>{{ .title }}</h2>
-        <strong>{{ .role }}</strong>
-        <p>{{ .summary }}</p>
-      </a>
-      {{ end }}
-    </div>
-    <div class="software-ecosystem__branches">
-      {{ range after 2 $ecosystem.ecosystem }}
-      <a class="ecosystem-node ecosystem-node--package" href="{{ .url | relURL }}">
+  <section class="software-ecosystem software-ecosystem--priority" aria-label="Scientific software priority map">
+    <div class="software-ecosystem__branches software-ecosystem__branches--priority">
+      {{ range $ecosystem.ecosystem }}
+      <a class="ecosystem-node {{ if eq .status "In Development" }}ecosystem-node--development{{ else if eq .title "MEAnalyzer" }}ecosystem-node--core{{ else }}ecosystem-node--package{{ end }}" href="{{ .url | relURL }}">
         <span>{{ .status }}</span>
         <h2>{{ .title }}</h2>
         <strong>{{ .role }}</strong>
@@ -41,13 +20,16 @@
   </section>
 
   <div class="software-showcase-grid">
-    {{ range .Pages.ByTitle }}
+    {{ $softwareOrder := slice "meanalyzer" "scidatareportr" "computational-phenotyping-pipelines" "dashboards-reporting-frameworks" "proteomicsreportr" "metabolomicsreportr" "multiplexreportr" "scidataagent" }}
+    {{ range $softwareOrder }}
+    {{ with site.GetPage (printf "software/%s" .) }}
     <a class="software-showcase-card" href="{{ .RelPermalink }}">
       <div class="raha-card__label">{{ delimit (.Params.tags | default (slice "scientific software")) " / " }}</div>
       <h2>{{ .Title }}</h2>
       <p>{{ .Params.summary | default .Summary }}</p>
       {{ with .Params.enables }}<span>{{ . }}</span>{{ end }}
     </a>
+    {{ end }}
     {{ end }}
   </div>
 </main>

@@ -21,7 +21,7 @@ related_research:
 manual_featured: true
 ---
 
-This placeholder publication demonstrates the intended v1 page architecture.
+This publication portal demonstrates the intended v1 page architecture.
 
 ## Commentary
 

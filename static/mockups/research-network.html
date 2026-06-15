@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Architecture Network Mockup</title>
+  <style>
+    :root {
+      --bg: #07111d;
+      --bg-deep: #030812;
+      --panel: rgba(8, 18, 31, 0.86);
+      --panel-strong: rgba(10, 24, 40, 0.94);
+      --cyan: #62d8ef;
+      --violet: #9c77d8;
+      --mint: #8debd2;
+      --text: #eef7fb;
+      --muted: #b9c8d3;
+      --soft: #7f95a6;
+      --border: rgba(98, 216, 239, 0.28);
+      --border-strong: rgba(98, 216, 239, 0.62);
+      --shadow: 0 28px 80px rgba(0, 0, 0, 0.38);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 16% 12%, rgba(98, 216, 239, 0.14), transparent 25rem),
+        radial-gradient(circle at 74% 28%, rgba(156, 119, 216, 0.14), transparent 24rem),
+        linear-gradient(180deg, var(--bg-deep), var(--bg) 48rem, #09131f);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .mockup-shell {
+      width: min(1180px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 2.8rem 0;
+    }
+
+    .mockup-kicker,
+    .network-node__kicker,
+    .relationship-label,
+    .example-panel__label {
+      color: var(--cyan);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 820px;
+      margin: 0.8rem 0 1rem;
+      font-size: clamp(2.5rem, 5.8vw, 4.8rem);
+      line-height: 0.96;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .lede {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.8;
+    }
+
+    .mockup-note {
+      display: inline-flex;
+      margin-top: 1.4rem;
+      padding: 0.55rem 0.75rem;
+      border: 1px solid rgba(156, 119, 216, 0.34);
+      border-radius: 999px;
+      background: rgba(156, 119, 216, 0.08);
+      color: #d9c9ff;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.82rem;
+    }
+
+    body.focus-network .mockup-intro {
+      display: none;
+    }
+
+    body.focus-network .mockup-shell {
+      padding-top: 1rem;
+    }
+
+    body.focus-network .network-stage,
+    body.focus-network .mobile-preview {
+      margin-top: 0;
+    }
+
+    body.focus-network .state-grid {
+      display: none;
+    }
+
+    .network-stage {
+      position: relative;
+      min-height: 720px;
+      margin-top: 2.6rem;
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      background:
+        linear-gradient(rgba(98, 216, 239, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(98, 216, 239, 0.045) 1px, transparent 1px),
+        radial-gradient(circle at 50% 46%, rgba(98, 216, 239, 0.16), transparent 18rem),
+        radial-gradient(circle at 55% 56%, rgba(156, 119, 216, 0.13), transparent 20rem),
+        rgba(5, 13, 23, 0.78);
+      background-size: 44px 44px, 44px 44px, auto, auto, auto;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .network-stage::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 20% 42%, rgba(98, 216, 239, 0.2), transparent 0.24rem),
+        radial-gradient(circle at 38% 32%, rgba(141, 235, 210, 0.24), transparent 0.22rem),
+        radial-gradient(circle at 65% 32%, rgba(156, 119, 216, 0.22), transparent 0.25rem),
+        radial-gradient(circle at 78% 58%, rgba(98, 216, 239, 0.18), transparent 0.22rem),
+        radial-gradient(circle at 31% 72%, rgba(238, 247, 251, 0.16), transparent 0.18rem);
+      opacity: 0.75;
+      pointer-events: none;
+    }
+
+    .network-lines {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .edge {
+      fill: none;
+      stroke: rgba(98, 216, 239, 0.34);
+      stroke-width: 1.4;
+      stroke-linecap: round;
+    }
+
+    .edge--secondary {
+      stroke: rgba(156, 119, 216, 0.2);
+      stroke-dasharray: 6 10;
+    }
+
+    .edge-pulse {
+      fill: none;
+      stroke: rgba(238, 247, 251, 0.78);
+      stroke-width: 1.2;
+      stroke-linecap: round;
+      stroke-dasharray: 1 620;
+      animation: pulse-line 5.8s linear infinite;
+      opacity: 0.72;
+    }
+
+    .edge-pulse:nth-of-type(8) { animation-delay: -1.2s; }
+    .edge-pulse:nth-of-type(9) { animation-delay: -2.4s; }
+    .edge-pulse:nth-of-type(10) { animation-delay: -3.2s; }
+    .edge-pulse:nth-of-type(11) { animation-delay: -4.3s; }
+
+    @keyframes pulse-line {
+      from { stroke-dashoffset: 620; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    .relationship-label {
+      position: absolute;
+      z-index: 2;
+      padding: 0.32rem 0.48rem;
+      border: 1px solid rgba(98, 216, 239, 0.2);
+      border-radius: 999px;
+      background: rgba(5, 13, 23, 0.78);
+      color: #aeeeff;
+      font-size: 0.62rem;
+      white-space: nowrap;
+      box-shadow: 0 0 22px rgba(98, 216, 239, 0.08);
+    }
+
+    .label-cp { top: 30%; left: 48%; }
+    .label-bio { top: 39%; right: 28%; }
+    .label-viz { top: 42%; left: 23%; }
+    .label-soft { bottom: 29%; left: 31%; }
+    .label-trans { bottom: 30%; right: 25%; }
+    .label-loop-a { top: 20%; left: 35%; color: #d6c8ff; border-color: rgba(156, 119, 216, 0.28); }
+    .label-loop-b { bottom: 19%; left: 45%; color: #d6c8ff; border-color: rgba(156, 119, 216, 0.28); }
+
+    .network-node {
+      position: absolute;
+      z-index: 3;
+      display: block;
+      width: 235px;
+      min-height: 142px;
+      padding: 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      background: linear-gradient(135deg, rgba(11, 27, 44, 0.96), rgba(8, 16, 29, 0.92));
+      color: var(--text);
+      text-decoration: none;
+      box-shadow: 0 0 34px rgba(98, 216, 239, 0.08);
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, opacity 180ms ease;
+    }
+
+    .network-node:hover,
+    .network-node:focus-visible,
+    .network-node.is-demo-hover {
+      z-index: 5;
+      transform: translateY(-5px);
+      border-color: rgba(156, 119, 216, 0.78);
+      box-shadow: 0 0 46px rgba(98, 216, 239, 0.18), 0 0 34px rgba(156, 119, 216, 0.16);
+      outline: none;
+    }
+
+    .network-node--center {
+      top: 56%;
+      left: 50%;
+      width: 305px;
+      min-height: 190px;
+      padding: 1rem;
+      transform: translate(-50%, -50%);
+      border-color: rgba(98, 216, 239, 0.68);
+      background:
+        radial-gradient(circle at 20% 10%, rgba(98, 216, 239, 0.18), transparent 10rem),
+        linear-gradient(135deg, rgba(13, 34, 54, 0.98), rgba(9, 18, 32, 0.96));
+      box-shadow: 0 0 62px rgba(98, 216, 239, 0.18);
+    }
+
+    .network-node--center:hover,
+    .network-node--center:focus-visible {
+      transform: translate(-50%, calc(-50% - 5px));
+    }
+
+    .network-node--cp { top: 2%; left: 50%; transform: translateX(-50%); }
+    .network-node--cp:hover,
+    .network-node--cp:focus-visible { transform: translateX(-50%) translateY(-5px); }
+    .network-node--viz { top: 25%; left: 7%; }
+    .network-node--bio { top: 25%; right: 7%; }
+    .network-node--soft { bottom: 9%; left: 17%; }
+    .network-node--trans { bottom: 9%; right: 17%; }
+
+    .network-node h2,
+    .network-node h3 {
+      margin: 0.42rem 0 0.52rem;
+      font-size: 1.18rem;
+      line-height: 1.05;
+    }
+
+    .network-node--center h2 {
+      font-size: 1.48rem;
+    }
+
+    .network-node p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.55;
+    }
+
+    .node-examples {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.8rem;
+      padding: 0;
+      list-style: none;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .node-examples li {
+      padding: 0.28rem 0.46rem;
+      border: 1px solid rgba(156, 119, 216, 0.3);
+      border-radius: 999px;
+      color: #d9c9ff;
+      font-size: 0.62rem;
+    }
+
+    .example-panel {
+      position: absolute;
+      z-index: 4;
+      right: 2rem;
+      bottom: 2rem;
+      width: min(360px, calc(100% - 4rem));
+      padding: 1rem;
+      border: 1px solid rgba(156, 119, 216, 0.4);
+      border-radius: 0.55rem;
+      background: rgba(5, 13, 23, 0.9);
+      box-shadow: 0 0 50px rgba(156, 119, 216, 0.12);
+    }
+
+    .example-panel h3 {
+      margin: 0.35rem 0 0.45rem;
+      font-size: 1.25rem;
+    }
+
+    .example-panel p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .state-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .state-card {
+      padding: 1rem;
+      border: 1px solid rgba(98, 216, 239, 0.22);
+      border-radius: 0.5rem;
+      background: rgba(8, 18, 31, 0.72);
+    }
+
+    .state-card strong {
+      color: var(--text);
+    }
+
+    .state-card p {
+      margin: 0.4rem 0 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .mobile-preview {
+      display: none;
+      margin-top: 2rem;
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      background: rgba(5, 13, 23, 0.78);
+      overflow: hidden;
+    }
+
+    .mobile-preview__card {
+      padding: 1rem;
+      border-top: 1px solid rgba(98, 216, 239, 0.18);
+    }
+
+    .mobile-preview__card:first-child {
+      border-top: 0;
+      background: rgba(98, 216, 239, 0.08);
+    }
+
+    .mobile-preview__card span {
+      display: inline-block;
+      margin-bottom: 0.45rem;
+      color: var(--cyan);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .mobile-preview__card h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1.25rem;
+    }
+
+    .mobile-preview__card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    @media (hover: hover) {
+      .network-stage:has(.network-node:hover) .network-node,
+      .network-stage:has(.network-node:focus-visible) .network-node {
+        opacity: 0.58;
+      }
+
+      .network-stage:has(.network-node:hover) .network-node:hover,
+      .network-stage:has(.network-node:focus-visible) .network-node:focus-visible,
+      .network-stage:has(.network-node:hover) .network-node--center,
+      .network-stage:has(.network-node:focus-visible) .network-node--center {
+        opacity: 1;
+      }
+
+      .network-stage:has(.network-node--center:hover) .network-node,
+      .network-stage:has(.network-node--center:focus-visible) .network-node {
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .mockup-shell {
+        width: min(100% - 2rem, 42rem);
+        padding: 2rem 0;
+      }
+
+      h1 {
+        font-size: clamp(2.35rem, 13vw, 3.5rem);
+      }
+
+      .mockup-note {
+        border-radius: 0.55rem;
+      }
+
+      .network-stage {
+        display: none;
+      }
+
+      .mobile-preview {
+        display: block;
+      }
+
+      .state-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      .edge-pulse {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="mockup-shell">
+    <header class="mockup-intro">
+      <div class="mockup-kicker">Research Architecture Mockup</div>
+      <h1>Reproducible infrastructure that enables computational discovery.</h1>
+      <p class="lede">This mockup centers the systems Raha builds: reusable workflows, scientific software, transparent visualization, and cohort-aware infrastructure that help researchers discover hidden structure and translate biomedical evidence.</p>
+      <p class="mockup-note">Review target: node placement, relationship labels, connection styling, hover detail behavior, and mobile stacking.</p>
+    </header>
+
+    <section class="network-stage" aria-label="Infrastructure-centered research network mockup">
+      <svg class="network-lines" viewBox="0 0 1180 720" aria-hidden="true">
+        <path class="edge" d="M590 350 C590 260 590 205 590 140"></path>
+        <path class="edge" d="M520 350 C395 305 285 270 185 235"></path>
+        <path class="edge" d="M660 350 C790 310 900 275 995 235"></path>
+        <path class="edge" d="M530 430 C430 505 335 555 250 610"></path>
+        <path class="edge" d="M650 430 C750 505 845 555 930 610"></path>
+        <path class="edge edge--secondary" d="M230 235 C370 115 500 95 590 140"></path>
+        <path class="edge edge--secondary" d="M995 235 C930 390 930 510 930 610"></path>
+        <path class="edge edge--secondary" d="M250 610 C395 655 685 655 930 610"></path>
+
+        <path class="edge-pulse" d="M590 350 C590 260 590 205 590 140"></path>
+        <path class="edge-pulse" d="M520 350 C395 305 285 270 185 235"></path>
+        <path class="edge-pulse" d="M660 350 C790 310 900 275 995 235"></path>
+        <path class="edge-pulse" d="M530 430 C430 505 335 555 250 610"></path>
+        <path class="edge-pulse" d="M650 430 C750 505 845 555 930 610"></path>
+      </svg>
+
+      <span class="relationship-label label-cp">discovers subgroups</span>
+      <span class="relationship-label label-viz">connects evidence</span>
+      <span class="relationship-label label-bio">reveals mechanisms</span>
+      <span class="relationship-label label-soft">builds reusable tools</span>
+      <span class="relationship-label label-trans">integrates cohorts</span>
+      <span class="relationship-label label-loop-a">makes findings inspectable</span>
+      <span class="relationship-label label-loop-b">enables reproducibility</span>
+
+      <a class="network-node network-node--center" href="../research/reproducible-infrastructure/">
+        <span class="network-node__kicker">Central system</span>
+        <h2>Reproducible Infrastructure</h2>
+        <p>Transparent workflows, reusable methods, and scientific software that make discovery auditable.</p>
+        <ul class="node-examples">
+          <li>SciDataReportR</li>
+          <li>Dashboards & Reporting Frameworks</li>
+        </ul>
+      </a>
+
+      <a class="network-node network-node--cp" href="../research/computational-phenotyping/">
+        <span class="network-node__kicker">Hidden structure</span>
+        <h3>Computational Phenotyping</h3>
+        <p>Finds interpretable subgroups, trajectories, and cognitive profiles.</p>
+        <ul class="node-examples">
+          <li>Cognitive profile papers</li>
+          <li>Phenotyping pipelines</li>
+        </ul>
+      </a>
+
+      <a class="network-node network-node--viz" href="../research/scientific-visualization/">
+        <span class="network-node__kicker">Evidence layer</span>
+        <h3>Scientific Visualization</h3>
+        <p>Makes multidimensional analyses inspectable by collaborators.</p>
+        <ul class="node-examples">
+          <li>Interactive reports</li>
+          <li>Dashboard frameworks</li>
+        </ul>
+      </a>
+
+      <a class="network-node network-node--bio" href="../research/biomarker-systems/">
+        <span class="network-node__kicker">Mechanisms</span>
+        <h3>Biomarker Systems</h3>
+        <p>Links molecular signals, multi-omics, and clinical brain health questions.</p>
+        <ul class="node-examples">
+          <li>Metabolomic mediation</li>
+          <li>MultiPlexReportR</li>
+        </ul>
+      </a>
+
+      <a class="network-node network-node--soft" href="../research/software-systems/">
+        <span class="network-node__kicker">Reusable tools</span>
+        <h3>Software Systems</h3>
+        <p>Turns analytical methods into maintained scientific infrastructure.</p>
+        <ul class="node-examples">
+          <li>MEAnalyzer</li>
+          <li>SciDataReportR</li>
+        </ul>
+      </a>
+
+      <a class="network-node network-node--trans" href="../research/translational-neuroinformatics/">
+        <span class="network-node__kicker">Cohort translation</span>
+        <h3>Translational Neuroinformatics</h3>
+        <p>Connects cohorts, cognition, biomarkers, and brain health translation.</p>
+        <ul class="node-examples">
+          <li>BRACE</li>
+          <li>Long COVID BBB</li>
+          <li>MWCCS / CHARTER</li>
+        </ul>
+      </a>
+
+      <aside class="example-panel" aria-label="Example hover detail panel">
+        <div class="example-panel__label">Hover detail pattern</div>
+        <h3>Example publications and software</h3>
+        <p>Hovering a node emphasizes its relationship to reproducible infrastructure and surfaces concise examples without making the map feel like a long list.</p>
+      </aside>
+    </section>
+
+    <section class="state-grid" aria-label="Hover behavior examples">
+      <article class="state-card">
+        <strong>Biomarker hover</strong>
+        <p>Highlights `reveals mechanisms`, the infrastructure-to-biomarkers connection, and examples such as metabolomic mediation and MultiPlexReportR.</p>
+      </article>
+      <article class="state-card">
+        <strong>Software hover</strong>
+        <p>Highlights `builds reusable tools`, the software-to-infrastructure feedback loop, and examples such as MEAnalyzer and SciDataReportR.</p>
+      </article>
+    </section>
+
+    <section class="mobile-preview" aria-label="Mobile stacked network mockup">
+      <article class="mobile-preview__card">
+        <span>Central system</span>
+        <h3>Reproducible Infrastructure</h3>
+        <p>Transparent workflows, reusable methods, and scientific software that make discovery auditable. Examples: SciDataReportR, Dashboards & Reporting Frameworks.</p>
+      </article>
+      <article class="mobile-preview__card">
+        <span>discovers subgroups</span>
+        <h3>Computational Phenotyping</h3>
+        <p>Hidden structure discovery through cognitive profiles and phenotyping pipelines.</p>
+      </article>
+      <article class="mobile-preview__card">
+        <span>reveals mechanisms</span>
+        <h3>Biomarker Systems</h3>
+        <p>Metabolomic mediation, multiplex biomarkers, and molecular interpretation.</p>
+      </article>
+      <article class="mobile-preview__card">
+        <span>connects evidence</span>
+        <h3>Scientific Visualization</h3>
+        <p>Interactive reports and dashboards that make findings inspectable.</p>
+      </article>
+      <article class="mobile-preview__card">
+        <span>builds reusable tools</span>
+        <h3>Software Systems</h3>
+        <p>MEAnalyzer, SciDataReportR, and reusable analytical frameworks.</p>
+      </article>
+      <article class="mobile-preview__card">
+        <span>integrates cohorts</span>
+        <h3>Translational Neuroinformatics</h3>
+        <p>BRACE, Long COVID BBB, MWCCS / CHARTER, and brain health cohorts.</p>
+      </article>
+    </section>
+  </main>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const demo = params.get("demo");
+    const states = {
+      bio: {
+        selector: ".network-node--bio",
+        title: "Biomarker Systems",
+        body: "When hovered, this node would brighten its infrastructure connection and surface examples such as the metabolomic mediation paper and MultiPlexReportR."
+      },
+      soft: {
+        selector: ".network-node--soft",
+        title: "Software Systems",
+        body: "When hovered, this node would brighten the reusable-tools connection and surface examples such as MEAnalyzer and SciDataReportR."
+      }
+    };
+
+    if (states[demo]) {
+      document.querySelector(states[demo].selector)?.classList.add("is-demo-hover");
+      const panel = document.querySelector(".example-panel");
+      if (panel) {
+        panel.innerHTML = `<div class="example-panel__label">Demo hover state</div><h3>${states[demo].title}</h3><p>${states[demo].body}</p>`;
+      }
+    }
+
+    if (params.get("view") === "network") {
+      document.body.classList.add("focus-network");
+    }
+  </script>
+</body>
+</html>

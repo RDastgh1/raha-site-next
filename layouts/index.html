@@ -9,6 +9,7 @@
 {{ $honors := hugo.Data.honors.items }}
 {{ $profile := hugo.Data.profile_layers }}
 {{ $softwareEcosystem := hugo.Data.software_ecosystem }}
+{{ $programs := hugo.Data.research_programs.items }}
 <main class="site-shell">
   {{ partial "site-nav.html" . }}
 
@@ -22,9 +23,15 @@
         <h1>Raha Dastgheyb</h1>
         <div class="raha-title-rotator" aria-label="Professional identities" data-title-rotator>
           <span>Biomedical Engineer</span>
-          <span>Computational Scientist</span>
+          <span>Translational Data Scientist</span>
+          <span>Computational Neuroscientist</span>
           <span>Scientific Software Builder</span>
-          <span>AI-Assisted Discovery Leader</span>
+          <span>Reproducible Systems Architect</span>
+        </div>
+        <div class="faculty-identity" aria-label="Academic appointment">
+          <strong>Assistant Professor of Neurology</strong>
+          <span>Division of Neuroimmunology</span>
+          <span>Johns Hopkins School of Medicine</span>
         </div>
         <p class="raha-hero__tagline">Building computational tools that transform complex biomedical data into scientific insight through reproducible analytics, open-source scientific software, and human-in-the-loop AI-assisted discovery.</p>
         <div class="raha-actions">
@@ -50,6 +57,12 @@
           </a>
           <a href="https://bsky.app/profile/rahaphd.bsky.social" aria-label="Bluesky">
             {{ partial "social-icon.html" "bluesky" }}<span>Bluesky</span>
+          </a>
+          <a href="https://profiles.hopkinsmedicine.org/provider/raha-dastgheyb/2777202" aria-label="Hopkins Faculty Profile">
+            <span>Hopkins Faculty</span>
+          </a>
+          <a href="https://pure.johnshopkins.edu/en/persons/raha-dastgheyb/" aria-label="Hopkins PURE Fingerprint Profile">
+            <span>PURE Fingerprint</span>
           </a>
         </div>
       </div>
@@ -84,23 +97,18 @@
   <section class="raha-section" id="methods">
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Methods and Toolchain</div>
-      <h2>Computational methods made usable for scientific teams.</h2>
-      <p class="raha-section__lede">The old site named the skills plainly: R, MATLAB, GUI app development, visualization, statistics, neuroscience, networks, and machine learning. The current site keeps that practical engineering identity while connecting it to biomedical AI, computational biology, multi-omics, biomarker discovery, and reproducible research.</p>
-      <div class="tool-strip" aria-label="Computational toolchain">
+      <h2>Scientific capabilities for finding hidden structure in biomedical data.</h2>
+      <div class="tool-strip tool-strip--capabilities" aria-label="Scientific capabilities">
         {{ range $softwareEcosystem.tools }}
         <article class="tool-chip">
-          <strong>{{ .label }}</strong>
+          {{ if .logo }}
+          <img src="{{ .logo }}" alt="{{ .label }} logo">
+          {{ else }}
+          <strong>{{ .icon | default .label }}</strong>
+          {{ end }}
           <span>{{ .title }}</span>
           <p>{{ .description }}</p>
         </article>
-        {{ end }}
-      </div>
-      <div class="method-grid method-grid--home">
-        {{ range first 6 $profile.methods }}
-        <a class="method-card" href="{{ "methods/" | relURL }}">
-          <h3>{{ .title }}</h3>
-          <p>{{ .summary }}</p>
-        </a>
         {{ end }}
       </div>
     </div>
@@ -122,7 +130,7 @@
           </article>
           <article>
             <span>02</span>
-            <h3>Computational Scientist</h3>
+            <h3>Translational Data Scientist</h3>
             <p>Using machine learning, statistics, networks, and data visualization to reveal meaningful cognitive, clinical, and biomarker phenotypes.</p>
           </article>
           <article>
@@ -175,8 +183,8 @@
   <section class="raha-section" id="research">
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Research Architecture</div>
-      <h2>Three pillars for modern biomedical discovery.</h2>
-      <p class="raha-section__lede">The research architecture connects computational discovery, scientific software infrastructure, and responsible AI-assisted science to biomarkers, multi-omics, visualization, reproducibility, people, and impact.</p>
+      <h2>An interconnected research ecosystem for translational discovery.</h2>
+      <p class="raha-section__lede">The research architecture connects hidden structure in complex biomedical data to scientific infrastructure, translational science, biomarkers, multi-omics, visualization, reproducibility, people, and impact.</p>
       <div class="raha-map" aria-label="Research architecture map">
         <a class="raha-map__node" href="{{ "research/computational-phenotyping/" | relURL }}">Computational Phenotyping</a>
         <a class="raha-map__node" href="{{ "research/scientific-visualization/" | relURL }}">Scientific Visualization</a>
@@ -209,7 +217,6 @@
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Selected Publications</div>
       <h2>Highlighted papers as research portals.</h2>
-      <p class="raha-section__lede">A curated set of papers that connect computational phenotyping, biomarker discovery, software systems, biomedical data science, and reproducible infrastructure.</p>
       <div class="publication-grid publication-grid--highlighted">
         {{ $pubPages := where site.RegularPages "Section" "publication" }}
         {{ range $highlightedPublications }}
@@ -281,7 +288,7 @@
         {{ end }}
       </div>
       <div class="program-grid program-grid--home">
-        {{ range first 3 $profile.programs }}
+        {{ range first 3 $programs }}
         <a class="program-card" href="{{ "programs/" | relURL }}">
           <h3>{{ .title }}</h3>
           <p>{{ .summary }}</p>
@@ -325,7 +332,7 @@
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">People</div>
       <h2>Mentorship, trainees, and collaborators extend the infrastructure.</h2>
-      <p class="raha-section__lede">A dedicated people section is ready for current trainees, former trainees, and collaborators across software, data science, and translational brain health programs.</p>
+      <p class="raha-section__lede">Current trainees, former trainees, and collaborators make the scientific software, cohort analytics, and translational discovery ecosystem possible.</p>
       <a class="raha-button" href="{{ "people/" | relURL }}">People</a>
     </div>
   </section>
@@ -363,8 +370,9 @@
   <section class="raha-section" id="contact">
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Contact</div>
-      <h2>Collaborations, grants, talks, scientific software, and translational data systems.</h2>
-      <p class="raha-section__lede">Open to collaborations around biomedical data science, responsible AI-assisted discovery, open-source software, biomarker discovery, computational biology, and reproducible research infrastructure.</p>
+      <h2>Collaborations, speaking invitations, trainee opportunities, software inquiries, and interdisciplinary research partnerships.</h2>
+      <p class="contact-email">raha [at] jhmi [dot] edu</p>
+      <p class="raha-section__lede">Open to collaborations, speaking invitations, trainee opportunities, software inquiries, and interdisciplinary research partnerships.</p>
     </div>
   </section>
 

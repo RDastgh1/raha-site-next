@@ -8,19 +8,31 @@
     <div class="portal-panel">
       <div class="raha-section__eyebrow">Current Trainees</div>
       {{ range hugo.Data.people.current_trainees }}
-      <div class="people-item"><strong>{{ .name }}</strong><span>{{ .role }}</span><p>{{ .summary }}</p></div>
+      <div class="people-item">
+        {{ if .url }}<a href="{{ .url }}"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
+        <span>{{ .role }}{{ with .institution }} · {{ . }}{{ end }}</span>
+        <p>{{ .summary }}</p>
+      </div>
       {{ end }}
     </div>
     <div class="portal-panel">
       <div class="raha-section__eyebrow">Former Trainees</div>
       {{ range hugo.Data.people.former_trainees }}
-      <div class="people-item"><strong>{{ .name }}</strong><span>{{ .role }}</span><p>{{ .summary }}</p></div>
+      <div class="people-item">
+        {{ if .url }}<a href="{{ .url }}"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
+        <span>{{ .role }}{{ with .institution }} · {{ . }}{{ end }}</span>
+        <p>{{ .summary }}</p>
+      </div>
       {{ end }}
     </div>
     <div class="portal-panel">
       <div class="raha-section__eyebrow">Collaborators</div>
       {{ range hugo.Data.people.collaborators }}
-      <div class="people-item"><strong>{{ .name }}</strong><span>{{ .role }}</span><p>{{ .summary }}</p></div>
+      <div class="people-item">
+        {{ if .url }}<a href="{{ .url }}"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
+        <span>{{ .role }}{{ with .institution }} · {{ . }}{{ end }}</span>
+        <p>{{ .summary }}</p>
+      </div>
       {{ end }}
     </div>
   </section>

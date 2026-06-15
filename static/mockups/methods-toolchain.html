@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Methods & Toolchain Mockup</title>
+  <style>
+    :root {
+      --bg: #07111d;
+      --bg-deep: #030812;
+      --panel: rgba(8, 18, 31, 0.84);
+      --panel-strong: rgba(10, 24, 40, 0.94);
+      --cyan: #62d8ef;
+      --violet: #9c77d8;
+      --mint: #8debd2;
+      --text: #eef7fb;
+      --muted: #b9c8d3;
+      --border: rgba(98, 216, 239, 0.26);
+      --border-strong: rgba(98, 216, 239, 0.58);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 18% 20%, rgba(98, 216, 239, 0.14), transparent 24rem),
+        radial-gradient(circle at 74% 28%, rgba(156, 119, 216, 0.12), transparent 24rem),
+        linear-gradient(180deg, var(--bg-deep), var(--bg));
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    main {
+      width: min(1160px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 4rem 0;
+    }
+
+    .eyebrow,
+    .capability__label,
+    .toolmark__label {
+      color: var(--cyan);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0.85rem 0 1rem;
+      font-size: clamp(2.6rem, 6vw, 5rem);
+      line-height: 0.98;
+    }
+
+    .lede {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.8;
+    }
+
+    .capability-map {
+      display: grid;
+      grid-template-columns: 1.05fr 1.7fr;
+      gap: 1rem;
+      margin-top: 2.4rem;
+      align-items: stretch;
+    }
+
+    .toolmarks {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .toolmark,
+    .capability {
+      border: 1px solid var(--border);
+      border-radius: 0.55rem;
+      background:
+        linear-gradient(135deg, rgba(98, 216, 239, 0.08), transparent 45%),
+        var(--panel);
+      box-shadow: 0 0 32px rgba(98, 216, 239, 0.08);
+    }
+
+    .toolmark {
+      display: grid;
+      grid-template-columns: 6rem 1fr;
+      gap: 1rem;
+      min-height: 12rem;
+      padding: 1rem;
+      align-items: center;
+    }
+
+    .toolmark__logo {
+      display: grid;
+      place-items: center;
+      width: 5.2rem;
+      height: 5.2rem;
+      border: 1px solid rgba(98, 216, 239, 0.24);
+      border-radius: 1.2rem;
+      background: rgba(238, 247, 251, 0.94);
+      box-shadow: inset 0 0 20px rgba(3, 8, 18, 0.1);
+    }
+
+    .toolmark__logo img {
+      max-width: 4.2rem;
+      max-height: 4.2rem;
+      object-fit: contain;
+    }
+
+    .toolmark h2,
+    .capability h2 {
+      margin: 0.35rem 0 0.45rem;
+      font-size: 1.45rem;
+      line-height: 1.05;
+    }
+
+    .toolmark p,
+    .capability p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .capabilities {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .capability {
+      min-height: 14rem;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .capability::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 78% 18%, rgba(156, 119, 216, 0.12), transparent 8rem);
+      pointer-events: none;
+    }
+
+    .capability > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .icon {
+      width: 4.6rem;
+      height: 4.6rem;
+      margin-bottom: 0.9rem;
+      color: var(--cyan);
+    }
+
+    .icon path,
+    .icon circle,
+    .icon line,
+    .icon polyline,
+    .icon rect {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.55;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .icon .accent {
+      color: var(--violet);
+      stroke: currentColor;
+    }
+
+    .icon .mint {
+      color: var(--mint);
+      stroke: currentColor;
+    }
+
+    @media (max-width: 900px) {
+      .capability-map {
+        grid-template-columns: 1fr;
+      }
+
+      .capabilities {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 560px) {
+      main {
+        padding: 2rem 0;
+      }
+
+      h1 {
+        font-size: clamp(2.2rem, 13vw, 3.2rem);
+      }
+
+      .toolmark {
+        grid-template-columns: 1fr;
+      }
+
+      .capabilities {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Methods and Toolchain Mockup</div>
+    <h1>Scientific capabilities for finding hidden structure in biomedical data.</h1>
+    <p class="lede">A more polished capability map: recognizable analytical environments, custom scientific icons, and concise methods language without placeholder-style abbreviations.</p>
+
+    <section class="capability-map" aria-label="Methods and toolchain capability map">
+      <div class="toolmarks">
+        <article class="toolmark">
+          <div class="toolmark__logo">
+            <img src="https://www.r-project.org/logo/Rlogo.png" alt="R logo">
+          </div>
+          <div>
+            <div class="toolmark__label">Reproducible analytics</div>
+            <h2>R</h2>
+            <p>Statistical workflows, open-source reporting, visualization, and biomedical data science.</p>
+          </div>
+        </article>
+        <article class="toolmark">
+          <div class="toolmark__logo">
+            <img src="https://www.mathworks.com/company/technical-articles/the-mathworks-logo-is-an-eigenfunction-of-the-wave-equation/_jcr_content/mainParsys/image_2.adapt.full.medium.gif/1744712359615.gif" alt="MATLAB logo">
+          </div>
+          <div>
+            <div class="toolmark__label">Biomedical applications</div>
+            <h2>MATLAB</h2>
+            <p>Signal processing, app development, GUI tools, and quantitative neuroscience workflows.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="capabilities">
+        <article class="capability">
+          <svg class="icon" viewBox="0 0 80 80" aria-hidden="true">
+            <circle cx="22" cy="24" r="7"></circle><circle cx="54" cy="20" r="6"></circle><circle cx="58" cy="54" r="8"></circle><circle cx="25" cy="58" r="6"></circle>
+            <path d="M28 27 L48 22 M56 27 L58 46 M51 56 L31 58 M27 52 L22 31"></path>
+            <path class="accent" d="M30 29 C43 33 49 40 55 48"></path>
+          </svg>
+          <div class="capability__label">Pattern discovery</div>
+          <h2>Machine Learning</h2>
+          <p>Clustering, dimensionality reduction, prediction, and interpretable biomarker discovery.</p>
+        </article>
+        <article class="capability">
+          <svg class="icon" viewBox="0 0 80 80" aria-hidden="true">
+            <path d="M14 58 C24 38 34 48 44 28 S62 20 68 14"></path>
+            <path class="accent" d="M14 66 H68 M14 66 V14"></path>
+            <circle class="mint" cx="24" cy="48" r="3"></circle><circle class="mint" cx="43" cy="29" r="3"></circle><circle class="mint" cx="61" cy="20" r="3"></circle>
+          </svg>
+          <div class="capability__label">Evidence inspection</div>
+          <h2>Data Visualization</h2>
+          <p>Interactive figures and reports that help scientists inspect multidimensional evidence.</p>
+        </article>
+        <article class="capability">
+          <svg class="icon" viewBox="0 0 80 80" aria-hidden="true">
+            <rect x="13" y="16" width="54" height="38" rx="4"></rect>
+            <path d="M24 64 H56 M34 54 V64 M46 54 V64"></path>
+            <path class="accent" d="M24 28 H42 M24 38 H56 M24 47 H36"></path>
+            <circle class="mint" cx="56" cy="28" r="4"></circle>
+          </svg>
+          <div class="capability__label">Usable interfaces</div>
+          <h2>GUI Development</h2>
+          <p>Apps and dashboards that make complex workflows usable by interdisciplinary teams.</p>
+        </article>
+        <article class="capability">
+          <svg class="icon" viewBox="0 0 80 80" aria-hidden="true">
+            <path d="M17 58 C25 20 55 20 63 58"></path>
+            <path class="accent" d="M17 22 C25 60 55 60 63 22"></path>
+            <path d="M25 30 H55 M22 42 H58 M25 54 H55"></path>
+            <circle class="mint" cx="40" cy="42" r="3"></circle>
+          </svg>
+          <div class="capability__label">Molecular integration</div>
+          <h2>Multi-omics</h2>
+          <p>Integrated molecular, imaging, clinical, cognitive, and behavioral analysis workflows.</p>
+        </article>
+        <article class="capability">
+          <svg class="icon" viewBox="0 0 80 80" aria-hidden="true">
+            <rect x="25" y="10" width="30" height="58" rx="8"></rect>
+            <path d="M32 20 H48 M33 56 H47"></path>
+            <path class="accent" d="M19 38 C26 30 33 30 40 38 S54 46 61 38"></path>
+            <circle class="mint" cx="40" cy="38" r="3"></circle>
+          </svg>
+          <div class="capability__label">Longitudinal signals</div>
+          <h2>Digital Phenotyping</h2>
+          <p>Wearables, tablet-based neuropsychology, actigraphy, and longitudinal signal streams.</p>
+        </article>
+        <article class="capability">
+          <svg class="icon" viewBox="0 0 80 80" aria-hidden="true">
+            <path d="M20 24 L40 12 L60 24 V56 L40 68 L20 56 Z"></path>
+            <path d="M20 24 L40 36 L60 24 M40 36 V68"></path>
+            <path class="accent" d="M30 48 L38 56 L52 40"></path>
+          </svg>
+          <div class="capability__label">Reusable systems</div>
+          <h2>Scientific Software</h2>
+          <p>Open-source research infrastructure that makes methods reusable and auditable.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,14 +1,16 @@
 {{ define "main" }}
 {{ partial "site-nav.html" . }}
 <main class="content-page content-page--wide programs-page">
-  <p class="raha-kicker">Program Building</p>
+  <p class="raha-kicker">Research Programs</p>
   <h1>{{ .Title }}</h1>
   {{ with .Content }}{{ . }}{{ end }}
   <section class="program-grid">
-    {{ range hugo.Data.profile_layers.programs }}
+    {{ range hugo.Data.research_programs.items }}
     <article class="program-card">
       <h2>{{ .title }}</h2>
+      {{ with .role }}<strong>{{ . }}</strong>{{ end }}
       <p>{{ .summary }}</p>
+      {{ with .url }}<a class="raha-button raha-button--secondary" href="{{ . }}">Program</a>{{ end }}
     </article>
     {{ end }}
   </section>
