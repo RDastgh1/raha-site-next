@@ -4,23 +4,26 @@ summary: "In-development metabolomics reporting for multi-omics biomedical disco
 tags: ["In Development", "scientific software", "open-source software", "metabolomics", "multi-omics", "biomarker discovery"]
 github: "https://github.com/RDastgh1"
 documentation: ""
-problem: "Metabolomics datasets require careful metadata tracking, quality control, statistical analysis, visualization, and biological interpretation across many correlated measurements."
-needed: "Researchers need reproducible analytical workflows that help connect metabolite patterns to clinical, cognitive, imaging, and molecular context."
-enables: "MetabolomicsReportR is in development to support transparent metabolomics reports for multi-omics integration, biomarker discovery, and hypothesis generation."
+problem: "Modern metabolomics studies generate hundreds to thousands of molecular measurements that require rigorous quality control, normalization, statistical modeling, pathway interpretation, and biological contextualization."
+
+needed: "Researchers need transparent workflows that transform metabolite-level findings into interpretable biological mechanisms while preserving reproducibility and analytical rigor."
+
+enables: "MetabolomicsReportR provides reproducible metabolomics workflows for quality assessment, statistical discovery, pathway enrichment, network-based interpretation, and biologically informed reporting."
 capabilities:
-  - title: "Metadata-aware reporting"
-    summary: "Study design, sample annotations, and measurement context are incorporated into reproducible report outputs."
-  - title: "Statistical workflows"
-    summary: "Reusable summaries support group comparisons, associations, exploratory modeling, and report-ready tables."
-  - title: "Multi-omics integration"
-    summary: "Reports are designed to connect metabolomics patterns with clinical, behavioral, imaging, and other molecular data."
-evidence:
-  - title: "Ecosystem role"
-    summary: "MetabolomicsReportR extends SciDataReportR for metabolomics and cross-domain biomedical integration."
-  - title: "Responsible discovery"
-    summary: "The workflow emphasizes transparency, reproducibility, and scientific judgment over automated claims."
+  - title: "Quality control and preprocessing"
+    summary: "Assess missingness, outliers, batch effects, normalization performance, and overall data quality through reproducible workflows."
+
+  - title: "Statistical discovery"
+    summary: "Support differential metabolite analysis, association testing, longitudinal modeling, biomarker discovery, and exploratory machine learning."
+
+  - title: "Pathway enrichment and interpretation"
+    summary: "Connect metabolite-level findings to biological pathways, molecular processes, and disease mechanisms using modern enrichment approaches."
+
+  - title: "RaMP-DB integration"
+    summary: "Leverage the RaMP knowledgebase to harmonize metabolite identifiers and connect findings across pathways, reactions, metabolites, genes, and biological annotations."
+
+  - title: "Publication-ready reporting"
+    summary: "Generate transparent reports, visualizations, and analytical summaries that document the full metabolomics workflow."
 ---
 
-MetabolomicsReportR is part of the SciDataReportR ecosystem for reproducible biomedical data science. It focuses on metabolomics workflows where high-dimensional molecular measurements need to be explored, visualized, and interpreted alongside clinical and translational data.
-
-The goal is to make metabolomics analysis more inspectable: quality control, statistical summaries, dimensionality reduction, clustering, and biomarker discovery should be captured in reusable reports rather than reconstructed by hand.
+MetabolomicsReportR is an open-source component of the SciDataReportR ecosystem designed to standardize metabolomics analysis workflows. The package emphasizes reproducible quality control, statistical discovery, pathway enrichment, and biological interpretation, helping researchers move from metabolite measurements to mechanistic insight.
