@@ -1,5 +1,9 @@
 ---
 
+
+
+
+
 bibtex_key: "ridgeway2026beyond"
 slug: "2026-beyond-accuracy-facial-emotion-perception-bias-in-people-with-hiv-in-uganda"
 title: "Beyond accuracy: facial emotion perception bias in people with HIV in Uganda"
@@ -27,13 +31,13 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1007/s13365-025-01290-7"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "paper-figure-thumbnail.png"
 visual_abstract: ""
 abstract: ""
-extracted_figure: "extracted-figure-page-1.png"
-extracted_figure_source_pdf: "Beyond accuracy- facial emotion perception bias in people with HIV in Uganda.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure: "paper-figure-thumbnail.png"
+extracted_figure_source_pdf: "13365_2025_1290_Fig2_HTML.png"
+extracted_figure_page: ""
+extracted_figure_confidence: "0.95"
 plain_language_summary: "Published in Journal of neurovirology in 2026 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -54,6 +58,7 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
+thumbnail_alt: "Figure from Beyond accuracy: facial emotion perception bias in people with HIV in Uganda"
 ---
 ## Why this paper matters
 

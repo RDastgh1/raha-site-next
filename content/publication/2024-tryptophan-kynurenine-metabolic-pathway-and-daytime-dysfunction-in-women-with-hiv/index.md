@@ -1,4 +1,8 @@
 ---
+
+
+
+
 bibtex_key: "shorer2024tryptophan"
 slug: "2024-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-with-hiv"
 title: "Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV"
@@ -26,13 +30,13 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1007/s13365-024-01195-x"
 tier: "archive"
 featured: false
-thumbnail: "media/publications/generated/2024-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-with-hiv.svg"
+thumbnail: "paper-figure-thumbnail.png"
 visual_abstract: ""
 abstract: ""
-extracted_figure: ""
-extracted_figure_source_pdf: ""
+extracted_figure: "paper-figure-thumbnail.png"
+extracted_figure_source_pdf: "13365_2024_1195_Fig1_HTML.png"
 extracted_figure_page: ""
-extracted_figure_confidence: ""
+extracted_figure_confidence: "0.95"
 plain_language_summary: "Published in Journal of neurovirology in 2024 contributes to biomarker systems and cognitive health. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in biomarker systems and cognitive health, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -55,6 +59,7 @@ related_community:
 tags:
   - "biomarker-systems"
   - "translational-neuroinformatics"
+thumbnail_alt: "Figure from Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV"
 ---
 ## Why this paper matters
 

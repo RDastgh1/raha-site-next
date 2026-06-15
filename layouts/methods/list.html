@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page content-page--wide methods-page">
+  <p class="raha-kicker">Methods & Toolchain</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <section class="method-grid">
+    {{ range hugo.Data.profile_layers.methods }}
+    <article class="method-card">
+      <h2>{{ .title }}</h2>
+      <p>{{ .summary }}</p>
+    </article>
+    {{ end }}
+  </section>
+</main>
+{{ end }}

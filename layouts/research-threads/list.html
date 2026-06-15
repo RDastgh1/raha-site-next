@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page ecosystem-page">
+  <p class="raha-kicker">Research Ecosystem</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <div class="thread-grid">
+    {{ range hugo.Data.research_threads.items }}
+    <a class="thread-card" href="{{ printf "research-threads/%s/" .slug | relURL }}">
+      <div class="raha-card__label">{{ .label }}</div>
+      <h2>{{ .title }}</h2>
+      <p>{{ .summary }}</p>
+      <span>{{ .question }}</span>
+    </a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

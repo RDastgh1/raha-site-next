@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page content-page--wide software-page">
+  <p class="raha-kicker">Scientific Software</p>
+  <header class="software-hero">
+    <div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}<p class="raha-section__lede">{{ . }}</p>{{ end }}
+      <div class="publication-actions">
+        {{ with .Params.github }}<a class="raha-button" href="{{ . }}">GitHub</a>{{ end }}
+        {{ with .Params.documentation }}<a class="raha-button" href="{{ . }}">Documentation</a>{{ end }}
+        {{ with .Params.tutorial }}<a class="raha-button raha-button--secondary" href="{{ . }}">Tutorial</a>{{ end }}
+      </div>
+    </div>
+    <div class="software-signal">
+      <span>Scientific problem</span>
+      <strong>{{ .Params.problem | default "Complex data need reproducible, interpretable analytic systems." }}</strong>
+    </div>
+  </header>
+
+  <section class="software-panels">
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Why It Was Needed</div>
+      <p>{{ .Params.needed | default "This system addresses a bottleneck where useful methods can be hard to reproduce, inspect, or share across collaborators." }}</p>
+    </div>
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">What It Enables</div>
+      <p>{{ .Params.enables | default "The software turns a specialized analytic workflow into reusable scientific infrastructure." }}</p>
+    </div>
+  </section>
+
+  <article class="software-body">
+    {{ .Content }}
+  </article>
+
+  {{ with .Params.capabilities }}
+  <section class="software-capabilities">
+    <div class="raha-section__eyebrow">Capabilities</div>
+    <div class="capability-grid">
+      {{ range . }}
+      <article>
+        <h2>{{ .title }}</h2>
+        <p>{{ .summary }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{ if .Params.related_publications }}
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Related Publications</div>
+    <div class="publication-grid">
+      {{ range .Params.related_publications }}
+        {{ with site.GetPage (printf "publication/%s" .) }}
+          {{ partial "publication-card.html" (dict "page" . "variant" "standard") }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.evidence }}
+  <section class="software-placeholders software-evidence">
+    {{ range . }}
+    <div class="placeholder-panel">
+      <div class="raha-section__eyebrow">{{ .title }}</div>
+      <p>{{ .summary }}</p>
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+</main>
+{{ end }}

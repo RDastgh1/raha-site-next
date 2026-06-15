@@ -1,5 +1,7 @@
 ---
 
+
+
 bibtex_key: "yoo2024emotional"
 slug: "2024-emotional-loneliness-is-related-to-objective-cognitive-function-in-older-people-with-hiv-in-the-washington-baltimore-area-a-cross-sectional-study"
 title: "Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area: A Cross-sectional Study"
@@ -30,10 +32,10 @@ featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
 abstract: "Abstract"
-extracted_figure: "extracted-figure-page-1.png"
-extracted_figure_source_pdf: "Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area- A Cross-sectional Study.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure: ""
+extracted_figure_source_pdf: ""
+extracted_figure_page: ""
+extracted_figure_confidence: ""
 plain_language_summary: "Published in Journal of the Association of Nurses in AIDS Care in 2024 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -54,6 +56,7 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
+thumbnail_alt: "Publication preview for Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area: A Cross-sectional Study"
 ---
 ## Why this paper matters
 

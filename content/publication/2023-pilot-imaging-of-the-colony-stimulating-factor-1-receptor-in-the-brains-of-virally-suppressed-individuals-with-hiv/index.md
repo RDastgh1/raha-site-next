@@ -1,5 +1,7 @@
 ---
 
+
+
 bibtex_key: "rubin2023pilot"
 slug: "2023-pilot-imaging-of-the-colony-stimulating-factor-1-receptor-in-the-brains-of-virally-suppressed-individuals-with-hiv"
 title: "Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV"
@@ -30,10 +32,10 @@ featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
 abstract: "Objective:"
-extracted_figure: "extracted-figure-page-1.png"
-extracted_figure_source_pdf: "Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure: ""
+extracted_figure_source_pdf: ""
+extracted_figure_page: ""
+extracted_figure_confidence: ""
 plain_language_summary: "Published in Aids in 2023 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -54,6 +56,7 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
+thumbnail_alt: "Publication preview for Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV"
 ---
 ## Why this paper matters
 

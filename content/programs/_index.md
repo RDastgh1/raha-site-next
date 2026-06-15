@@ -1,6 +1,6 @@
 ---
-title: "Research Support & Program Building"
-summary: "Programmatic research areas, cohort infrastructure, funding history, and service that support the scientific ecosystem."
+title: "Research Programs"
+summary: "Scientific ecosystems, cohort infrastructure, and collaborations that organize the work."
 ---
 
-This section translates CV-style program history into a modern view of research infrastructure and scientific service.
+Research programs are distinct from research threads. They are the scientific ecosystems, cohorts, centers, and collaborations that organize the work and make translational data science possible.

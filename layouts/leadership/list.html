@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page content-page--wide leadership-page">
+  <p class="raha-kicker">Scientific Leadership</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <section class="leadership-primary">
+    {{ range hugo.Data.leadership.primary }}
+    <a class="leadership-card leadership-card--primary" href="{{ .url }}">
+      <div class="raha-card__label">Primary program</div>
+      <h2>{{ .title }}</h2>
+      <strong>{{ .role }}</strong>
+      <p>{{ .summary }}</p>
+    </a>
+    {{ end }}
+  </section>
+  <section class="ecosystem-columns">
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Affiliations</div>
+      {{ range hugo.Data.leadership.secondary }}
+      <div class="leadership-mini">
+        <strong>{{ .title }}</strong>
+        <span>{{ .role }}</span>
+        <p>{{ .summary }}</p>
+      </div>
+      {{ end }}
+    </div>
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Community Infrastructure</div>
+      {{ range hugo.Data.leadership.community }}
+      <a class="ecosystem-link" href="{{ .url | relURL }}">
+        <strong>{{ .title }}</strong>
+        <span>{{ .summary }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Program Building</div>
+    <div class="program-grid">
+      {{ range first 4 hugo.Data.profile_layers.programs }}
+      <article class="program-card">
+        <h2>{{ .title }}</h2>
+        <p>{{ .summary }}</p>
+      </article>
+      {{ end }}
+    </div>
+    <a class="raha-button" href="{{ "programs/" | relURL }}">Research Support</a>
+  </section>
+</main>
+{{ end }}

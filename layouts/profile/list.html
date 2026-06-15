@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page content-page--wide profile-page">
+  <p class="raha-kicker">Training Arc</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <section class="timeline-grid">
+    {{ range hugo.Data.profile_layers.training }}
+    <article class="timeline-card">
+      <span>{{ .years }}</span>
+      <h2>{{ .title }}</h2>
+      <strong>{{ .institution }}</strong>
+      <p>{{ .summary }}</p>
+    </article>
+    {{ end }}
+  </section>
+</main>
+{{ end }}

@@ -1,15 +1,5 @@
 {{ define "main" }}
-<nav class="raha-nav" aria-label="Primary navigation">
-  <a class="raha-brand" href="{{ "" | relURL }}">{{ site.Title }}</a>
-  <div class="raha-nav__links">
-    <a href="{{ "research/" | relURL }}">Research</a>
-    <a href="{{ "software/" | relURL }}">Software</a>
-    <a href="{{ "publication/" | relURL }}">Publications</a>
-    <a href="{{ "talks/" | relURL }}">Talks</a>
-    <a href="{{ "community/" | relURL }}">Community</a>
-    <a href="{{ "#contact" | relURL }}">Contact</a>
-  </div>
-</nav>
+{{ partial "site-nav.html" . }}
 <main class="content-page publication-index">
   <p class="raha-kicker">Publication Ecosystem</p>
   <h1>{{ .Title }}</h1>

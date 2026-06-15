@@ -1,6 +1,7 @@
 {{ $page := .page }}
 {{ $variant := .variant | default "standard" }}
 {{ $thumb := $page.Params.thumbnail }}
+{{ $thumbAlt := $page.Params.thumbnail_alt | default (printf "Figure from %s" $page.Title) }}
 {{ $thumbURL := "" }}
 {{ if $thumb }}
   {{ if hasPrefix $thumb "media/" }}
@@ -12,7 +13,7 @@
 <a class="publication-card publication-card--{{ $variant }} publication-card--{{ $page.Params.tier | default "archive" }}" href="{{ $page.RelPermalink }}">
   <div class="publication-card__media">
     {{ if $thumb }}
-    <img src="{{ $thumbURL }}" alt="">
+    <img src="{{ $thumbURL }}" alt="{{ $thumbAlt }}">
     {{ else }}
     <div class="publication-card__placeholder" aria-hidden="true"></div>
     {{ end }}

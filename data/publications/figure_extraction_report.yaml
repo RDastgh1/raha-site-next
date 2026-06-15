@@ -1,761 +1,647 @@
-method: "Rendered page 1 from associated PDFs with sips; confidence is moderate because this is page-level extraction rather than semantic graphical-abstract detection."
+method: "Existing publisher/paper figure assets were preferred by DOI/title. Three visually useful PDF-derived crops from the local bundles were retained after contact-sheet QA. Text-heavy automated crops were rejected and those papers were left on their prior publication preview pending manual figure selection."
 entries:
   -
     title: "Pulmonary hypertension in Chuvash polycythemia"
     slug: "2005-pulmonary-hypertension-in-chuvash-polycythemia"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "PULMONARY HYPERTENSION IN CHUVASH POLYCYTHEMIA.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Quantification of beading intensity in cultured neurons"
     slug: "2011-quantification-of-beading-intensity-in-cultured-neurons"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Quantification of beading intensity in cultured neurons.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells"
     slug: "2012-interactions-of-fluorescein-isothiocyanate-labeled-poloxamer-p188-with-cultured-cells"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    status: "retained_existing_crop"
+    extracted_figure: "paper-figure-thumbnail.png"
+    confidence: "0.90"
+    thumbnail_updated: false
   -
     title: "Mechanisms of axonal pathology in the context of traumatic brain injury"
     slug: "2014-mechanisms-of-axonal-pathology-in-the-context-of-traumatic-brain-injury"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Mechanisms of axonal pathology in the context of traumatic brain injury.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "SECONDARY MEMBRANE DAMAGE AND THE POTEN-TIAL FOR MEMBRANE-TARGETED NEUROPROTECTION"
     slug: "2014-secondary-membrane-damage-and-the-poten-tial-for-membrane-targeted-neuroprotection"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "The role of intracellular calcium in axonal injury"
     slug: "2014-the-role-of-intracellular-calcium-in-axonal-injury"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "The role of intracellular calcium in axonal injury.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Investigating sources of axonal calcium in neuronal cultures modeling Traumatic Brain Injury"
     slug: "2015-investigating-sources-of-axonal-calcium-in-neuronal-cultures-modeling-traumatic-brain-injury"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Quantifying focal disruptions in axonal microtubules"
     slug: "2015-quantifying-focal-disruptions-in-axonal-microtubules"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Quantifying focal disruptions in axonal microtubules Publisher- IEEE Cite This .pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.gif"
+    source_asset: "7117155-fig-3-source-small.gif"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Astrocyte-shed extracellular vesicles regulate synchronous network burst activity"
     slug: "2016-astrocyte-shed-extracellular-vesicles-regulate-synchronous-network-burst-activity"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Exosomes released from astrocytes in response to morphine and inflammatory cytokines deconstruct synaptic connections through modulation of microRNA cargo"
     slug: "2017-exosomes-released-from-astrocytes-in-response-to-morphine-and-inflammatory-cytokines-deconstruct-synaptic-connections-through-modulation-of-microrna-cargo"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Machine learning interrogation of clinical and plasma markers identify prognostic models for cognitive trajectory"
     slug: "2018-machine-learning-interrogation-of-clinical-and-plasma-markers-identify-prognostic-models-for-cognitive-trajectory"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons"
     slug: "2018-tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons"
-    status: "placeholder_used"
-    reason: "no associated PDF"
-    confidence: 0
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.jpg"
+    source_asset: "41419_2018_369_Fig8_HTML.jpg"
+    confidence: 0.95
+    thumbnail_updated: true
   -
     title: "15q11. 2 Deletion Results in Altered Excitability and Connectivity in Human Induced Pluripotent Stem Cell Derived Neurons (S51. 009)"
     slug: "2019-15q11-2-deletion-results-in-altered-excitability-and-connectivity-in-human-induced-pluripotent-stem-cell-derived-neurons-s51-009"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV"
     slug: "2019-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Cognitive trajectory phenotypes in human immunodeficiency virus-infected patients"
     slug: "2019-cognitive-trajectory-phenotypes-in-human-immunodeficiency-virus-infected-patients"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Elevated plasma eicosanoids are associated HIV-disease status and working memory in people living with HIV"
     slug: "2019-elevated-plasma-eicosanoids-are-associated-hiv-disease-status-and-working-memory-in-people-living-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda"
     slug: "2019-heterogeneity-in-neurocognitive-change-trajectories-among-people-with-hiv-starting-antiretroviral-therapy-in-rakai-uganda"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Lipidomic characterization of extracellular vesicles in human serum"
     slug: "2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "chen-et-al-2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    status: "retained_existing_crop"
+    extracted_figure: "paper-figure-thumbnail.png"
+    confidence: "0.90"
+    thumbnail_updated: false
   -
     title: "Loss of function variants in PCYT1A causing spondylometaphyseal dysplasia with cone/rod dystrophy have broad consequences on lipid metabolism, chondrocyte differentiation, and lipid droplet formation"
     slug: "2019-loss-of-function-variants-in-pcyt1a-causing-spondylometaphyseal-dysplasia-with-cone-rod-dystrophy-have-broad-consequences-on-lipid-metabolism-chondrocyte-differentiation-and-lipid-droplet-formation"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Modulation of neuronal dendritic spine morphology and function by astrocyte derived extracellular vesicles following morphine withdrawal"
     slug: "2019-modulation-of-neuronal-dendritic-spine-morphology-and-function-by-astrocyte-derived-extracellular-vesicles-following-morphine-withdrawal"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin"
     slug: "2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin"
     slug: "2019-molecularly-defined-cortical-astroglia-subpopulation-modulates-neurons-via-secretion-of-norrin-2"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging"
     slug: "2019-monocarboxylate-transporter-1-in-schwann-cells-is-critical-for-maintenance-of-sensory-nerve-myelination-during-aging"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Multielectrode array analysis of human iPSC-motor neuron maturation following coculture with iPSC-spinal cord astrocytes (P4. 4-031)"
     slug: "2019-multielectrode-array-analysis-of-human-ipsc-motor-neuron-maturation-following-coculture-with-ipsc-spinal-cord-astrocytes-p4-4-031"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Neurocognitive Profiles Among Virally Suppressed Women with HIV"
     slug: "2019-neurocognitive-profiles-among-virally-suppressed-women-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Role of human-induced pluripotent stem cell-derived spinal cord astrocytes in the functional maturation of motor neurons in a multielectrode array system"
     slug: "2019-role-of-human-induced-pluripotent-stem-cell-derived-spinal-cord-astrocytes-in-the-functional-maturation-of-motor-neurons-in-a-multielectrode-array-system"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Role of human-induced pluripotent stem cell-derived spinal cord astrocytes in the functional maturation of motor neurons in a multielectrode array system.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    status: "retained_existing_crop"
+    extracted_figure: "paper-figure-thumbnail.png"
+    confidence: "0.90"
+    thumbnail_updated: false
   -
     title: "Astrocytes deliver CK1 to neurons via extracellular vesicles in response to inflammation promoting the translation and amyloidogenic processing of APP"
     slug: "2020-astrocytes-deliver-ck1-to-neurons-via-extracellular-vesicles-in-response-to-inflammation-promoting-the-translation-and-amyloidogenic-processing-of-app"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "J of Extracellular Vesicle - 2021 - Li - Astrocytes deliver CK1 to neurons via extracellular vesicles in response to.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Connexin 43 hemichannels mediate spatial and temporal disease spread in ALS"
     slug: "2020-connexin-43-hemichannels-mediate-spatial-and-temporal-disease-spread-in-als"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Connexin 43 hemichannels mediate spatial and temporal disease spread in ALS.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Early inflammatory signatures predict subsequent cognition in long-term virally suppressed women with HIV"
     slug: "2020-early-inflammatory-signatures-predict-subsequent-cognition-in-long-term-virally-suppressed-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Early inflammatory signatures predict subsequent cognition in long-term virally suppressed women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Factors predicting detrimental change in declarative memory among women with HIV: A study of heterogeneity in cognition"
     slug: "2020-factors-predicting-detrimental-change-in-declarative-memory-among-women-with-hiv-a-study-of-heterogeneity-in-cognition"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Factors predicting detrimental change in declarative memory among women with HIV- A study of heterogeneity in cognition.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "MEAnalyzer-a spike train analysis tool for multi electrode arrays"
     slug: "2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays"
-    status: "placeholder_used"
-    reason: "no associated PDF"
-    confidence: 0
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.png"
+    source_asset: "12021_2019_9431_Fig2_HTML.png"
+    confidence: 0.95
+    thumbnail_updated: true
   -
     title: "Modeling the Human Corticospinal Tract-on-a-chip with Regionally-specific hiPSC-derived Neurons and Astrocytes (4811)"
     slug: "2020-modeling-the-human-corticospinal-tract-on-a-chip-with-regionally-specific-hipsc-derived-neurons-and-astrocytes-4811"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Monocarboxylate transporter 1 in Schwann cells contributes to maintenance of sensory nerve myelination during aging"
     slug: "2020-monocarboxylate-transporter-1-in-schwann-cells-contributes-to-maintenance-of-sensory-nerve-myelination-during-aging"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Monocarboxylate transporter 1 in Schwann cells contributes to maintenance of sensory nerve myelination during aging.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Sex differences in the patterns and predictors of cognitive function in HIV"
     slug: "2020-sex-differences-in-the-patterns-and-predictors-of-cognitive-function-in-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Sex Differences in the Patterns and Predictors of Cognitive Function in HIV.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.webp"
+    source_asset: "fneur-11-551921-g0001.webp"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV"
     slug: "2021-associations-between-antiretroviral-drugs-on-depressive-symptomatology-in-homogenous-subgroups-of-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Associations between antiretroviral drugs on depressive symptomatology in homogenous subgroups of women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Associations between antiretrovirals and cognitive function in women with HIV"
     slug: "2021-associations-between-antiretrovirals-and-cognitive-function-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Associations between antiretrovirals and cognitive function in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Dietary intake is associated with neuropsychological impairment in women with HIV"
     slug: "2021-dietary-intake-is-associated-with-neuropsychological-impairment-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Dietary intake is associated with neuropsychological impairment in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.jpg"
+    source_asset: "1-s2.0-S0002916522003380-gr1.jpg"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Integrase strand transfer inhibitor start or switch impacts learning in women with HIV"
     slug: "2021-integrase-strand-transfer-inhibitor-start-or-switch-impacts-learning-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Integrase strand transfer inhibitor start or switch impacts learning in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Patterns and predictors of cognitive function among virally suppressed women with HIV"
     slug: "2021-patterns-and-predictors-of-cognitive-function-among-virally-suppressed-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Patterns and predictors of cognitive function among virally suppressed women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.webp"
+    source_asset: "fneur-12-604984-g0001.webp"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Plasma microRNAs are associated with domain-specific cognitive function in people with HIV"
     slug: "2021-plasma-micrornas-are-associated-with-domain-specific-cognitive-function-in-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Plasma microRNAs are associated with domain-specific cognitive function in people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Starting or switching to an integrase inhibitor-based regimen affects PTSD symptoms in women with HIV"
     slug: "2021-starting-or-switching-to-an-integrase-inhibitor-based-regimen-affects-ptsd-symptoms-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Starting or switching to an integrase inhibitor-based regimen affects PTSD symptoms in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Associations between cerebrospinal fluid N-acetyl-aspartyl-glutamate (NAAG) and cognitive function in people with HIV"
     slug: "2022-associations-between-cerebrospinal-fluid-n-acetyl-aspartyl-glutamate-naag-and-cognitive-function-in-people-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Cx43 hemichannels contribute to astrocyte-mediated toxicity in sporadic and familial ALS"
     slug: "2022-cx43-hemichannels-contribute-to-astrocyte-mediated-toxicity-in-sporadic-and-familial-als"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "almad-et-al-2022-cx43-hemichannels-contribute-to-astrocyte-mediated-toxicity-in-sporadic-and-familial-als.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "T-cell activation state differentially contributes to neuropsychiatric complications in women with HIV"
     slug: "2022-t-cell-activation-state-differentially-contributes-to-neuropsychiatric-complications-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "T-cell activation state differentially contributes to neuropsychiatric complications in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression"
     slug: "2022-tumor-derived-extracellular-vesicles-modulate-innate-immune-responses-to-affect-tumor-progression"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Brain N-acetyl-aspartyl-glutamate (NAAG) is associated with cognitive function in virally-suppressed people living with HIV"
     slug: "2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-living-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Brain N-Acetyl-Aspartyl-Glutamate (NAAG) is Associated With Cognitive Function in Virally-Suppressed People With HIV"
     slug: "2023-brain-n-acetyl-aspartyl-glutamate-naag-is-associated-with-cognitive-function-in-virally-suppressed-people-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "First Organoid Intelligence (OI) workshop to form an OI community"
     slug: "2023-first-organoid-intelligence-oi-workshop-to-form-an-oi-community"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "First Organoid Intelligence (OI) workshop to form an OI community.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Intact HIV genomes within monocytes are associated with cognitive function in virally suppressed women with HIV"
     slug: "2023-intact-hiv-genomes-within-monocytes-are-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Integrase inhibitors are associated with neuropsychiatric symptoms in women with HIV"
     slug: "2023-integrase-inhibitors-are-associated-with-neuropsychiatric-symptoms-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Integrase Inhibitors are Associated with Neuropsychiatric Symptoms in Women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.webp"
+    source_asset: "11481_2021_10042_Figa_HTML.webp"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Machine learning approaches to understand cognitive phenotypes in people with HIV"
     slug: "2023-machine-learning-approaches-to-understand-cognitive-phenotypes-in-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Machine learning approaches to understand cognitive phenotypes in people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV"
     slug: "2023-pilot-imaging-of-the-colony-stimulating-factor-1-receptor-in-the-brains-of-virally-suppressed-individuals-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Pilot imaging of the colony stimulating factor 1 receptor in the brains of virally-suppressed individuals with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "The Baltimore declaration toward the exploration of organoid intelligence"
     slug: "2023-the-baltimore-declaration-toward-the-exploration-of-organoid-intelligence"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "The Baltimore declaration toward the exploration of organoid intelligence.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Trauma across the life span and multisystem morbidity in women with HIV"
     slug: "2023-trauma-across-the-life-span-and-multisystem-morbidity-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Trauma across the life span and multisystem morbidity in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Tryptophan-Kynurenine Metabolic Pathway and Daytime Dysfunction in Women Living With HIV"
     slug: "2023-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-living-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.png"
+    source_asset: "13365_2024_1195_Fig1_HTML.png"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Biopsychosocial phenotypes in people with HIV in the CHARTER cohort"
     slug: "2024-biopsychosocial-phenotypes-in-people-with-hiv-in-the-charter-cohort"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Biopsychosocial phenotypes in people with HIV in the CHARTER cohort.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV"
     slug: "2024-brain-n-acetyl-aspartyl-glutamate-is-associated-with-cognitive-function-in-older-virally-suppressed-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Common antiretroviral combinations are associated with somatic depressive symptoms in women with HIV"
     slug: "2024-common-antiretroviral-combinations-are-associated-with-somatic-depressive-symptoms-in-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Common antiretroviral combinations are associated with somatic depressive symptoms in women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Does cognitive intra-individual variability predict change in everyday functioning performance in women with and without HIV in the Women’s Interagency HIV Study?"
     slug: "2024-does-cognitive-intra-individual-variability-predict-change-in-everyday-functioning-performance-in-women-with-and-without-hiv-in-the-womens-interagency-hiv-study"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Does cognitive intra-individual variability predict change in everyday functioning performance in women with and without HIV in the Women’s Interagency HIV Study.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area: A Cross-sectional Study"
     slug: "2024-emotional-loneliness-is-related-to-objective-cognitive-function-in-older-people-with-hiv-in-the-washington-baltimore-area-a-cross-sectional-study"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area- A Cross-sectional Study.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV."
     slug: "2024-identifying-and-distinguishing-cognitive-profiles-among-virally-suppressed-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV..pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Phase-amplitude coupling detection and analysis of human 2-dimensional neural cultures in multi-well microelectrode array in vitro"
     slug: "2024-phase-amplitude-coupling-detection-and-analysis-of-human-2-dimensional-neural-cultures-in-multi-well-microelectrode-array-in-vitro"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Phase-amplitude coupling detection and analysis of human 2-dimensional neural cultures in multi-well microelectrode array in vitro.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Tryptophan-kynurenine metabolic pathway and daytime dysfunction in women with HIV"
     slug: "2024-tryptophan-kynurenine-metabolic-pathway-and-daytime-dysfunction-in-women-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
-    confidence: 0
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.png"
+    source_asset: "13365_2024_1195_Fig1_HTML.png"
+    confidence: 0.95
+    thumbnail_updated: true
   -
     title: "Tryptophan-Kynurenine Pathway Activation and Cognition in Virally Suppressed Women With HIV"
     slug: "2024-tryptophan-kynurenine-pathway-activation-and-cognition-in-virally-suppressed-women-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Altered development and network connectivity in a human neuronal model of 15q11. 2 deletion-related neurodevelopmental disorders"
     slug: "2025-altered-development-and-network-connectivity-in-a-human-neuronal-model-of-15q11-2-deletion-related-neurodevelopmental-disorders"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Altered development and network connectivity in a human neuronal model of 15q11. 2 deletion-related neurodevelopmental disorders.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Alzheimer's Imaging Consortium"
     slug: "2025-alzheimer-s-imaging-consortium"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Association Between Loneliness Subtypes and Brain Volume in Older Adults With HIV"
     slug: "2025-association-between-loneliness-subtypes-and-brain-volume-in-older-adults-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Associations Between Specific IADLs And Objective Cognitive Performance In Older Women With HIV"
     slug: "2025-associations-between-specific-iadls-and-objective-cognitive-performance-in-older-women-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Blood-Brain barrier disruption in long COVID and cognitive correlates: A cross-sectional MRI study"
     slug: "2025-blood-brain-barrier-disruption-in-long-covid-and-cognitive-correlates-a-cross-sectional-mri-study"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Blood-Brain barrier disruption in long COVID and cognitive correlates- A cross-sectional MRI study.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "BRACE-ing for the future: Establishing iPad-based norms for cognitive function in the MACS/WIHS Combined Cohort Study (Preprint)"
     slug: "2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: " BRACE-ing for the future- Establishing iPad-based norms for cognitive function in the MACS:WIHS Combined Cohort Study.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Cognitive Predictors of Everyday Functioning in Older Virally Suppressed Women with HIV in the Women’s Interagency HIV Study"
     slug: "2025-cognitive-predictors-of-everyday-functioning-in-older-virally-suppressed-women-with-hiv-in-the-womens-interagency-hiv-study"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Cognitive predictors of everyday functioning in women with HIV- findings from the women’s interagency HIV study.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Cognitive predictors of everyday functioning in women with HIV: findings from the women’s interagency HIV study"
     slug: "2025-cognitive-predictors-of-everyday-functioning-in-women-with-hiv-findings-from-the-womens-interagency-hiv-study"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Cognitive predictors of everyday functioning in women with HIV- findings from the women’s interagency HIV study.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.png"
+    source_asset: "12883_2025_4249_Fig1_HTML.png"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Development of a refined harmonization approach for longitudinal cognitive data in people with HIV"
     slug: "2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Development of a refined harmonization approach for longitudinal cognitive data in people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Imaging the translocator protein 18 KDa within cognitive control and declarative memory circuits in virally suppressed people with HIV"
     slug: "2025-imaging-the-translocator-protein-18-kda-within-cognitive-control-and-declarative-memory-circuits-in-virally-suppressed-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Imaging the translocator protein 18 KDa within cognitive control and declarative memory circuits in virally suppressed people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV"
     slug: "2025-intact-hiv-reservoir-in-monocytes-is-associated-with-cognitive-function-in-virally-suppressed-women-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Intact HIV reservoir in monocytes is associated with cognitive function in virally suppressed women with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.jpeg"
+    source_asset: "ArticleViewerPreview@2.00126334-202408150-00011.F1.jpeg"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "International application of an optimized harmonization approach for longitudinal cognitive data in people with HIV"
     slug: "2025-international-application-of-an-optimized-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "International application of an optimized harmonization approach for longitudinal cognitive data in people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Loneliness is related to facial emotion perception in people with HIV"
     slug: "2025-loneliness-is-related-to-facial-emotion-perception-in-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Loneliness is related to facial emotion perception in people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Mental health phenotypes of well-controlled HIV in Uganda"
     slug: "2025-mental-health-phenotypes-of-well-controlled-hiv-in-uganda"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Mental health phenotypes of well-controlled HIV in Uganda.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Metabolic changes mediate the link between social determinants and declarative memory in women with and without HIV"
     slug: "2025-metabolic-changes-mediate-the-link-between-social-determinants-and-declarative-memory-in-women-with-and-without-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Alzheimer s   Dementia - 2025 - Tejera - Metabolic changes mediate the link between social determinants and declarative.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Multiplexing Proteomic and Ingenuity Pathway Analysis of Attention/Working Memory in Virally Suppressed Women with HIV: A Feasibility Study"
     slug: "2025-multiplexing-proteomic-and-ingenuity-pathway-analysis-of-attention-working-memory-in-virally-suppressed-women-with-hiv-a-feasibility-study"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Multiplexing Proteomic and Ingenuity Pathway Analysis of Attention:Working Memory in Virally Suppressed Women with HIV- A Feasibility Study.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV"
     slug: "2025-neuropathologic-findings-in-a-community-based-autopsy-cohort-of-older-virally-suppressed-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Plasma neurofilament light chain and glial fibrillary acidic protein as biomarkers of cognitive decline in people with human immunodeficiency virus"
     slug: "2025-plasma-neurofilament-light-chain-and-glial-fibrillary-acidic-protein-as-biomarkers-of-cognitive-decline-in-people-with-human-immunodeficiency-virus"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Plasma neurofilament light chain and glial fibrillary acidic protein as biomarkers of cognitive decline in people with human immunodeficiency virus.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Putting the PASC Score to the Test: Clinical vs. Statistical Accuracy in Long COVID Diagnosis: Azola et al."
     slug: "2025-putting-the-pasc-score-to-the-test-clinical-vs-statistical-accuracy-in-long-covid-diagnosis-azola-et-al"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Putting the PASC Score to the Test- Clinical vs. Statistical Accuracy in Long COVID Diagnosis- Azola et al..pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.jpg"
+    source_asset: "nihpp-rs6136690v1-f0001.jpg"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Systemic inflammation and Its impact on comorbidities in people with HIV (PWH)(P8-10.001)"
     slug: "2025-systemic-inflammation-and-its-impact-on-comorbidities-in-people-with-hiv-pwh-p8-10-001"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "The cerebrospinal fluid virome in people with HIV: links to neuroinflammation and cognition"
     slug: "2025-the-cerebrospinal-fluid-virome-in-people-with-hiv-links-to-neuroinflammation-and-cognition"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "The cerebrospinal fluid virome in people with HIV- links to neuroinflammation and cognition.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Beyond accuracy: facial emotion perception bias in people with HIV in Uganda"
     slug: "2026-beyond-accuracy-facial-emotion-perception-bias-in-people-with-hiv-in-uganda"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
-    source_pdf: "Beyond accuracy- facial emotion perception bias in people with HIV in Uganda.pdf"
-    page_number: 1
-    confidence: 0.62
+    status: "existing_figure_used"
+    extracted_figure: "paper-figure-thumbnail.png"
+    source_asset: "13365_2025_1290_Fig2_HTML.png"
+    confidence: 0.95
     thumbnail_updated: true
   -
     title: "Cognitive sequala of loneliness in long COVID: Differential associations by loneliness subtypes"
     slug: "2026-cognitive-sequala-of-loneliness-in-long-covid-differential-associations-by-loneliness-subtypes"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Cognitive sequala of loneliness in long COVID- Differential associations by loneliness subtypes.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Longitudinal effects of polypharmacy on cognitive function in people with HIV"
     slug: "2026-longitudinal-effects-of-polypharmacy-on-cognitive-function-in-people-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV"
     slug: "2026-metabolomic-levels-mediate-the-link-between-socioeconomic-factors-and-changes-in-declarative-memory-in-women-with-and-without-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Metabolomic levels mediate the link between socioeconomic factors and changes in declarative memory in women with and without HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV"
     slug: "2026-n-acetyl-aspartyl-glutamate-connects-neuroinflammatory-signatures-to-attention-and-working-memory-in-people-with-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Parkinsonism in people with virally suppressed HIV"
     slug: "2026-parkinsonism-in-people-with-virally-suppressed-hiv"
-    status: "figure_extracted"
-    extracted_figure: "extracted-figure-page-1.png"
+    status: "manual_needed"
     source_pdf: "Parkinsonism in people with virally suppressed HIV.pdf"
-    page_number: 1
-    confidence: 0.62
-    thumbnail_updated: true
+    reason: "no pre-existing publisher figure and automated PDF crop was not visually accepted"
+    confidence: 0
   -
     title: "Stability of the translocator protein 18 kDa density within cognitive circuits in brains of virally-suppressed people with HIV"
     slug: "2026-stability-of-the-translocator-protein-18-kda-density-within-cognitive-circuits-in-brains-of-virally-suppressed-people-with-hiv"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "Hidden Structure in Translational Brain Health Data"
     slug: "hidden-structure-brain-health"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0
   -
     title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons. Cell Death Dis. 2018; 9 (3): 363"
     slug: "tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons-cell-death-dis-2018-9-3-363"
-    status: "placeholder_used"
-    reason: "no associated PDF"
+    status: "manual_needed"
+    reason: "no associated PDF or matched figure asset"
     confidence: 0

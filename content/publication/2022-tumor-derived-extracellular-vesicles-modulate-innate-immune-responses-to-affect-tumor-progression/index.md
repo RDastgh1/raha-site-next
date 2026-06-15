@@ -1,5 +1,7 @@
 ---
 
+
+
 bibtex_key: "wang2022tumor"
 slug: "2022-tumor-derived-extracellular-vesicles-modulate-innate-immune-responses-to-affect-tumor-progression"
 title: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression"
@@ -23,10 +25,10 @@ featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
 abstract: "Immune cells are capable of influencing tumor progression in the tumor microenvironment (TME). Meanwhile, one mechanism by which tumor modulate immune cells function is through extracellular vesicles (EVs), which are cell-derived extracellular membrane vesicles. EVs can act as mediators of intercellular communication and can deliver nucleic acids, proteins, lipids, and other signaling molecules between cells. In recent years, studies have found that EVs play a crucial role in the communication between tumor cells and immune cells. Innate immunity is the first-line response of the immune system against tumor progression. Therefore, tumor cell-derived EVs (TDEVs) which modulate the functional change of innate immune cells serve important functions in the context of tumor progression. Emerging evidence has shown that TDEVs dually enhance or suppress innate immunity through various pathways. This review aims to summarize the influence of TDEVs on macrophages, dendritic cells, neutrophils, and natural killer cells. We also summarize their further effects on the progression of tumors, which may provide new ideas for developing novel tumor therapies targeting EVs."
-extracted_figure: "extracted-figure-page-1.png"
-extracted_figure_source_pdf: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure: ""
+extracted_figure_source_pdf: ""
+extracted_figure_page: ""
+extracted_figure_confidence: ""
 plain_language_summary: "Published in Frontiers in immunology in 2022 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -47,6 +49,7 @@ related_community:
   []
 tags:
   - "article"
+thumbnail_alt: "Publication preview for Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression"
 ---
 ## Why this paper matters
 

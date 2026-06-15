@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page content-page--wide programs-page">
+  <p class="raha-kicker">Program Building</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <section class="program-grid">
+    {{ range hugo.Data.profile_layers.programs }}
+    <article class="program-card">
+      <h2>{{ .title }}</h2>
+      <p>{{ .summary }}</p>
+    </article>
+    {{ end }}
+  </section>
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Scientific Service</div>
+    <div class="program-grid program-grid--service">
+      {{ range hugo.Data.profile_layers.service }}
+      <article class="program-card">
+        <h2>{{ .title }}</h2>
+        <p>{{ .summary }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

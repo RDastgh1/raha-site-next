@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+{{ $ecosystem := hugo.Data.software_ecosystem }}
+<main class="content-page content-page--wide software-index">
+  <p class="raha-kicker">Scientific Software Ecosystem</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+
+  <section class="software-ecosystem" aria-label="SciDataReportR software ecosystem">
+    <div class="software-ecosystem__layer software-ecosystem__layer--agent">
+      {{ with index $ecosystem.ecosystem 0 }}
+      <a class="ecosystem-node ecosystem-node--agent" href="{{ .url | relURL }}">
+        <span>{{ .status }}</span>
+        <h2>{{ .title }}</h2>
+        <strong>{{ .role }}</strong>
+        <p>{{ .summary }}</p>
+      </a>
+      {{ end }}
+    </div>
+    <div class="software-ecosystem__connector" aria-hidden="true"></div>
+    <div class="software-ecosystem__layer software-ecosystem__layer--core">
+      {{ with index $ecosystem.ecosystem 1 }}
+      <a class="ecosystem-node ecosystem-node--core" href="{{ .url | relURL }}">
+        <span>{{ .status }}</span>
+        <h2>{{ .title }}</h2>
+        <strong>{{ .role }}</strong>
+        <p>{{ .summary }}</p>
+      </a>
+      {{ end }}
+    </div>
+    <div class="software-ecosystem__branches">
+      {{ range after 2 $ecosystem.ecosystem }}
+      <a class="ecosystem-node ecosystem-node--package" href="{{ .url | relURL }}">
+        <span>{{ .status }}</span>
+        <h2>{{ .title }}</h2>
+        <strong>{{ .role }}</strong>
+        <p>{{ .summary }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
+  <div class="software-showcase-grid">
+    {{ range .Pages.ByTitle }}
+    <a class="software-showcase-card" href="{{ .RelPermalink }}">
+      <div class="raha-card__label">{{ delimit (.Params.tags | default (slice "scientific software")) " / " }}</div>
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Params.summary | default .Summary }}</p>
+      {{ with .Params.enables }}<span>{{ . }}</span>{{ end }}
+    </a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

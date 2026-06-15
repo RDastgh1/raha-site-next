@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page content-page--wide people-page">
+  <p class="raha-kicker">People</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <section class="people-grid">
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Current Trainees</div>
+      {{ range hugo.Data.people.current_trainees }}
+      <div class="people-item"><strong>{{ .name }}</strong><span>{{ .role }}</span><p>{{ .summary }}</p></div>
+      {{ end }}
+    </div>
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Former Trainees</div>
+      {{ range hugo.Data.people.former_trainees }}
+      <div class="people-item"><strong>{{ .name }}</strong><span>{{ .role }}</span><p>{{ .summary }}</p></div>
+      {{ end }}
+    </div>
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Collaborators</div>
+      {{ range hugo.Data.people.collaborators }}
+      <div class="people-item"><strong>{{ .name }}</strong><span>{{ .role }}</span><p>{{ .summary }}</p></div>
+      {{ end }}
+    </div>
+  </section>
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Teaching and Training</div>
+    <div class="program-grid program-grid--service">
+      {{ range hugo.Data.people.teaching }}
+      <article class="program-card">
+        <h2>{{ .title }}</h2>
+        <p>{{ .summary }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

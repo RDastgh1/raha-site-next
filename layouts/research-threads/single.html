@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+{{ $threadKey := .Params.thread_key | default .File.ContentBaseName }}
+{{ $thread := index (where hugo.Data.research_threads.items "slug" $threadKey) 0 }}
+<main class="content-page content-page--wide thread-page">
+  <p class="raha-kicker">Research Thread</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.summary }}<p class="raha-section__lede">{{ . }}</p>{{ end }}
+  {{ .Content }}
+
+  {{ with $thread }}
+  <section class="thread-question">
+    <div class="raha-section__eyebrow">Scientific Question</div>
+    <p>{{ .question }}</p>
+  </section>
+
+  <section class="ecosystem-columns">
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Software</div>
+      {{ range .software }}
+        {{ with site.GetPage (printf "software/%s" .) }}
+        <a class="ecosystem-link" href="{{ .RelPermalink }}">
+          <strong>{{ .Title }}</strong>
+          <span>{{ .Params.summary }}</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="portal-panel">
+      <div class="raha-section__eyebrow">Research Areas</div>
+      {{ range .research }}
+        {{ with site.GetPage (printf "research/%s" .) }}
+        <a class="ecosystem-link" href="{{ .RelPermalink }}">
+          <strong>{{ .Title }}</strong>
+          <span>{{ .Params.summary }}</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Connected Publications</div>
+    <div class="publication-grid">
+      {{ range .publications }}
+        {{ with site.GetPage (printf "publication/%s" .) }}
+          {{ partial "publication-card.html" (dict "page" . "variant" "standard") }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Related Talks</div>
+    <div class="raha-list">
+      {{ range .talks }}
+        {{ with site.GetPage (printf "talks/%s" .) }}
+        <a class="raha-list-item" href="{{ .RelPermalink }}">
+          <div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Params.summary | default .Summary }}</p>
+          </div>
+          <span>Open</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+</main>
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page honors-page">
+  <p class="raha-kicker">Selected Honors</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+  <div class="raha-list">
+    {{ range hugo.Data.honors.items }}
+    <article class="honor-card">
+      <div class="publication-card__meta"><span>{{ .year }}</span><span>{{ .organization }}</span></div>
+      <h2>{{ .title }}</h2>
+      <p>{{ .summary }}</p>
+      <strong>{{ .impact }}</strong>
+    </article>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
