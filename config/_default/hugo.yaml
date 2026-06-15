@@ -31,7 +31,14 @@ permalinks:
   software: "/software/:slug/"
   talks: "/talks/:slug/"
   research: "/research/:slug/"
+  research-threads: "/research-threads/:slug/"
   community: "/community/:slug/"
+  leadership: "/leadership/:slug/"
+  honors: "/honors/:slug/"
+  people: "/people/:slug/"
+  profile: "/profile/:slug/"
+  methods: "/methods/:slug/"
+  programs: "/programs/:slug/"
 
 params:
   description: "Designing reproducible computational systems for translational brain health research."
@@ -46,3 +53,6 @@ params:
     - software
     - talks
     - research
+    - research-threads
+    - methods
+    - programs

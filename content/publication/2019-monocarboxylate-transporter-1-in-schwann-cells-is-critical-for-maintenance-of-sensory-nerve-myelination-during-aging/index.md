@@ -1,5 +1,7 @@
 ---
 
+
+
 bibtex_key: "jha2019monocarboxylate"
 slug: "2019-monocarboxylate-transporter-1-in-schwann-cells-is-critical-for-maintenance-of-sensory-nerve-myelination-during-aging"
 title: "Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging"
@@ -30,10 +32,10 @@ featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
 abstract: "Abstract"
-extracted_figure: "extracted-figure-page-1.png"
-extracted_figure_source_pdf: "Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure: ""
+extracted_figure_source_pdf: ""
+extracted_figure_page: ""
+extracted_figure_confidence: ""
 plain_language_summary: "Published in BioRxiv in 2019 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -54,6 +56,7 @@ related_community:
   []
 tags:
   - "article"
+thumbnail_alt: "Publication preview for Monocarboxylate transporter 1 in Schwann cells is critical for maintenance of sensory nerve myelination during aging"
 ---
 ## Why this paper matters
 

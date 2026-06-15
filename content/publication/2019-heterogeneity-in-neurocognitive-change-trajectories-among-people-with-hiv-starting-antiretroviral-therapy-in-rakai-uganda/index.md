@@ -1,5 +1,7 @@
 ---
 
+
+
 bibtex_key: "rubin2019heterogeneity"
 slug: "2019-heterogeneity-in-neurocognitive-change-trajectories-among-people-with-hiv-starting-antiretroviral-therapy-in-rakai-uganda"
 title: "Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda"
@@ -30,10 +32,10 @@ featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
 abstract: ""
-extracted_figure: "extracted-figure-page-1.png"
-extracted_figure_source_pdf: "Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure: ""
+extracted_figure_source_pdf: ""
+extracted_figure_page: ""
+extracted_figure_confidence: ""
 plain_language_summary: "Published in Journal of neurovirology in 2019 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -54,6 +56,7 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
+thumbnail_alt: "Publication preview for Heterogeneity in neurocognitive change trajectories among people with HIV starting antiretroviral therapy in Rakai, Uganda"
 ---
 ## Why this paper matters
 

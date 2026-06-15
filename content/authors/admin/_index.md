@@ -1,13 +1,16 @@
 ---
 title: "Raha Dastgheyb"
-role: "Biomedical Engineer, Translational Data Scientist, Computational Neuroscientist, Reproducible Systems Architect"
+role: "Biomedical Engineer, Computational Scientist, Scientific Software Builder, Responsible AI-Assisted Discovery Leader"
 avatar_filename: "raha-headshot.jpg"
-bio: "Designing reproducible computational systems for translational brain health research."
+bio: "Building computational tools that transform complex biomedical data into scientific insight."
 interests:
+  - Biomedical data science
+  - Scientific software
+  - AI-assisted discovery
   - Computational phenotyping
   - Translational neuroinformatics
-  - Scientific software
   - Reproducible infrastructure
+  - Multi-omics and biomarker discovery
   - Scientific visualization
 social:
   - icon: github
@@ -27,4 +30,4 @@ social:
     link: "#"
 ---
 
-Raha Dastgheyb builds reproducible computational systems for translational brain health research.
+Raha Dastgheyb is a biomedical engineer and computational scientist whose research sits at the intersection of engineering, data science, and neuroscience. She builds open-source scientific software, reproducible analytical workflows, and responsible AI-assisted discovery tools that help researchers translate complex biomedical data into actionable scientific insight.

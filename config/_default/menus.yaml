@@ -1,19 +1,22 @@
 main:
-  - name: Research
-    url: /research/
-    weight: 10
   - name: Software
     url: /software/
+    weight: 10
+  - name: Threads
+    url: /research-threads/
     weight: 20
   - name: Publications
     url: /publication/
     weight: 30
-  - name: Talks
-    url: /talks/
+  - name: Methods
+    url: /methods/
     weight: 40
-  - name: Community
-    url: /community/
+  - name: Leadership
+    url: /leadership/
     weight: 50
+  - name: People
+    url: /people/
+    weight: 55
   - name: Contact
     url: /#contact
     weight: 60

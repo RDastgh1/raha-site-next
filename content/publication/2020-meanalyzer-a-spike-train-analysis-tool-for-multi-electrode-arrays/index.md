@@ -1,4 +1,8 @@
 ---
+
+
+
+
 bibtex_key: "dastgheyb2020meanalyzer"
 slug: "2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays"
 title: "MEAnalyzer-a spike train analysis tool for multi electrode arrays"
@@ -18,13 +22,13 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1007/s12021-019-09431-0"
 tier: "highlighted"
 featured: true
-thumbnail: "media/publications/generated/2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays.svg"
+thumbnail: "paper-figure-thumbnail.png"
 visual_abstract: ""
 abstract: ""
-extracted_figure: ""
-extracted_figure_source_pdf: ""
+extracted_figure: "paper-figure-thumbnail.png"
+extracted_figure_source_pdf: "12021_2019_9431_Fig2_HTML.png"
 extracted_figure_page: ""
-extracted_figure_confidence: ""
+extracted_figure_confidence: "0.95"
 plain_language_summary: "Multi-electrode arrays record activity from many electrodes at once, producing spike-train data that can be difficult to analyze consistently. MEAnalyzer provides software support for that analysis. The broader point of the paper is that well-designed tools can make neural data analysis more transparent, reusable, and easier for other researchers to inspect."
 why_this_matters: "MEAnalyzer is important because it treats analysis software as a scientific output, not merely a supporting detail. Multi-electrode array experiments generate dense spike-train data, and reproducible interpretation depends on transparent tools for detecting, summarizing, and visualizing activity. For collaborators and trainees, the paper provides an entry point into electrophysiology workflows where the analysis system itself is part of the research contribution."
 research_significance: ""
@@ -47,4 +51,5 @@ related_community:
 tags:
   - "software-systems"
 card_significance: "Introduces MEAnalyzer as reproducible software for spike train analysis in multi-electrode array experiments."
+thumbnail_alt: "Figure from MEAnalyzer-a spike train analysis tool for multi electrode arrays"
 ---

@@ -1,5 +1,8 @@
 ---
 
+
+
+
 bibtex_key: "dastgheyb2012interactions"
 slug: "2012-interactions-of-fluorescein-isothiocyanate-labeled-poloxamer-p188-with-cultured-cells"
 title: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells"
@@ -19,13 +22,13 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1109/nebc.2012.6207089"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "paper-figure-thumbnail.png"
 visual_abstract: ""
 abstract: ""
-extracted_figure: "extracted-figure-page-1.png"
+extracted_figure: "paper-figure-thumbnail.png"
 extracted_figure_source_pdf: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure_page: "2"
+extracted_figure_confidence: "0.90"
 plain_language_summary: "Published in 2012 38th Annual Northeast Bioengineering Conference (NEBEC) in 2012 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -46,6 +49,7 @@ related_community:
   []
 tags:
   - "inproceedings"
+thumbnail_alt: "Figure from Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells"
 ---
 ## Why this paper matters
 

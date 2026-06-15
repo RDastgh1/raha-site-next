@@ -1,5 +1,7 @@
 ---
 
+
+
 bibtex_key: "li2020astrocytes"
 slug: "2020-astrocytes-deliver-ck1-to-neurons-via-extracellular-vesicles-in-response-to-inflammation-promoting-the-translation-and-amyloidogenic-processing-of-app"
 title: "Astrocytes deliver CK1 to neurons via extracellular vesicles in response to inflammation promoting the translation and amyloidogenic processing of APP"
@@ -30,10 +32,10 @@ featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
 abstract: "AbstractChronic inflammation is thought to contribute to the early pathogenesis of Alzheimer's disease (AD). However, the precise mechanism by which inflammatory cytokines promote the formation and deposition of Aβ remains unclear. Available data suggest that applications of inflammatory cytokines onto isolated neurons do not promote the formation of Aβ, suggesting an indirect mechanism of action. Based on evidence astrocyte derived extracellular vesicles (astrocyte derived EVs) regulate neuronal functions, and data that inflammatory cytokines can modify the molecular cargo of astrocyte derived EVs, we sought to determine if IL‐1β promotes the formation of Aβ indirectly through actions of astrocyte derived EVs on neurons. The production of Aβ was increased when neurons were exposed to astrocyte derived EVs shed in response to IL‐1β (astrocyte derived EV‐IL‐1β). The mechanism for this effect involved an enrichment of Casein kinase 1 (CK1) in astrocyte derived EV‐IL‐1β. This astrocyte derived CK1 was delivered to neurons where it formed a complex with neuronal APC and GSK3 to inhibit the β‐catenin degradation. Stabilized β‐catenin translocated to the nucleus and bound to Hnrnpc gene at promoter regions. An increased cellular concentration of hnRNP C promoted the translation of APP by outcompeting the translational repressor fragile X mental retardation protein (FMRP) bound to APP mRNA. An increased amount of APP protein became co‐localized with BACE1 in enlarged membrane microdomains concurrent with increased production of Aβ. These findings identify a mechanism whereby inflammation promotes the formation of Aβ through the actions of astrocyte derived EV‐IL‐1β on neurons."
-extracted_figure: "extracted-figure-page-1.png"
-extracted_figure_source_pdf: "J of Extracellular Vesicle - 2021 - Li - Astrocytes deliver CK1 to neurons via extracellular vesicles in response to.pdf"
-extracted_figure_page: "1"
-extracted_figure_confidence: "0.62"
+extracted_figure: ""
+extracted_figure_source_pdf: ""
+extracted_figure_page: ""
+extracted_figure_confidence: ""
 plain_language_summary: "Published in Journal of Extracellular Vesicles in 2020 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
 why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
 research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
@@ -54,6 +56,7 @@ related_community:
   []
 tags:
   - "article"
+thumbnail_alt: "Publication preview for Astrocytes deliver CK1 to neurons via extracellular vesicles in response to inflammation promoting the translation and amyloidogenic processing of APP"
 ---
 ## Why this paper matters
 
