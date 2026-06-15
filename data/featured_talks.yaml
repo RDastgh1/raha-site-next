@@ -1,4 +1,8 @@
 items:
+  - title: "R/Medicine 2024: SciDataReportR"
+    venue: "Talk / software communication"
+    summary: "Reproducible biomedical data analysis and reporting with SciDataReportR."
+    url: "talks/rmedicine-2024-scidatareportr/"
   - title: "Biomedical Data Science for Brain Health"
     venue: "Research talk"
     summary: "From patient cohorts to cellular circuits through reproducible computational systems."

@@ -98,13 +98,27 @@
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Methods and Toolchain</div>
       <h2>Scientific capabilities for finding hidden structure in biomedical data.</h2>
-      <div class="tool-strip tool-strip--capabilities" aria-label="Scientific capabilities">
+      <div class="tool-strip tool-strip--capabilities tool-strip--upgraded" aria-label="Scientific capabilities">
         {{ range $softwareEcosystem.tools }}
         <article class="tool-chip">
           {{ if .logo }}
-          <img src="{{ .logo }}" alt="{{ .label }} logo">
+          <div class="tool-chip__mark tool-chip__mark--logo"><img src="{{ .logo }}" alt="{{ .label }} logo"></div>
           {{ else }}
-          <strong>{{ .icon | default .label }}</strong>
+          <div class="tool-chip__mark tool-chip__mark--svg" aria-hidden="true">
+            {{ if eq .label "ML" }}
+            <svg viewBox="0 0 80 80"><circle cx="22" cy="24" r="7"></circle><circle cx="54" cy="20" r="6"></circle><circle cx="58" cy="54" r="8"></circle><circle cx="25" cy="58" r="6"></circle><path d="M28 27 L48 22 M56 27 L58 46 M51 56 L31 58 M27 52 L22 31"></path><path class="accent" d="M30 29 C43 33 49 40 55 48"></path></svg>
+            {{ else if eq .label "VIZ" }}
+            <svg viewBox="0 0 80 80"><path d="M14 58 C24 38 34 48 44 28 S62 20 68 14"></path><path class="accent" d="M14 66 H68 M14 66 V14"></path><circle class="mint" cx="24" cy="48" r="3"></circle><circle class="mint" cx="43" cy="29" r="3"></circle><circle class="mint" cx="61" cy="20" r="3"></circle></svg>
+            {{ else if eq .label "GUI" }}
+            <svg viewBox="0 0 80 80"><rect x="13" y="16" width="54" height="38" rx="4"></rect><path d="M24 64 H56 M34 54 V64 M46 54 V64"></path><path class="accent" d="M24 28 H42 M24 38 H56 M24 47 H36"></path><circle class="mint" cx="56" cy="28" r="4"></circle></svg>
+            {{ else if eq .label "OMICS" }}
+            <svg viewBox="0 0 80 80"><path d="M17 58 C25 20 55 20 63 58"></path><path class="accent" d="M17 22 C25 60 55 60 63 22"></path><path d="M25 30 H55 M22 42 H58 M25 54 H55"></path><circle class="mint" cx="40" cy="42" r="3"></circle></svg>
+            {{ else if eq .label "DIG" }}
+            <svg viewBox="0 0 80 80"><rect x="25" y="10" width="30" height="58" rx="8"></rect><path d="M32 20 H48 M33 56 H47"></path><path class="accent" d="M19 38 C26 30 33 30 40 38 S54 46 61 38"></path><circle class="mint" cx="40" cy="38" r="3"></circle></svg>
+            {{ else }}
+            <svg viewBox="0 0 80 80"><path d="M20 24 L40 12 L60 24 V56 L40 68 L20 56 Z"></path><path d="M20 24 L40 36 L60 24 M40 36 V68"></path><path class="accent" d="M30 48 L38 56 L52 40"></path></svg>
+            {{ end }}
+          </div>
           {{ end }}
           <span>{{ .title }}</span>
           <p>{{ .description }}</p>
@@ -185,13 +199,65 @@
       <div class="raha-section__eyebrow">Research Architecture</div>
       <h2>An interconnected research ecosystem for translational discovery.</h2>
       <p class="raha-section__lede">The research architecture connects hidden structure in complex biomedical data to scientific infrastructure, translational science, biomarkers, multi-omics, visualization, reproducibility, people, and impact.</p>
-      <div class="raha-map" aria-label="Research architecture map">
-        <a class="raha-map__node" href="{{ "research/computational-phenotyping/" | relURL }}">Computational Phenotyping</a>
-        <a class="raha-map__node" href="{{ "research/scientific-visualization/" | relURL }}">Scientific Visualization</a>
-        <a class="raha-map__node" href="{{ "research/translational-neuroinformatics/" | relURL }}">Translational Neuroinformatics</a>
-        <a class="raha-map__node" href="{{ "research/biomarker-systems/" | relURL }}">Biomarker Systems</a>
-        <a class="raha-map__node" href="{{ "research/reproducible-infrastructure/" | relURL }}">Reproducible Infrastructure</a>
-        <a class="raha-map__node" href="{{ "research/software-systems/" | relURL }}">Software Systems</a>
+      <div class="raha-map research-network" aria-label="Research architecture network">
+        <svg class="research-network__lines" viewBox="0 0 1180 680" aria-hidden="true">
+          <path class="network-edge network-edge--cp" d="M590 365 C590 275 590 215 590 132"></path>
+          <path class="network-edge network-edge--viz" d="M505 360 C380 315 275 270 178 238"></path>
+          <path class="network-edge network-edge--bio" d="M675 360 C798 315 900 272 1000 238"></path>
+          <path class="network-edge network-edge--soft" d="M518 445 C410 510 330 555 252 598"></path>
+          <path class="network-edge network-edge--neuro" d="M664 445 C760 512 842 558 930 598"></path>
+          <path class="network-edge network-edge--secondary" d="M212 238 C342 124 478 96 590 132"></path>
+          <path class="network-edge network-edge--secondary" d="M1000 238 C945 390 936 498 930 598"></path>
+          <path class="network-edge network-edge--secondary" d="M252 598 C430 650 690 650 930 598"></path>
+          <path class="network-pulse" d="M590 365 C590 275 590 215 590 132"></path>
+          <path class="network-pulse" d="M505 360 C380 315 275 270 178 238"></path>
+          <path class="network-pulse" d="M675 360 C798 315 900 272 1000 238"></path>
+          <path class="network-pulse" d="M518 445 C410 510 330 555 252 598"></path>
+          <path class="network-pulse" d="M664 445 C760 512 842 558 930 598"></path>
+        </svg>
+        <span class="research-network__label label-cp">discovers subgroups</span>
+        <span class="research-network__label label-viz">connects evidence</span>
+        <span class="research-network__label label-bio">reveals mechanisms</span>
+        <span class="research-network__label label-soft">builds reusable tools</span>
+        <span class="research-network__label label-neuro">integrates cohorts</span>
+        <span class="research-network__label label-loop">enables reproducibility</span>
+
+        <a class="raha-map__node network-node network-node--center" href="{{ "research/reproducible-infrastructure/" | relURL }}">
+          <span>Central system</span>
+          <strong>Reproducible Infrastructure</strong>
+          <em>Transparent workflows, reusable methods, and scientific software that make discovery auditable.</em>
+          <small>SciDataReportR · Dashboards & Reporting Frameworks</small>
+        </a>
+        <a class="raha-map__node network-node network-node--cp" href="{{ "research/computational-phenotyping/" | relURL }}">
+          <span>Hidden structure</span>
+          <strong>Computational Phenotyping</strong>
+          <em>Finds interpretable subgroups, trajectories, and cognitive profiles.</em>
+          <small>Cognitive profiles · ML phenotypes · CHARTER</small>
+        </a>
+        <a class="raha-map__node network-node network-node--viz" href="{{ "research/scientific-visualization/" | relURL }}">
+          <span>Evidence layer</span>
+          <strong>Scientific Visualization</strong>
+          <em>Makes multidimensional findings inspectable by collaborators.</em>
+          <small>Interactive reports · Dashboards</small>
+        </a>
+        <a class="raha-map__node network-node network-node--bio" href="{{ "research/biomarker-systems/" | relURL }}">
+          <span>Mechanisms</span>
+          <strong>Biomarker Systems</strong>
+          <em>Links molecular signals, multi-omics, and clinical brain health questions.</em>
+          <small>Tryptophan-Kynurenine · Long COVID BBB · Metabolomic mediation</small>
+        </a>
+        <a class="raha-map__node network-node network-node--soft" href="{{ "research/software-systems/" | relURL }}">
+          <span>Reusable tools</span>
+          <strong>Software Systems</strong>
+          <em>Turns analytical methods into maintained scientific infrastructure.</em>
+          <small>MEAnalyzer · SciDataReportR · Reporting frameworks</small>
+        </a>
+        <a class="raha-map__node network-node network-node--neuro" href="{{ "research/translational-neuroinformatics/" | relURL }}">
+          <span>Cohort translation</span>
+          <strong>Translational Neuroinformatics</strong>
+          <em>Connects cohorts, cognition, biomarkers, and brain health translation.</em>
+          <small>BRACE · Long COVID · MWCCS / CHARTER</small>
+        </a>
       </div>
     </div>
   </section>

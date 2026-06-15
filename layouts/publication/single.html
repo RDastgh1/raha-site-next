@@ -33,7 +33,13 @@
   </header>
 
   <section class="publication-actions">
-    {{ with .Params.url_pdf }}<a class="raha-button" href="{{ . }}">PDF</a>{{ end }}
+    {{ with .Params.url_pdf }}
+      {{ $pdfURL := . }}
+      {{ if and (not (hasPrefix . "http://")) (not (hasPrefix . "https://")) (not (hasPrefix . "/")) }}
+        {{ $pdfURL = printf "%s%s" $.RelPermalink . }}
+      {{ end }}
+      <a class="raha-button" href="{{ $pdfURL | safeURL }}">PDF</a>
+    {{ end }}
     {{ with .Params.doi }}<a class="raha-button" href="https://doi.org/{{ . }}">DOI</a>{{ end }}
     {{ with .Params.pubmed }}<a class="raha-button" href="https://pubmed.ncbi.nlm.nih.gov/{{ . }}/">PubMed</a>{{ end }}
     {{ with .Params.url_code }}<a class="raha-button" href="{{ . }}">GitHub</a>{{ end }}
