@@ -25,8 +25,9 @@
       </div>
       {{ end }}
     </div>
-    <div class="portal-panel">
+    <div class="portal-panel portal-panel--collaborators">
       <div class="raha-section__eyebrow">Collaborators</div>
+      <div class="people-collaborator-grid">
       {{ range hugo.Data.people.collaborators }}
       <div class="people-item">
         {{ if .url }}<a href="{{ .url }}"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
@@ -34,6 +35,7 @@
         <p>{{ .summary }}</p>
       </div>
       {{ end }}
+      </div>
     </div>
   </section>
   <section class="publication-tier">

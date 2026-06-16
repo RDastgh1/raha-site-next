@@ -6,8 +6,8 @@
   <h1>{{ .Title }}</h1>
   {{ with .Content }}{{ . }}{{ end }}
 
-  <section class="software-ecosystem software-ecosystem--priority" aria-label="Scientific software priority map">
-    <div class="software-ecosystem__branches software-ecosystem__branches--priority">
+  <section class="software-ecosystem software-directory" aria-label="Scientific software directory">
+    <div class="software-directory__grid">
       {{ range $ecosystem.ecosystem }}
       <a class="ecosystem-node {{ if eq .status "In Development" }}ecosystem-node--development{{ else if eq .title "MEAnalyzer" }}ecosystem-node--core{{ else }}ecosystem-node--package{{ end }}" href="{{ .url | relURL }}">
         <span>{{ .status }}</span>
@@ -18,19 +18,5 @@
       {{ end }}
     </div>
   </section>
-
-  <div class="software-showcase-grid">
-    {{ $softwareOrder := slice "meanalyzer" "scidatareportr" "computational-phenotyping-pipelines" "dashboards-reporting-frameworks" "proteomicsreportr" "metabolomicsreportr" "multiplexreportr" "scidataagent" }}
-    {{ range $softwareOrder }}
-    {{ with site.GetPage (printf "software/%s" .) }}
-    <a class="software-showcase-card" href="{{ .RelPermalink }}">
-      <div class="raha-card__label">{{ delimit (.Params.tags | default (slice "scientific software")) " / " }}</div>
-      <h2>{{ .Title }}</h2>
-      <p>{{ .Params.summary | default .Summary }}</p>
-      {{ with .Params.enables }}<span>{{ . }}</span>{{ end }}
-    </a>
-    {{ end }}
-    {{ end }}
-  </div>
 </main>
 {{ end }}
