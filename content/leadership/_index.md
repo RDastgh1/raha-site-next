@@ -1,6 +1,6 @@
 ---
-title: "Scientific Leadership"
-summary: "Research programs, affiliations, and communities that turn data science into collaborative infrastructure."
+title: "Roles & Affiliations"
+summary: "Leadership roles, institutional affiliations, collaborative cohorts, and communities that turn data science into research infrastructure."
 ---
 
-Scientific leadership here means building the systems, cores, communities, and collaborations that allow interdisciplinary brain health research to happen.
+Roles and affiliations here include core leadership, institute memberships, collaborative cohorts, and communities that allow interdisciplinary brain health research to happen.

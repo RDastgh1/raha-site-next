@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "site-nav.html" . }}
 <main class="content-page content-page--wide leadership-page">
-  <p class="raha-kicker">Scientific Leadership</p>
+  <p class="raha-kicker">Roles & Affiliations</p>
   <h1>{{ .Title }}</h1>
   {{ with .Content }}{{ . }}{{ end }}
   <section class="leadership-primary">
@@ -9,7 +9,7 @@
     <a class="leadership-card leadership-card--primary" href="{{ .url }}">
       {{ $logoAlt := .logo_alt | default .title }}
       {{ with .logo }}<figure class="leadership-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
-      <div class="raha-card__label">Primary program</div>
+      <div class="raha-card__label">Leadership role</div>
       <h2>{{ .title }}</h2>
       <strong>{{ .role }}</strong>
       <p>{{ .summary }}</p>
@@ -18,14 +18,27 @@
   </section>
   <section class="ecosystem-columns">
     <div class="portal-panel">
-      <div class="raha-section__eyebrow">Affiliations</div>
+      <div class="raha-section__eyebrow">Affiliations & Collaborative Infrastructure</div>
+      <div class="affiliation-grid affiliation-grid--page">
       {{ range hugo.Data.leadership.secondary }}
-      <div class="leadership-mini">
+      {{ $logoAlt := .logo_alt | default .title }}
+      {{ if .url }}
+      <a class="affiliation-card" href="{{ .url | default "#" }}">
+        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
         <strong>{{ .title }}</strong>
         <span>{{ .role }}</span>
         <p>{{ .summary }}</p>
-      </div>
+      </a>
+      {{ else }}
+      <article class="affiliation-card">
+        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
+        <strong>{{ .title }}</strong>
+        <span>{{ .role }}</span>
+        <p>{{ .summary }}</p>
+      </article>
       {{ end }}
+      {{ end }}
+      </div>
     </div>
     <div class="portal-panel">
       <div class="raha-section__eyebrow">Community Infrastructure</div>
@@ -38,7 +51,7 @@
     </div>
   </section>
   <section class="publication-tier">
-    <div class="raha-section__eyebrow">Program Building</div>
+    <div class="raha-section__eyebrow">Research Focus Areas</div>
     <div class="program-grid">
       {{ range first 4 hugo.Data.profile_layers.programs }}
       <article class="program-card">

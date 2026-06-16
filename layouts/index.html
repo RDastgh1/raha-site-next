@@ -39,7 +39,7 @@
           <a class="raha-button" href="{{ "research-threads/" | relURL }}">Research Threads</a>
           <a class="raha-button" href="{{ "publication/" | relURL }}">Publications</a>
           <a class="raha-button" href="{{ "methods/" | relURL }}">Methods</a>
-          <a class="raha-button" href="{{ "leadership/" | relURL }}">Leadership</a>
+          <a class="raha-button" href="{{ "leadership/" | relURL }}">Roles & Affiliations</a>
           <a class="raha-button raha-button--secondary" href="#contact">Contact</a>
         </div>
         <div class="raha-social" aria-label="Social links">
@@ -347,7 +347,7 @@
   <section class="raha-section" id="community">
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Community Infrastructure</div>
-      <h2>Scientific leadership includes the systems that help people learn, connect, and build.</h2>
+      <h2>Scientific communities help people learn, connect, and build.</h2>
       <div class="raha-grid">
         {{ range $community }}
         <a class="raha-card" href="{{ .url | relURL }}">
@@ -361,26 +361,38 @@
 
   <section class="raha-section leadership-band" id="leadership">
     <div class="raha-section__inner">
-      <div class="raha-section__eyebrow">Scientific Leadership</div>
-      <h2>Research programs, cores, and communities as scientific infrastructure.</h2>
+      <div class="raha-section__eyebrow">Roles & Affiliations</div>
+      <h2>Leadership roles, institute affiliations, and collaborative infrastructure.</h2>
       <div class="leadership-primary">
         {{ range $leadership.primary }}
         <a class="leadership-card leadership-card--primary" href="{{ .url }}">
           {{ $logoAlt := .logo_alt | default .title }}
           {{ with .logo }}<figure class="leadership-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
-          <div class="raha-card__label">Primary program</div>
+          <div class="raha-card__label">Leadership role</div>
           <h3>{{ .title }}</h3>
           <strong>{{ .role }}</strong>
           <p>{{ .summary }}</p>
         </a>
         {{ end }}
       </div>
-      <div class="leadership-secondary">
+      <div class="leadership-secondary affiliation-grid">
         {{ range $leadership.secondary }}
-        <article>
+        {{ $logoAlt := .logo_alt | default .title }}
+        {{ if .url }}
+        <a class="affiliation-card" href="{{ .url | default "#" }}">
+          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
           <h3>{{ .title }}</h3>
+          <strong>{{ .role }}</strong>
+          <p>{{ .summary }}</p>
+        </a>
+        {{ else }}
+        <article class="affiliation-card">
+          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
+          <h3>{{ .title }}</h3>
+          <strong>{{ .role }}</strong>
           <p>{{ .summary }}</p>
         </article>
+        {{ end }}
         {{ end }}
       </div>
       <div class="program-grid program-grid--home">
@@ -398,10 +410,12 @@
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Training Arc</div>
       <h2>From biomedical engineering and computer science to translational data science infrastructure.</h2>
-      <div class="timeline-grid timeline-grid--home">
+      <div class="training-timeline training-timeline--home">
         {{ range $profile.training }}
-        <a class="timeline-card" href="{{ "profile/" | relURL }}">
-          <span>{{ .years }}</span>
+        {{ $badge := "JHU" }}
+        {{ if in .institution "Virginia" }}{{ $badge = "UVA" }}{{ else if in .institution "Drexel" }}{{ $badge = "DU" }}{{ end }}
+        <a class="timeline-card training-timeline__item" href="{{ "profile/" | relURL }}">
+          <span class="training-timeline__badge">{{ $badge }}</span>
           <h3>{{ .title }}</h3>
           <strong>{{ .institution }}</strong>
         </a>

@@ -1,19 +1,15 @@
 training:
   - title: "B.S. Biomedical Engineering, minor in Computer Science"
     institution: "University of Virginia"
-    years: "2004-2008"
     summary: "Early foundation in engineering, computation, and biomedical problem solving."
   - title: "Ph.D. Biomedical Engineering"
     institution: "Drexel University"
-    years: "2008-2015"
     summary: "Dissertation work on mechanisms of secondary axonal pathology in traumatic brain injury."
   - title: "Postdoctoral training"
     institution: "Drexel University and Johns Hopkins Neurology"
-    years: "2015-2019"
     summary: "Quantitative neuroscience training across cellular mechanics, high-throughput electrophysiology, neurons, organoids, and brain slices."
   - title: "Faculty and translational data science"
     institution: "Johns Hopkins Neurology"
-    years: "2019-present"
     summary: "Translation of engineering and computational tools into human cohort studies, biomarker systems, open-source scientific software, and responsible AI-assisted discovery."
 methods:
   - title: "R and reproducible reporting"
@@ -31,8 +27,6 @@ methods:
 programs:
   - title: "NeuroHIV cognitive phenotyping"
     summary: "Data-driven models of cognitive heterogeneity in HIV, including sex-specific profiles, women with HIV, and longitudinal cognitive trajectories."
-  - title: "MACS/WIHS and MWCCS cohort analytics"
-    summary: "Large-scale cohort infrastructure for cognitive, biomarker, behavioral, and longitudinal questions."
   - title: "Sleep, wearables, and chronobiology"
     summary: "Actigraphy, polysomnography summaries, wearable streams, and self-report data as modifiable determinants of neurocognition."
   - title: "Biomarker and neuroimaging integration"

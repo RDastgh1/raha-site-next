@@ -4,10 +4,12 @@
   <p class="raha-kicker">Training Arc</p>
   <h1>{{ .Title }}</h1>
   {{ with .Content }}{{ . }}{{ end }}
-  <section class="timeline-grid">
+  <section class="training-timeline">
     {{ range hugo.Data.profile_layers.training }}
-    <article class="timeline-card">
-      <span>{{ .years }}</span>
+    {{ $badge := "JHU" }}
+    {{ if in .institution "Virginia" }}{{ $badge = "UVA" }}{{ else if in .institution "Drexel" }}{{ $badge = "DU" }}{{ end }}
+    <article class="timeline-card training-timeline__item">
+      <span class="training-timeline__badge">{{ $badge }}</span>
       <h2>{{ .title }}</h2>
       <strong>{{ .institution }}</strong>
       <p>{{ .summary }}</p>
