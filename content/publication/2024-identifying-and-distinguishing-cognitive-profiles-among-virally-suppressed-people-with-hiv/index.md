@@ -1,6 +1,7 @@
 ---
 
 
+
 bibtex_key: "sundermann2024identifying"
 slug: "2024-identifying-and-distinguishing-cognitive-profiles-among-virally-suppressed-people-with-hiv"
 title: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV."
@@ -9,15 +10,15 @@ year: "2024"
 publication_type: "article"
 publication: "Neuropsychology"
 authors:
-  - "Sundermann, Erin E"
-  - "Dastgheyb, Raha"
-  - "Moore, David J"
-  - "Buchholz, Alison S"
-  - "Bondi, Mark W"
-  - "Ellis, Ronald J"
-  - "Letendre, Scott L"
-  - "Heaton, Robert K"
-  - "Rubin, Leah H"
+  - "Erin E. Sundermann"
+  - "Raha Dastgheyb"
+  - "David J. Moore"
+  - "Alison S. Buchholz"
+  - "Mark W. Bondi"
+  - "Ronald J. Ellis"
+  - "Scott L. Letendre"
+  - "Robert K. Heaton"
+  - "Leah H. Rubin"
 doi: "10.1037/neu0000935"
 pubmed: ""
 url_pdf: "Identifying and distinguishing cognitive profiles among virally suppressed people with HIV..pdf"

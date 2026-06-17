@@ -3,6 +3,7 @@
 
 
 
+
 bibtex_key: "dastgheyb2011quantification"
 slug: "2011-quantification-of-beading-intensity-in-cultured-neurons"
 title: "Quantification of beading intensity in cultured neurons"
@@ -11,9 +12,9 @@ year: "2011"
 publication_type: "inproceedings"
 publication: "2011 IEEE 37th Annual Northeast Bioengineering Conference (NEBEC)"
 authors:
-  - "Dastgheyb, RM"
-  - "Gallo, G"
-  - "Barbee, KA"
+  - "R.M. Dastgheyb"
+  - "G. Gallo"
+  - "K.A. Barbee"
 doi: "10.1109/nebc.2011.5778566"
 pubmed: ""
 url_pdf: "Quantification of beading intensity in cultured neurons.pdf"

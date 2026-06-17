@@ -7,6 +7,7 @@
 
 
 
+
 bibtex_key: "dastgheyb2015quantifying"
 slug: "2015-quantifying-focal-disruptions-in-axonal-microtubules"
 title: "Quantifying focal disruptions in axonal microtubules"
@@ -15,9 +16,9 @@ year: "2015"
 publication_type: "inproceedings"
 publication: "2015 41st Annual Northeast Biomedical Engineering Conference (NEBEC)"
 authors:
-  - "Dastgheyb, RM"
-  - "Barbee, KA"
-  - "Gallo, G"
+  - "R.M. Dastgheyb"
+  - "K.A. Barbee"
+  - "G. Gallo"
 doi: "10.1109/nebec.2015.7117155"
 pubmed: ""
 url_pdf: "Quantifying focal disruptions in axonal microtubules Publisher- IEEE Cite This .pdf"

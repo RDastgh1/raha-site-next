@@ -1308,6 +1308,13 @@ a {
   margin-bottom: 0.4rem;
 }
 
+.publication-card__authors strong,
+.publication-authors strong,
+.publication-archive__authors strong {
+  color: var(--raha-text);
+  font-weight: 800;
+}
+
 .publication-card__significance {
   margin-top: 0.8rem;
   color: var(--raha-muted);
@@ -1359,14 +1366,25 @@ a {
 }
 
 .publication-archive span,
-.publication-archive em {
+.publication-archive em,
+.publication-archive__authors {
   color: var(--raha-muted);
   font-style: normal;
 }
 
-.publication-archive em {
+.publication-archive em,
+.publication-archive__authors {
   grid-column: 2;
+}
+
+.publication-archive em {
   font-size: 0.86rem;
+}
+
+.publication-archive__authors {
+  margin: -0.3rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
 }
 
 .publication-page {

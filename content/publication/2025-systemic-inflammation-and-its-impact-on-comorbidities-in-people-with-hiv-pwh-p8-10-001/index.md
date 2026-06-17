@@ -1,4 +1,5 @@
 ---
+
 bibtex_key: "tavasoli2025systemic"
 slug: "2025-systemic-inflammation-and-its-impact-on-comorbidities-in-people-with-hiv-pwh-p8-10-001"
 title: "Systemic inflammation and Its impact on comorbidities in people with HIV (PWH)(P8-10.001)"
@@ -7,11 +8,11 @@ year: "2025"
 publication_type: "inproceedings"
 publication: "Neurology"
 authors:
-  - "Tavasoli, Azin"
-  - "Andalibi, Mohammad Sobhan Sheikh"
-  - "Dastgheyb, Raha"
-  - "Letendre, Scott"
-  - "Ellis, Ronald"
+  - "Azin Tavasoli"
+  - "Mohammad Sobhan Sheikh Andalibi"
+  - "Raha Dastgheyb"
+  - "Scott Letendre"
+  - "Ronald Ellis"
 doi: "10.1212/wnl.0000000000210854"
 pubmed: ""
 url_pdf: ""

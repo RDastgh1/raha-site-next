@@ -2,6 +2,7 @@
 
 
 
+
 bibtex_key: "lang2025development"
 slug: "2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
 title: "Development of a refined harmonization approach for longitudinal cognitive data in people with HIV"
@@ -10,13 +11,13 @@ year: "2025"
 publication_type: "article"
 publication: "Journal of Clinical Epidemiology"
 authors:
-  - "Lang, Lang"
-  - "Rubin, Leah H"
-  - "Dastgheyb, Raha M"
-  - "Vance, David E"
-  - "Letendre, Scott L"
-  - "Franklin Jr, Donald R"
-  - "Xu, Yanxun"
+  - "Lang Lang"
+  - "Leah H. Rubin"
+  - "Raha M. Dastgheyb"
+  - "David E. Vance"
+  - "Scott L. Letendre"
+  - "Donald R. Franklin Jr"
+  - "Yanxun Xu"
 doi: "10.1016/j.jclinepi.2024.111620"
 pubmed: ""
 url_pdf: "Development of a refined harmonization approach for longitudinal cognitive data in people with HIV.pdf"

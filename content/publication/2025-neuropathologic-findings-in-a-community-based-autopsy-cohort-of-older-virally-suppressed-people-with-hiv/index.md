@@ -1,5 +1,6 @@
 ---
 
+
 bibtex_key: "zaikos2025neuropathologic"
 slug: "2025-neuropathologic-findings-in-a-community-based-autopsy-cohort-of-older-virally-suppressed-people-with-hiv"
 title: "Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV"
@@ -8,13 +9,13 @@ year: "2025"
 publication_type: "article"
 publication: "Journal of Neuropathology & Experimental Neurology"
 authors:
-  - "Zaikos, Thomas D"
-  - "Guo, Haidan"
-  - "Barrett, Alex"
-  - "Dastgheyb, Raha"
-  - "Rubin, Leah H"
-  - "Troncoso, Juan"
-  - "Morris, Meaghan"
+  - "Thomas D. Zaikos"
+  - "Haidan Guo"
+  - "Alex Barrett"
+  - "Raha Dastgheyb"
+  - "Leah H. Rubin"
+  - "Juan Troncoso"
+  - "Meaghan Morris"
 doi: "10.1093/jnen/nlaf102"
 pubmed: ""
 url_pdf: "Neuropathologic findings in a community-based autopsy cohort of older, virally suppressed, people with HIV.pdf"

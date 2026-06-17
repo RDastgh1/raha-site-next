@@ -1,0 +1,7 @@
+{{ $authors := .authors }}
+{{ $class := .class | default "publication-authors" }}
+{{ with $authors }}
+<p class="{{ $class }}">
+  {{ range $index, $author := . }}{{ if $index }}, {{ end }}{{ $author | htmlEscape | replaceRE `(?i)(dastgheyb)` `<strong>$1</strong>` | safeHTML }}{{ end }}
+</p>
+{{ end }}

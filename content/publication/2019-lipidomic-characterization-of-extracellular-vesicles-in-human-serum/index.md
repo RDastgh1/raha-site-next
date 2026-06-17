@@ -1,6 +1,7 @@
 ---
 
 
+
 bibtex_key: "chen2019lipidomic"
 slug: "2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum"
 title: "Lipidomic characterization of extracellular vesicles in human serum"
@@ -9,14 +10,14 @@ year: "2019"
 publication_type: "article"
 publication: "Journal of circulating biomarkers"
 authors:
-  - "Chen, Suming"
-  - "Datta-Chaudhuri, Amrita"
-  - "Deme, Pragney"
-  - "Dickens, Alex"
-  - "Dastgheyb, Raha"
-  - "Bhargava, Pavan"
-  - "Bi, Honghao"
-  - "Haughey, Norman J"
+  - "Suming Chen"
+  - "Amrita Datta-Chaudhuri"
+  - "Pragney Deme"
+  - "Alex Dickens"
+  - "Raha Dastgheyb"
+  - "Pavan Bhargava"
+  - "Honghao Bi"
+  - "Norman J. Haughey"
 doi: "10.1177/1849454419879848"
 pubmed: ""
 url_pdf: "chen-et-al-2019-lipidomic-characterization-of-extracellular-vesicles-in-human-serum.pdf"

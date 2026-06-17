@@ -6,6 +6,7 @@
 
 
 
+
 bibtex_key: "chaudhuri2018tnfalpha"
 slug: "2018-tnfalpha-and-il-1beta-modify-the-mirna-cargo-of-astrocyte-shed-extracellular-vesicles-to-regulate-neurotrophic-signaling-in-neurons"
 title: "TNFalpha and IL-1beta modify the miRNA cargo of astrocyte shed extracellular vesicles to regulate neurotrophic signaling in neurons"
@@ -14,14 +15,14 @@ year: "2018"
 publication_type: "article"
 publication: "Cell death & disease"
 authors:
-  - "Chaudhuri, Amrita Datta"
-  - "Dastgheyb, Raha M"
-  - "Yoo, Seung-Wan"
-  - "Trout, Amanda"
-  - "Talbot Jr, C Conover"
-  - "Hao, Haiping"
-  - "Witwer, Kenneth W"
-  - "Haughey, Norman J"
+  - "Amrita Datta Chaudhuri"
+  - "Raha M. Dastgheyb"
+  - "Seung-Wan Yoo"
+  - "Amanda Trout"
+  - "C. Conover Talbot Jr"
+  - "Haiping Hao"
+  - "Kenneth W. Witwer"
+  - "Norman J. Haughey"
 doi: "10.1038/s41419-018-0369-4"
 pubmed: ""
 url_pdf: ""

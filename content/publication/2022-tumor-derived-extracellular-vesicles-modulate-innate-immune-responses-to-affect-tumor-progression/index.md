@@ -2,6 +2,7 @@
 
 
 
+
 bibtex_key: "wang2022tumor"
 slug: "2022-tumor-derived-extracellular-vesicles-modulate-innate-immune-responses-to-affect-tumor-progression"
 title: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression"
@@ -10,10 +11,10 @@ year: "2022"
 publication_type: "article"
 publication: "Frontiers in immunology"
 authors:
-  - "Wang, Siqi"
-  - "Sun, Jiaxin"
-  - "Dastgheyb, Raha M"
-  - "Li, Zhigang"
+  - "Siqi Wang"
+  - "Jiaxin Sun"
+  - "Raha M. Dastgheyb"
+  - "Zhigang Li"
 doi: "10.3389/fimmu.2022.1045624"
 pubmed: ""
 url_pdf: "Tumor-derived extracellular vesicles modulate innate immune responses to affect tumor progression.pdf"

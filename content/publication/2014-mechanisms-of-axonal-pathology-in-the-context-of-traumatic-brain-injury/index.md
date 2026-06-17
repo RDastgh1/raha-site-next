@@ -4,6 +4,7 @@
 
 
 
+
 bibtex_key: "dastgheyb2014mechanisms"
 slug: "2014-mechanisms-of-axonal-pathology-in-the-context-of-traumatic-brain-injury"
 title: "Mechanisms of axonal pathology in the context of traumatic brain injury"
@@ -12,7 +13,7 @@ year: "2014"
 publication_type: "book"
 publication: "Drexel University"
 authors:
-  - "Dastgheyb, Raha Maryam"
+  - "Raha Maryam Dastgheyb"
 doi: "10.17918/etd-6332"
 pubmed: ""
 url_pdf: "Mechanisms of axonal pathology in the context of traumatic brain injury.pdf"

@@ -1,4 +1,5 @@
 ---
+
 bibtex_key: "vance2025associations"
 slug: "2025-associations-between-specific-iadls-and-objective-cognitive-performance-in-older-women-with-hiv"
 title: "Associations Between Specific IADLs And Objective Cognitive Performance In Older Women With HIV"
@@ -7,11 +8,11 @@ year: "2025"
 publication_type: "article"
 publication: "Innovation in Aging"
 authors:
-  - "Vance, David"
-  - "Lang, Lang"
-  - "Dastgheyb, Raha"
-  - "Xu, Yanxun"
-  - "Rubin, Leah"
+  - "David Vance"
+  - "Lang Lang"
+  - "Raha Dastgheyb"
+  - "Yanxun Xu"
+  - "Leah Rubin"
 doi: "10.1093/geroni/igaf122.2673"
 pubmed: ""
 url_pdf: ""

@@ -4,6 +4,7 @@
 
 
 
+
 bibtex_key: "rubin2020sex"
 slug: "2020-sex-differences-in-the-patterns-and-predictors-of-cognitive-function-in-hiv"
 title: "Sex differences in the patterns and predictors of cognitive function in HIV"
@@ -12,15 +13,15 @@ year: "2020"
 publication_type: "article"
 publication: "Frontiers in Neurology"
 authors:
-  - "Rubin, Leah H"
-  - "Sundermann, Erin E"
-  - "Dastgheyb, Raha"
-  - "Buchholz, Alison S"
-  - "Pasipanodya, Elizabeth"
-  - "Heaton, Robert K"
-  - "Grant, Igor"
-  - "Ellis, Ronald"
-  - "Moore, David J"
+  - "Leah H. Rubin"
+  - "Erin E. Sundermann"
+  - "Raha Dastgheyb"
+  - "Alison S. Buchholz"
+  - "Elizabeth Pasipanodya"
+  - "Robert K. Heaton"
+  - "Igor Grant"
+  - "Ronald Ellis"
+  - "David J. Moore"
 doi: "10.3389/fneur.2020.551921"
 pubmed: ""
 url_pdf: "Sex Differences in the Patterns and Predictors of Cognitive Function in HIV.pdf"

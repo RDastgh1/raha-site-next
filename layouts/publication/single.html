@@ -11,12 +11,7 @@
         {{ with .Params.publication }}<span>{{ . }}</span>{{ end }}
         {{ with .Params.publication_type }}<span>{{ . }}</span>{{ end }}
       </div>
-      {{ with .Params.authors }}
-      <p class="publication-authors">
-        {{ $count := len . }}
-        {{ range $index, $author := first 8 . }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}{{ if gt $count 8 }}, and {{ sub $count 8 }} others{{ end }}
-      </p>
-      {{ end }}
+      {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-authors") }}
     </div>
     {{ with .Params.thumbnail }}
     {{ $thumbURL := "" }}

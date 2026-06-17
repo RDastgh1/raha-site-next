@@ -41,6 +41,7 @@
       <a href="{{ .RelPermalink }}">
         <span>{{ .Params.year }}</span>
         <strong>{{ .Title }}</strong>
+        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors") }}
         <em>{{ .Params.publication }}</em>
       </a>
       {{ end }}

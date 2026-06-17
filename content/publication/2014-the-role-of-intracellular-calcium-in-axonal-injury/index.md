@@ -3,6 +3,7 @@
 
 
 
+
 bibtex_key: "dastgheyb2014role"
 slug: "2014-the-role-of-intracellular-calcium-in-axonal-injury"
 title: "The role of intracellular calcium in axonal injury"
@@ -11,9 +12,9 @@ year: "2014"
 publication_type: "inproceedings"
 publication: "2014 40th Annual Northeast Bioengineering Conference (NEBEC)"
 authors:
-  - "Dastgheyb, RM"
-  - "Barbee, KA"
-  - "Gallo, G"
+  - "R.M. Dastgheyb"
+  - "K.A. Barbee"
+  - "G. Gallo"
 doi: "10.1109/nebec.2014.6972768"
 pubmed: ""
 url_pdf: "The role of intracellular calcium in axonal injury.pdf"

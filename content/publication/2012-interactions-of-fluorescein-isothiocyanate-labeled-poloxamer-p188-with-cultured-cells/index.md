@@ -3,6 +3,7 @@
 
 
 
+
 bibtex_key: "dastgheyb2012interactions"
 slug: "2012-interactions-of-fluorescein-isothiocyanate-labeled-poloxamer-p188-with-cultured-cells"
 title: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells"
@@ -11,9 +12,9 @@ year: "2012"
 publication_type: "inproceedings"
 publication: "2012 38th Annual Northeast Bioengineering Conference (NEBEC)"
 authors:
-  - "Dastgheyb, Raha M"
-  - "Cochran, Michael C"
-  - "Barbee, Kenneth A"
+  - "Raha M. Dastgheyb"
+  - "Michael C. Cochran"
+  - "Kenneth A. Barbee"
 doi: "10.1109/nebc.2012.6207089"
 pubmed: ""
 url_pdf: "Interactions of fluorescein isothiocyanate-labeled poloxamer P188 with cultured cells.pdf"

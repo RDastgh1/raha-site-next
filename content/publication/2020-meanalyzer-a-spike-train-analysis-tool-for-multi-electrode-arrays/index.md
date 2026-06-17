@@ -3,6 +3,7 @@
 
 
 
+
 bibtex_key: "dastgheyb2020meanalyzer"
 slug: "2020-meanalyzer-a-spike-train-analysis-tool-for-multi-electrode-arrays"
 title: "MEAnalyzer-a spike train analysis tool for multi electrode arrays"
@@ -11,9 +12,9 @@ year: "2020"
 publication_type: "article"
 publication: "Neuroinformatics"
 authors:
-  - "Dastgheyb, Raha M"
-  - "Yoo, Seung-Wan"
-  - "Haughey, Norman J"
+  - "Raha M. Dastgheyb"
+  - "Seung-Wan Yoo"
+  - "Norman J. Haughey"
 doi: "10.1007/s12021-019-09431-0"
 pubmed: ""
 url_pdf: ""

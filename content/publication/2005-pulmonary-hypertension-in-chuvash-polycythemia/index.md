@@ -3,6 +3,7 @@
 
 
 
+
 bibtex_key: "dastgheyb2005pulmonary"
 slug: "2005-pulmonary-hypertension-in-chuvash-polycythemia"
 title: "Pulmonary hypertension in Chuvash polycythemia"
@@ -11,8 +12,8 @@ year: "2005"
 publication_type: "article"
 publication: "Ethnicity & Disease"
 authors:
-  - "Dastgheyb, Raha"
-  - "Gordeuk, Victor"
+  - "Raha Dastgheyb"
+  - "Victor Gordeuk"
 doi: ""
 pubmed: ""
 url_pdf: "PULMONARY HYPERTENSION IN CHUVASH POLYCYTHEMIA.pdf"

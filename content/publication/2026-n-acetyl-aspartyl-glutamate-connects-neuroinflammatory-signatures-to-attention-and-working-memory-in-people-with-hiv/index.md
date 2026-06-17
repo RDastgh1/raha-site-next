@@ -2,6 +2,7 @@
 
 
 
+
 bibtex_key: "rubin2026n"
 slug: "2026-n-acetyl-aspartyl-glutamate-connects-neuroinflammatory-signatures-to-attention-and-working-memory-in-people-with-hiv"
 title: "N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV"
@@ -10,15 +11,15 @@ year: "2026"
 publication_type: "article"
 publication: "AIDS"
 authors:
-  - "Rubin, Leah H"
-  - "Chandra, Atiksh"
-  - "Alt, Jesse"
-  - "Dastgheyb, Raha M"
-  - "Romero, Hayley"
-  - "Coughlin, Jennifer M"
-  - "Rais, Rana"
-  - "Veenhuis, Rebecca T"
-  - "Slusher, Barbara S"
+  - "Leah H. Rubin"
+  - "Atiksh Chandra"
+  - "Jesse Alt"
+  - "Raha M. Dastgheyb"
+  - "Hayley Romero"
+  - "Jennifer M. Coughlin"
+  - "Rana Rais"
+  - "Rebecca T. Veenhuis"
+  - "Barbara S. Slusher"
 doi: "10.1097/qad.0000000000004407"
 pubmed: ""
 url_pdf: "N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV.pdf"

@@ -1,5 +1,6 @@
 ---
 
+
 bibtex_key: "wiseman2024brain"
 slug: "2024-brain-n-acetyl-aspartyl-glutamate-is-associated-with-cognitive-function-in-older-virally-suppressed-people-with-hiv"
 title: "Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV"
@@ -8,12 +9,12 @@ year: "2024"
 publication_type: "article"
 publication: "Aids"
 authors:
-  - "Wiseman, Robyn L"
-  - "Bigos, Kristin L"
-  - "Dastgheyb, Raha M"
-  - "Barker, Peter B"
-  - "Rubin, Leah H"
-  - "Slusher, Barbara S"
+  - "Robyn L. Wiseman"
+  - "Kristin L. Bigos"
+  - "Raha M. Dastgheyb"
+  - "Peter B. Barker"
+  - "Leah H. Rubin"
+  - "Barbara S. Slusher"
 doi: "10.1097/qad.0000000000003871"
 pubmed: ""
 url_pdf: "Brain N-acetyl-aspartyl-glutamate is associated with cognitive function in older virally suppressed people with HIV.pdf"

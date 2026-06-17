@@ -2,6 +2,7 @@
 
 
 
+
 bibtex_key: "shorer2026parkinsonism"
 slug: "2026-parkinsonism-in-people-with-virally-suppressed-hiv"
 title: "Parkinsonism in people with virally suppressed HIV"
@@ -10,14 +11,14 @@ year: "2026"
 publication_type: "article"
 publication: "The Lancet HIV"
 authors:
-  - "Shorer, Eran F"
-  - "Dastgheyb, Raha M"
-  - "Rubin, Leah H"
-  - "Safonova, Aleksandra"
-  - "Masters, Mary C"
-  - "Zaikos, Thomas D"
-  - "Marais, Suzaan"
-  - "Robinson-Papp, Jessica"
+  - "Eran F. Shorer"
+  - "Raha M. Dastgheyb"
+  - "Leah H. Rubin"
+  - "Aleksandra Safonova"
+  - "Mary C. Masters"
+  - "Thomas D. Zaikos"
+  - "Suzaan Marais"
+  - "Jessica Robinson-Papp"
 doi: "10.1016/s2352-3018(25)00262-0"
 pubmed: ""
 url_pdf: "Parkinsonism in people with virally suppressed HIV.pdf"
