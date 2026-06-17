@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Caveat:wght@500;600;700&display=swap");
+
 :root {
   --raha-bg: #07111d;
   --raha-bg-deep: #030812;
@@ -20,6 +22,28 @@ html {
 body {
   background: var(--raha-bg);
   color: var(--raha-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+.raha-kicker,
+.raha-section__eyebrow,
+.raha-card__label,
+.faculty-identity strong,
+.raha-title-rotator,
+.network-node strong,
+.network-node span,
+.network-detail span,
+.tool-chip span,
+.ecosystem-node h2,
+.ecosystem-node span,
+.program-card h2,
+.program-card h3,
+.timeline-card h2,
+.timeline-card h3 {
+  font-family: "Akaya Kanadaka", Georgia, serif;
 }
 
 body.home {
@@ -55,9 +79,9 @@ a {
 
 .raha-brand {
   color: var(--raha-text);
-  font-family: "Brush Script MT", "Segoe Script", "Snell Roundhand", cursive;
-  font-size: 1.42rem;
-  font-weight: 500;
+  font-family: "Caveat", "Brush Script MT", "Segoe Script", "Snell Roundhand", cursive;
+  font-size: 1.72rem;
+  font-weight: 700;
   letter-spacing: 0.01em;
   text-transform: none;
   text-decoration: none;
@@ -648,40 +672,50 @@ a {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(1rem, 2vw, 1.4rem);
-  margin-top: 2.5rem;
-  padding-top: 2rem;
+  gap: clamp(1.1rem, 2.2vw, 1.8rem);
+  margin-top: 3rem;
+  padding: 4rem 1.2rem 1rem;
 }
 
 .training-timeline::before {
   content: "";
   position: absolute;
-  top: 4.15rem;
-  right: 8%;
-  left: 8%;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(98, 216, 239, 0.08), rgba(98, 216, 239, 0.72), rgba(156, 119, 216, 0.56), rgba(98, 216, 239, 0.08));
+  top: 5.9rem;
+  right: 7%;
+  left: 7%;
+  height: 5rem;
+  border-top: 2px solid rgba(98, 216, 239, 0.44);
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: none;
+  pointer-events: none;
+  box-shadow: 0 -18px 34px rgba(98, 216, 239, 0.05);
 }
 
 .training-timeline__item {
   position: relative;
-  min-height: 13rem;
-  padding-top: 3.2rem;
+  z-index: 1;
+  min-height: 10.5rem;
+  padding: 2.1rem 1.05rem 1.05rem;
 }
 
 .training-timeline__item:nth-child(even) {
-  margin-top: 4.2rem;
+  margin-top: 3rem;
+}
+
+.training-timeline__item:nth-child(1),
+.training-timeline__item:nth-child(4) {
+  margin-top: 2rem;
 }
 
 .training-timeline__badge {
   position: absolute;
-  top: 0;
-  left: 1.2rem;
+  top: -2.15rem;
+  left: 50%;
   z-index: 1;
   display: grid;
   place-items: center;
-  width: 3.4rem;
-  height: 3.4rem;
+  width: 3.2rem;
+  height: 3.2rem;
   border: 1px solid rgba(98, 216, 239, 0.58);
   border-radius: 50%;
   background:
@@ -692,6 +726,43 @@ a {
   font-weight: 800;
   letter-spacing: 0.08em;
   box-shadow: 0 0 28px rgba(98, 216, 239, 0.12);
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.training-timeline__badge img {
+  display: block;
+  width: 78%;
+  height: 78%;
+  object-fit: contain;
+}
+
+.training-timeline__badge img[src*="training-drexel"] {
+  width: 118%;
+  height: 118%;
+  object-fit: cover;
+}
+
+.training-timeline__badge img[src*="training-uva"],
+.training-timeline__badge img[src*="training-jhu"] {
+  width: 86%;
+  height: 86%;
+}
+
+.training-timeline__badge img + .training-timeline__badge-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.training-timeline__item p {
+  margin: 0.85rem 0 0;
+  color: var(--raha-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .thread-card,
@@ -886,11 +957,11 @@ a {
 
 .research-network__label {
   position: absolute;
-  z-index: 2;
-  padding: 0.32rem 0.48rem;
-  border: 1px solid rgba(98, 216, 239, 0.2);
+  z-index: 6;
+  padding: 0.38rem 0.55rem;
+  border: 1px solid rgba(98, 216, 239, 0.34);
   border-radius: 999px;
-  background: rgba(5, 13, 23, 0.78);
+  background: rgba(3, 8, 18, 0.94);
   color: #aeeeff;
   font-size: 0.58rem;
   font-weight: 700;
@@ -898,17 +969,18 @@ a {
   text-transform: uppercase;
   white-space: nowrap;
   opacity: 0;
+  box-shadow: 0 0 20px rgba(3, 8, 18, 0.58), 0 0 18px rgba(98, 216, 239, 0.1);
   transition: opacity 180ms ease, border-color 180ms ease, color 180ms ease;
 }
 
-.label-cp { top: 27%; left: 47%; }
-.label-viz { top: 45%; left: 29%; }
-.label-bio { top: 45%; right: 31%; }
-.label-soft { bottom: 31%; left: 34%; }
-.label-neuro { bottom: 31%; right: 28%; }
+.label-cp { top: 25%; left: 49%; }
+.label-viz { top: 43%; left: 24%; }
+.label-bio { top: 42%; right: 24%; }
+.label-soft { bottom: 35%; left: 31%; }
+.label-neuro { bottom: 35%; right: 30%; }
 .label-loop {
-  bottom: 12%;
-  left: 43%;
+  bottom: 8%;
+  left: 42%;
   color: var(--raha-violet-soft);
   border-color: rgba(156, 119, 216, 0.28);
 }
@@ -980,17 +1052,17 @@ a {
 .network-node--cp:hover,
 .network-node--cp:focus-visible { transform: translateX(-50%); }
 .network-node--viz { top: 34%; left: 8%; }
-.network-node--bio { top: 34%; right: 8%; }
+.network-node--bio { top: 36%; right: 9%; }
 .network-node--soft { bottom: 14%; left: 18%; }
-.network-node--neuro { bottom: 14%; right: 18%; }
+.network-node--neuro { bottom: 10%; right: 20%; }
 
 .network-detail {
   position: absolute;
   z-index: 5;
+  top: 1.25rem;
   right: 1.25rem;
-  bottom: 1.25rem;
   width: calc(100% - 2.5rem);
-  max-width: 25rem;
+  max-width: 24rem;
   min-height: 6.1rem;
   padding: 0.8rem 0.95rem;
   border: 1px solid rgba(156, 119, 216, 0.34);
@@ -1044,7 +1116,7 @@ a {
 .research-network:has(.network-node:focus-visible) .network-pulse,
 .research-network:has(.network-node:hover) .research-network__label,
 .research-network:has(.network-node:focus-visible) .research-network__label {
-  opacity: 0.24;
+  opacity: 0.36;
 }
 
 .research-network:has(.network-node--center:hover) .network-edge,
@@ -1155,6 +1227,28 @@ a {
   background: radial-gradient(circle at 28% 24%, rgba(98, 216, 239, 0.13), transparent 16rem), rgba(13, 25, 38, 0.7);
   color: var(--raha-text);
   text-decoration: none;
+}
+
+.publication-index,
+.publication-index h1,
+.publication-index h2,
+.publication-index h3,
+.publication-index .raha-kicker,
+.publication-index .raha-section__eyebrow,
+.publication-page,
+.publication-page h1,
+.publication-page h2,
+.publication-page h3,
+.publication-page .raha-kicker,
+.publication-page .raha-section__eyebrow,
+.publication-card,
+.publication-card h3,
+.publication-card__meta,
+.publication-archive,
+.publication-archive a,
+.publication-archive span,
+.publication-archive em {
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 .publication-card:hover {
@@ -1684,7 +1778,7 @@ a {
 
 .affiliation-card {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-columns: 6.1rem minmax(0, 1fr);
   gap: 0.85rem;
   align-items: center;
   min-width: 0;
@@ -1694,6 +1788,10 @@ a {
   background: rgba(13, 25, 38, 0.64);
   color: var(--raha-text);
   text-decoration: none;
+}
+
+.affiliation-card__body {
+  min-width: 0;
 }
 
 .affiliation-card:hover {
@@ -1720,6 +1818,26 @@ a {
   object-fit: contain;
 }
 
+.affiliation-card__badge {
+  display: grid;
+  place-items: center;
+  width: 5.25rem;
+  min-height: 3.5rem;
+  padding: 0.35rem;
+  border: 1px solid rgba(98, 216, 239, 0.18);
+  border-radius: 0.45rem;
+  background:
+    radial-gradient(circle at 35% 20%, rgba(98, 216, 239, 0.14), transparent 4rem),
+    rgba(238, 247, 251, 0.05);
+  color: var(--raha-cyan);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .affiliation-card h3,
 .affiliation-card strong {
   margin: 0;
@@ -1739,6 +1857,22 @@ a {
   display: block;
   color: var(--raha-violet-soft);
   font-size: 0.86rem;
+}
+
+.affiliation-card__body > span,
+.affiliation-card__body > strong {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--raha-violet-soft);
+  font-size: 0.86rem;
+  line-height: 1.25;
+}
+
+.affiliation-card .affiliation-card__badge {
+  display: grid;
+  color: var(--raha-cyan);
+  font-size: 0.68rem;
+  line-height: 1.1;
 }
 
 .leadership-secondary article,
@@ -2100,12 +2234,37 @@ a {
   }
 
   .training-timeline {
-    padding-top: 0;
+    gap: 1rem;
+    padding: 0 0 0 1.6rem;
+  }
+
+  .training-timeline::before {
+    display: block;
+    top: 0.6rem;
+    bottom: 0.6rem;
+    left: 0.55rem;
+    right: auto;
+    width: 1px;
+    height: auto;
+    border-top: 0;
+    border-left: 2px solid rgba(98, 216, 239, 0.42);
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .training-timeline__item {
     min-height: auto;
-    padding-top: 3.1rem;
+    margin-top: 0 !important;
+    padding: 1rem;
+  }
+
+  .training-timeline__badge {
+    top: 1rem;
+    left: -1.6rem;
+    width: 2.35rem;
+    height: 2.35rem;
+    font-size: 0.62rem;
+    transform: translateX(-50%);
   }
 
   .ecosystem-node,

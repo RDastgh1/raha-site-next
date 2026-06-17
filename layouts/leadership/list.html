@@ -22,19 +22,24 @@
       <div class="affiliation-grid affiliation-grid--page">
       {{ range hugo.Data.leadership.secondary }}
       {{ $logoAlt := .logo_alt | default .title }}
+      {{ $badge := .badge | default .title }}
       {{ if .url }}
       <a class="affiliation-card" href="{{ .url | default "#" }}">
-        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
-        <strong>{{ .title }}</strong>
-        <span>{{ .role }}</span>
-        <p>{{ .summary }}</p>
+        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+        <div class="affiliation-card__body">
+          <strong>{{ .title }}</strong>
+          <span>{{ .role }}</span>
+          <p>{{ .summary }}</p>
+        </div>
       </a>
       {{ else }}
       <article class="affiliation-card">
-        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
-        <strong>{{ .title }}</strong>
-        <span>{{ .role }}</span>
-        <p>{{ .summary }}</p>
+        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+        <div class="affiliation-card__body">
+          <strong>{{ .title }}</strong>
+          <span>{{ .role }}</span>
+          <p>{{ .summary }}</p>
+        </div>
       </article>
       {{ end }}
       {{ end }}
@@ -53,7 +58,7 @@
   <section class="publication-tier">
     <div class="raha-section__eyebrow">Research Focus Areas</div>
     <div class="program-grid">
-      {{ range first 4 hugo.Data.profile_layers.programs }}
+      {{ range hugo.Data.profile_layers.programs }}
       <article class="program-card">
         <h2>{{ .title }}</h2>
         <p>{{ .summary }}</p>

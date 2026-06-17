@@ -8,8 +8,12 @@
     {{ range hugo.Data.profile_layers.training }}
     {{ $badge := "JHU" }}
     {{ if in .institution "Virginia" }}{{ $badge = "UVA" }}{{ else if in .institution "Drexel" }}{{ $badge = "DU" }}{{ end }}
+    {{ $logoAlt := .logo_alt | default .institution }}
     <article class="timeline-card training-timeline__item">
-      <span class="training-timeline__badge">{{ $badge }}</span>
+      <span class="training-timeline__badge">
+        {{ with .logo }}<img src="{{ . }}" alt="{{ $logoAlt }}">{{ end }}
+        <span class="training-timeline__badge-text">{{ $badge }}</span>
+      </span>
       <h2>{{ .title }}</h2>
       <strong>{{ .institution }}</strong>
       <p>{{ .summary }}</p>

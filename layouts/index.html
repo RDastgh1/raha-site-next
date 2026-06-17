@@ -378,19 +378,24 @@
       <div class="leadership-secondary affiliation-grid">
         {{ range $leadership.secondary }}
         {{ $logoAlt := .logo_alt | default .title }}
+        {{ $badge := .badge | default .title }}
         {{ if .url }}
         <a class="affiliation-card" href="{{ .url | default "#" }}">
-          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
-          <h3>{{ .title }}</h3>
-          <strong>{{ .role }}</strong>
-          <p>{{ .summary }}</p>
+          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+          <div class="affiliation-card__body">
+            <h3>{{ .title }}</h3>
+            <strong>{{ .role }}</strong>
+            <p>{{ .summary }}</p>
+          </div>
         </a>
         {{ else }}
         <article class="affiliation-card">
-          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
-          <h3>{{ .title }}</h3>
-          <strong>{{ .role }}</strong>
-          <p>{{ .summary }}</p>
+          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+          <div class="affiliation-card__body">
+            <h3>{{ .title }}</h3>
+            <strong>{{ .role }}</strong>
+            <p>{{ .summary }}</p>
+          </div>
         </article>
         {{ end }}
         {{ end }}
@@ -414,10 +419,15 @@
         {{ range $profile.training }}
         {{ $badge := "JHU" }}
         {{ if in .institution "Virginia" }}{{ $badge = "UVA" }}{{ else if in .institution "Drexel" }}{{ $badge = "DU" }}{{ end }}
+        {{ $logoAlt := .logo_alt | default .institution }}
         <a class="timeline-card training-timeline__item" href="{{ "profile/" | relURL }}">
-          <span class="training-timeline__badge">{{ $badge }}</span>
+          <span class="training-timeline__badge">
+            {{ with .logo }}<img src="{{ . }}" alt="{{ $logoAlt }}">{{ end }}
+            <span class="training-timeline__badge-text">{{ $badge }}</span>
+          </span>
           <h3>{{ .title }}</h3>
           <strong>{{ .institution }}</strong>
+          {{ with .blurb }}<p>{{ . }}</p>{{ end }}
         </a>
         {{ end }}
       </div>

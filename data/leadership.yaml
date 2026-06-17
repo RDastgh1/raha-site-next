@@ -28,9 +28,12 @@ secondary:
     role: "Collaborative cohort infrastructure"
     summary: "Member of the BRACE/tablet-based cognitive data reading center, Sleep Working Group, and Neuropsych Working Group."
     url: "https://statepi.jhsph.edu/mwccs/"
+    logo: "/media/leadership-mwccs.png"
+    logo_alt: "MWCCS / MACS-WIHS Combined Cohort Study logo"
   - title: "CHARTER"
     role: "Collaborative cohort science"
     summary: "Collaborative research infrastructure for studying neurocognitive, clinical, and biopsychosocial phenotypes in people with HIV."
+    badge: "CHARTER"
 community:
   - title: "Moveable Feast Board"
     summary: "Community health leadership and service beyond the academic lab."
