@@ -23,7 +23,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1109/nebec.2014.6972768"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "axonalbeads.gif"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

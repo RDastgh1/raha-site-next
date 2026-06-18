@@ -40,7 +40,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1038/s41593-019-0366-7"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "norrin.webp"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

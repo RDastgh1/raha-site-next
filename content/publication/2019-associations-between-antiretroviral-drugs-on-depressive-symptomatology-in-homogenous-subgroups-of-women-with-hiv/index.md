@@ -35,7 +35,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1007/s11481-019-09899-2"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "depressivesymptoms.webp"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

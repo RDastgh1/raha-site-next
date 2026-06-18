@@ -37,7 +37,7 @@ featured: true
 thumbnail: "media/publications/generated/2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint.svg"
 visual_abstract: "media/publications/generated/2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint.svg"
 abstract: "BACKGROUND"
-extracted_figure: "extracted-figure-page-1.png"
+extracted_figure: "braceabstract.png"
 extracted_figure_source_pdf: " BRACE-ing for the future- Establishing iPad-based norms for cognitive function in the MACS:WIHS Combined Cohort Study.pdf"
 extracted_figure_page: "1"
 extracted_figure_confidence: "0.62"

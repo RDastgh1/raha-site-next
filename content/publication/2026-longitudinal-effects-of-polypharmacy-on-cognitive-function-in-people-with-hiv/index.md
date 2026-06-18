@@ -23,7 +23,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1097/qad.0000000000004379"
 tier: "highlighted"
 featured: true
-thumbnail: "media/publications/generated/2026-longitudinal-effects-of-polypharmacy-on-cognitive-function-in-people-with-hiv.svg"
+thumbnail: "longpolypharmacyabstract.jpeg"
 visual_abstract: ""
 abstract: "Objective:"
 extracted_figure: ""

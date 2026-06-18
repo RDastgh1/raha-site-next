@@ -33,7 +33,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.3389/fpsyg.2020.548521"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "declaritivememory.webp"
 visual_abstract: ""
 abstract: ""
 extracted_figure: "extracted-figure-page-1.png"

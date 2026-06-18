@@ -23,7 +23,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1109/nebc.2012.6207089"
 tier: "archive"
 featured: false
-thumbnail: "paper-figure-thumbnail.png"
+thumbnail: "p188cells.png"
 visual_abstract: ""
 abstract: ""
 extracted_figure: "paper-figure-thumbnail.png"

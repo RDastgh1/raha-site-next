@@ -19,7 +19,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1109/nebec.2015.7117156"
 tier: "archive"
 featured: false
-thumbnail: "media/publications/generated/2015-investigating-sources-of-axonal-calcium-in-neuronal-cultures-modeling-traumatic-brain-injury.svg"
+thumbnail: "axonalcalciumsources.gif"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

@@ -36,7 +36,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1007/s13365-019-00768-5"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "cogchangerakai.webp"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

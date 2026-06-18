@@ -34,7 +34,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1101/686832"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "F7.jpg"
 visual_abstract: ""
 abstract: "Abstract"
 extracted_figure: ""

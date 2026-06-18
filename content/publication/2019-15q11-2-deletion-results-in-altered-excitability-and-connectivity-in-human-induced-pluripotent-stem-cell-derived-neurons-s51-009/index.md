@@ -25,7 +25,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1212/wnl.92.15_supplement.s51.009"
 tier: "archive"
 featured: false
-thumbnail: "media/publications/generated/2019-15q11-2-deletion-results-in-altered-excitability-and-connectivity-in-human-induced-pluripotent-stem-cell-derived-neurons-s51-009.svg"
+thumbnail: "deletion.png"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

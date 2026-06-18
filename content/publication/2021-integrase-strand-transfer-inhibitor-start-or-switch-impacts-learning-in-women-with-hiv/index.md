@@ -39,7 +39,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1097/qai.0000000000002608"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "insti.jpeg"
 visual_abstract: ""
 abstract: "Background:"
 extracted_figure: ""

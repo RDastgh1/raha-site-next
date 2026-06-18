@@ -35,7 +35,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.3389/fnint.2020.00020"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "inflammatorysignatures.webp"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

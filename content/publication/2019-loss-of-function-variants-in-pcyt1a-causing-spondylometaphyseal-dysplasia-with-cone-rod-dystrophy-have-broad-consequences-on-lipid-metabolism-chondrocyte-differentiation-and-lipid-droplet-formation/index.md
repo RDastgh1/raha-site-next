@@ -34,7 +34,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1101/2019.12.19.882191"
 tier: "archive"
 featured: false
-thumbnail: "media/publications/generated/2019-loss-of-function-variants-in-pcyt1a-causing-spondylometaphyseal-dysplasia-with-cone-rod-dystrophy-have-broad-consequences-on-lipid-metabolism-chondrocyte-differentiation-and-lipid-droplet-formation.svg"
+thumbnail: "nlm_pcyta.png"
 visual_abstract: ""
 abstract: "Abstract"
 extracted_figure: ""

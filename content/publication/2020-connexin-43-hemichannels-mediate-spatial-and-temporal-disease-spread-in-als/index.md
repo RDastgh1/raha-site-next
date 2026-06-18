@@ -32,8 +32,8 @@ url_code: ""
 url_dataset: ""
 url_doi: "https://doi.org/10.1101/2020.03.14.990747"
 tier: "archive"
-featured: false
-thumbnail: "extracted-figure-page-1.png"
+featured: true
+thumbnail: "connexin.png"
 visual_abstract: ""
 abstract: "Abstract"
 extracted_figure: ""
