@@ -12,10 +12,16 @@
         {{ with .Params.tutorial }}<a class="raha-button raha-button--secondary" href="{{ . }}">Tutorial</a>{{ end }}
       </div>
     </div>
+    {{ with .Params.image }}
+    <figure class="software-sticker">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }} hex sticker">
+    </figure>
+    {{ else }}
     <div class="software-signal">
       <span>Scientific problem</span>
       <strong>{{ .Params.problem | default "Complex data need reproducible, interpretable analytic systems." }}</strong>
     </div>
+    {{ end }}
   </header>
 
   <section class="software-panels">

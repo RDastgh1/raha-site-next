@@ -1,6 +1,7 @@
 ---
 title: "SciDataAgent"
 summary: "A conceptual in-development AI reasoning layer for human-in-the-loop biomedical data exploration."
+image: "/media/software/scidataagent/sticker.png"
 tags: ["Biomedical AI", "AI-assisted discovery", "human-in-the-loop AI", "scientific reasoning", "reproducible research"]
 github: "https://github.com/RDastgh1"
 documentation: ""

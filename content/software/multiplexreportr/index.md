@@ -1,6 +1,7 @@
 ---
 title: "MultiPlexReportR"
 summary: "In-development reporting infrastructure for multiplex biomarker panels and translational biomedical studies."
+image: "/media/software/multiplexreportr/sticker.png"
 tags: ["In Development", "scientific software", "open-source software", "multiplex", "biomarker discovery", "biomedical data science"]
 github: "https://github.com/RDastgh1"
 documentation: ""

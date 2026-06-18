@@ -1,6 +1,7 @@
 ---
 title: "MetabolomicsReportR"
 summary: "In-development metabolomics reporting for multi-omics biomedical discovery."
+image: "/media/software/metabolomicsreportr/sticker.png"
 tags: ["In Development", "scientific software", "open-source software", "metabolomics", "multi-omics", "biomarker discovery"]
 github: "https://github.com/RDastgh1"
 documentation: ""

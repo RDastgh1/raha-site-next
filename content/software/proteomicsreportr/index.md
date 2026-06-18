@@ -1,6 +1,7 @@
 ---
 title: "ProteomicsReportR"
 summary: "In-development reporting workflows for proteomics quality control, biomarker discovery, and biological interpretation."
+image: "/media/software/proteomicsreportr/sticker.png"
 tags: ["In Development", "scientific software", "open-source software", "proteomics", "multi-omics", "biomarker discovery"]
 github: "https://github.com/RDastgh1"
 documentation: ""

@@ -1,6 +1,7 @@
 ---
 title: "SciDataReportR"
 summary: "An open-source framework for reproducible biomedical data analysis and reporting."
+image: "/media/software/scidatareportr/sticker.png"
 tags: ["scientific software", "open-source software", "reproducible research", "R", "biomedical data science"]
 github: "https://github.com/RDastgh1"
 documentation: ""

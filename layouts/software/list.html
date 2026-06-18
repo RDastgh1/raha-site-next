@@ -11,11 +11,15 @@
       {{ range $ecosystem.ecosystem }}
       <a class="ecosystem-node {{ if eq .status "In Development" }}ecosystem-node--development{{ else if eq .title "MEAnalyzer" }}ecosystem-node--core{{ else }}ecosystem-node--package{{ end }}" href="{{ .url | relURL }}">
         <div class="software-hex" aria-hidden="true">
+          {{ with .image }}
+          <img src="{{ . | relURL }}" alt="">
+          {{ else }}
           <svg viewBox="0 0 96 108">
             <path d="M48 4 L88 27 V81 L48 104 L8 81 V27 Z"></path>
             <path class="accent" d="M27 34 H69 M27 54 H69 M27 74 H55"></path>
           </svg>
           <span>{{ if eq .title "MEAnalyzer" }}MEA{{ else if eq .title "SciDataReportR" }}SDR{{ else if eq .title "Computational Phenotyping Pipelines" }}CP{{ else if eq .title "Dashboards and Reporting Frameworks" }}DASH{{ else if eq .title "ProteomicsReportR" }}PRO{{ else if eq .title "MetabolomicsReportR" }}MET{{ else if eq .title "MultiPlexReportR" }}MPX{{ else }}AI{{ end }}</span>
+          {{ end }}
         </div>
         <div class="ecosystem-node__body">
           <span>{{ .status }}</span>
