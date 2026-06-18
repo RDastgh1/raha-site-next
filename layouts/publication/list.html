@@ -5,18 +5,21 @@
   <h1>{{ .Title }}</h1>
   {{ with .Content }}{{ . }}{{ end }}
 
-  {{ $pages := where .Pages "Params.tier" "!=" "report" }}
+  {{ $pages := where (where .Pages "Params.tier" "!=" "report") "Params.manual_featured" "!=" true }}
   {{ $highlightedConfig := hugo.Data.highlighted_publications.items }}
-  {{ $selected := where $pages "Params.tier" "selected" }}
-  {{ $archive := where $pages "Params.tier" "archive" }}
+  {{ $articles := where $pages "Params.publication_type" "article" }}
+  {{ $selected := where (where $articles "Params.tier" "selected") "Params.tier" "!=" "highlighted" }}
+  {{ $articleArchive := where $articles "Params.tier" "archive" }}
+  {{ $proceedings := where $pages "Params.publication_type" "inproceedings" }}
+  {{ $otherOutputs := where (where $pages "Params.publication_type" "!=" "article") "Params.publication_type" "!=" "inproceedings" }}
 
   <section class="publication-tier">
-    <div class="raha-section__eyebrow">Highlighted Publications</div>
+    <div class="raha-section__eyebrow">Highlighted Peer-Reviewed Publications</div>
     <div class="publication-grid publication-grid--highlighted">
       {{ range $highlightedConfig }}
         {{ $key := .key }}
         {{ $title := .title | lower }}
-        {{ range $pages }}
+        {{ range $articles }}
           {{ if or (and $key (eq .Params.bibtex_key $key) (in (.Title | lower) $title)) (in (.Title | lower) $title) }}
             {{ partial "publication-card.html" (dict "page" . "variant" "highlighted") }}
           {{ end }}
@@ -26,7 +29,7 @@
   </section>
 
   <section class="publication-tier">
-    <div class="raha-section__eyebrow">Selected Publications</div>
+    <div class="raha-section__eyebrow">Selected Peer-Reviewed Publications</div>
     <div class="publication-grid">
       {{ range $selected.ByDate.Reverse }}
         {{ partial "publication-card.html" (dict "page" . "variant" "standard") }}
@@ -35,9 +38,37 @@
   </section>
 
   <section class="publication-tier">
-    <div class="raha-section__eyebrow">Archive</div>
+    <div class="raha-section__eyebrow">Peer-Reviewed Journal Articles</div>
     <div class="publication-archive">
-      {{ range $archive.ByDate.Reverse }}
+      {{ range $articleArchive.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}">
+        <span>{{ .Params.year }}</span>
+        <strong>{{ .Title }}</strong>
+        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors") }}
+        <em>{{ .Params.publication }}</em>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Conferences, Abstracts, and Proceedings</div>
+    <div class="publication-archive">
+      {{ range $proceedings.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}">
+        <span>{{ .Params.year }}</span>
+        <strong>{{ .Title }}</strong>
+        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors") }}
+        <em>{{ .Params.publication }}</em>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="publication-tier">
+    <div class="raha-section__eyebrow">Other Scholarly Outputs</div>
+    <div class="publication-archive">
+      {{ range $otherOutputs.ByDate.Reverse }}
       <a href="{{ .RelPermalink }}">
         <span>{{ .Params.year }}</span>
         <strong>{{ .Title }}</strong>
