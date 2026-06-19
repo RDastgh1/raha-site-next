@@ -24,6 +24,12 @@
     {{ end }}
   </header>
 
+  {{ with .Params.workflow_figure }}
+  <figure class="workflow-figure">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.workflow_figure_alt | default $.Title }}">
+  </figure>
+  {{ end }}
+
   <section class="software-panels">
     <div class="portal-panel">
       <div class="raha-section__eyebrow">Why It Was Needed</div>

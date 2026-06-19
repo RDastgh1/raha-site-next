@@ -6,6 +6,11 @@
   <p class="raha-kicker">Research Thread</p>
   <h1>{{ .Title }}</h1>
   {{ with .Params.summary }}<p class="raha-section__lede">{{ . }}</p>{{ end }}
+  {{ with .Params.thread_figure }}
+  <figure class="thread-figure">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.thread_figure_alt | default $.Title }}">
+  </figure>
+  {{ end }}
   {{ .Content }}
 
   {{ with $thread }}

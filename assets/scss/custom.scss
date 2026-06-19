@@ -791,6 +791,46 @@ a {
   min-height: 12rem;
 }
 
+.thread-figure {
+  display: grid;
+  place-items: center;
+  margin: clamp(1.5rem, 4vw, 2.4rem) 0;
+  padding: clamp(1rem, 3vw, 1.8rem);
+  border: 1px solid var(--raha-border);
+  border-radius: 0.5rem;
+  background:
+    radial-gradient(circle at 28% 30%, rgba(98, 216, 239, 0.08), transparent 22rem),
+    radial-gradient(circle at 72% 54%, rgba(156, 119, 216, 0.08), transparent 24rem),
+    rgba(13, 25, 38, 0.5);
+  overflow: hidden;
+}
+
+.thread-figure img {
+  display: block;
+  width: 100%;
+  max-width: 48rem;
+  max-height: 26rem;
+  object-fit: contain;
+  filter: drop-shadow(0 1.4rem 2.8rem rgba(0, 0, 0, 0.22));
+}
+
+.workflow-figure {
+  margin: clamp(1.5rem, 4vw, 2.5rem) 0;
+  padding: clamp(0.5rem, 1.4vw, 0.9rem);
+  border: 1px solid rgba(192, 167, 236, 0.36);
+  border-radius: 0.5rem;
+  background: #f8f7fb;
+  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+}
+
+.workflow-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.35rem;
+}
+
 .program-card {
   min-height: 12rem;
 }
@@ -858,6 +898,24 @@ a {
   max-height: 11rem;
   object-fit: contain;
   filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.28));
+}
+
+.raha-system__image img[src*="computational-phenotyping-pipeline"],
+.raha-system__image img[src*="reporting-framework-figure"] {
+  width: calc(100% - 1rem);
+  height: calc(100% - 1rem);
+  max-width: none;
+  max-height: none;
+  padding: 0.55rem;
+  border-radius: 0.45rem;
+  background: rgba(248, 247, 251, 0.96);
+  object-fit: contain;
+  filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.22));
+}
+
+.raha-system:has(img[src*="computational-phenotyping-pipeline"]) .raha-system__image,
+.raha-system:has(img[src*="reporting-framework-figure"]) .raha-system__image {
+  height: 8.5rem;
 }
 
 .raha-map {

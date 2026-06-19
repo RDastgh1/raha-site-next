@@ -2,6 +2,8 @@
 title: "Cellular Systems & Axonal Injury"
 summary: "Biomedical engineering foundations in traumatic brain injury, axonal pathology, electrophysiology, and neural systems."
 thread_key: "cellular-systems-axonal-injury"
+thread_figure: "/media/research-threads/bench-to-computation-figure.png"
+thread_figure_alt: "Illustration of bench experiments connected to computational analysis, imaging, and cellular signal visualization."
 ---
 
 This thread preserves the engineering and cellular neuroscience foundation of the research program. Work on axonal pathology, traumatic brain injury, extracellular vesicles, astrocyte-neuron signaling, and high-throughput electrophysiology helped shape the later emphasis on scientific software and translational data systems.

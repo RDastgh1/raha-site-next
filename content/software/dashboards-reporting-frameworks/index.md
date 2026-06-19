@@ -1,23 +1,26 @@
 ---
-title: "Dashboards and Reporting Frameworks"
-summary: "Scientific interfaces that make analysis outputs inspectable and reusable."
-tags: ["dashboards", "reporting", "scientific visualization"]
+title: "Scientific Reporting Frameworks"
+slug: "dashboards-reporting-frameworks"
+summary: "Reproducible reporting systems that turn analysis workflows into publication-ready scientific outputs."
+tags: ["reporting", "scientific visualization", "reproducible research"]
 github: "https://github.com/RDastgh1"
 documentation: ""
-problem: "Complex analyses often become static files that are hard for collaborators to explore, question, or reuse."
-needed: "Interdisciplinary research teams need interfaces that let people inspect multidimensional results, drill into observations, compare assumptions, and share insights without flattening the analysis into a single table."
-enables: "Dashboards and reporting frameworks turn computational results into interactive scientific communication: Shiny apps, Plotly views, animated outputs, and reproducible reports."
+problem: "Complex analyses often become disconnected files, figures, and tables that are hard to audit, reproduce, or turn into a coherent scientific story."
+needed: "Interdisciplinary research teams need reporting systems that carry metadata, quality control, modeling decisions, visualizations, tables, and outputs through one transparent workflow."
+enables: "Scientific reporting frameworks turn computational analyses into reproducible reports, publication-ready figures and tables, interactive visuals, and exportable outputs."
+workflow_figure: "/media/research-threads/reporting-framework-figure.png"
+workflow_figure_alt: "Comprehensive framework diagram for data analysis and reporting from data management through quality control, feature engineering, modeling, visualization, reporting, sharing, review, tracking, and reproducibility."
 related_publications:
   - "2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
   - "2025-international-application-of-an-optimized-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
   - "2023-machine-learning-approaches-to-understand-cognitive-phenotypes-in-people-with-hiv"
 ---
 
-Dashboards and reporting frameworks translate computational outputs into formats that collaborators can inspect, question, reuse, and extend.
+Scientific reporting frameworks translate computational outputs into formats that collaborators can inspect, question, reuse, and extend.
 
 ## Scientific Infrastructure
 
-These frameworks sit between analysis code and scientific conversation. They help collaborators rotate multidimensional results, inspect model outputs, explore individual observations, and understand how assumptions change interpretation.
+These frameworks sit between analysis code and scientific conversation. They connect data management, quality control, feature engineering, modeling, visualization, reporting, review, version control, and reproducibility in one analysis-to-output workflow.
 
 ## Scientific Story
 
