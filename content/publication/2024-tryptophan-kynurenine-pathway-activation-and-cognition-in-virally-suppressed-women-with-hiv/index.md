@@ -30,7 +30,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1097/qai.0000000000003454"
 tier: "highlighted"
 featured: true
-thumbnail: "media/publications/generated/2024-tryptophan-kynurenine-pathway-activation-and-cognition-in-virally-suppressed-women-with-hiv.svg"
+thumbnail: "idozecognition.jpeg"
 visual_abstract: ""
 abstract: "Background:"
 extracted_figure: ""

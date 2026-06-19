@@ -27,7 +27,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1037/neu0000935"
 tier: "highlighted"
 featured: true
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "Long_COVID_Brain_Barrier_Leak"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""

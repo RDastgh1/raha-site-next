@@ -62,7 +62,7 @@ featured: true
 thumbnail: "media/publications/generated/2023-the-baltimore-declaration-toward-the-exploration-of-organoid-intelligence.svg"
 visual_abstract: "media/publications/generated/2023-the-baltimore-declaration-toward-the-exploration-of-organoid-intelligence.svg"
 abstract: ""
-extracted_figure: "extracted-figure-page-1.png"
+extracted_figure: "organoidintelligence.png"
 extracted_figure_source_pdf: "The Baltimore declaration toward the exploration of organoid intelligence.pdf"
 extracted_figure_page: "1"
 extracted_figure_confidence: "0.62"

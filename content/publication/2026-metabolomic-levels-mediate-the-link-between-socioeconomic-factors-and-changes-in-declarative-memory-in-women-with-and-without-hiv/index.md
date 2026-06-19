@@ -27,7 +27,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1016/j.bbih.2026.101223"
 tier: "highlighted"
 featured: true
-thumbnail: "media/publications/generated/2026-metabolomic-levels-mediate-the-link-between-socioeconomic-factors-and-changes-in-declarative-memory-in-women-with-and-without-hiv.svg"
+thumbnail: "metabolites.jpg"
 visual_abstract: "media/publications/generated/2026-metabolomic-levels-mediate-the-link-between-socioeconomic-factors-and-changes-in-declarative-memory-in-women-with-and-without-hiv.svg"
 abstract: ""
 extracted_figure: "extracted-figure-page-1.png"
