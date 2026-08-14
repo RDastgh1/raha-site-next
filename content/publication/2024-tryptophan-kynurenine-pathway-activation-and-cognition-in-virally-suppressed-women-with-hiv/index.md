@@ -32,7 +32,7 @@ tier: "highlighted"
 featured: true
 thumbnail: "idozecognition.jpeg"
 visual_abstract: ""
-abstract: "Background:"
+abstract: ""
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""

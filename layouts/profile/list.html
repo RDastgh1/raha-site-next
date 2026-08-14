@@ -11,7 +11,7 @@
     {{ $logoAlt := .logo_alt | default .institution }}
     <article class="timeline-card training-timeline__item">
       <span class="training-timeline__badge">
-        {{ with .logo }}<img src="{{ . }}" alt="{{ $logoAlt }}">{{ end }}
+        {{ with .logo }}<img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async">{{ end }}
         <span class="training-timeline__badge-text">{{ $badge }}</span>
       </span>
       <h2>{{ .title }}</h2>

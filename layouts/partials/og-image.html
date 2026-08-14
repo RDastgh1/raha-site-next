@@ -1,0 +1,26 @@
+{{/*
+  Returns an absolute URL for the page's social-share image.
+
+  Order of preference:
+    1. the page's own thumbnail, when it is a processable bundle resource
+       (publication figures -- so a shared paper link previews its own figure)
+    2. the site default, cropped from the hero poster
+
+  JPEG rather than WebP on purpose: several link unfurlers (LinkedIn in
+  particular) still handle WebP inconsistently for og:image.
+*/}}
+{{- $img := "" -}}
+{{- with .Params.thumbnail -}}
+  {{- $t := . -}}
+  {{- if and (not (hasPrefix $t "media/")) (not (strings.HasSuffix (lower $t) ".svg")) (not (strings.HasSuffix (lower $t) ".gif")) -}}
+    {{- with $.Resources.GetMatch $t -}}
+      {{- $img = (.Fill "1200x630 jpg q85 Center").Permalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $img -}}
+  {{- with resources.Get "media/hero/hero-poster.png" -}}
+    {{- $img = (.Fill "1200x630 jpg q85 Center").Permalink -}}
+  {{- end -}}
+{{- end -}}
+{{- $img -}}

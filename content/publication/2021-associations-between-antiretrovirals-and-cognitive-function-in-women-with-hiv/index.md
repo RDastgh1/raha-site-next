@@ -36,21 +36,18 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1007/s11481-020-09910-1"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "figure.png"
 visual_abstract: ""
-abstract: ""
+abstract: "Cognitive complications persist in antiretroviral therapy(ART)-treated people with HIV. However, the pattern and severity of domain-specific cognitive performance is variable and may be exacerbated by ART-mediated neurotoxicity. 929 women with HIV(WWH) from the Women’s Interagency HIV Study who were classified into subgroups based on sociodemographic and longitudinal behavioral and clinical data using semi-parametric latent class trajectory modelling. Five subgroups were comprised of: 1) well-controlled HIV with vascular comorbidities(n=116); 2) profound HIV legacy effects(CD4 nadir <250 cells/μL; n=275); 3) primarily <45 year olds with hepatitis C(n=165); 4) primarily 35–55 year olds(n=244), and 5) poorly-controlled HIV/substance use(n=129). Within each subgroup, we fitted a constrained continuation ratio model via penalized maximum likelihood to examine adjusted associations between recent ART agents and cognition. Most drugs were not associated with cognition. However, among the few drugs, non-nucleoside reverse transcriptase inhibitor (NNRTIs) and protease inhibitors(PIs) were most commonly associated with cognition, followed by nucleoside reverse transcriptase inhibitors(NRTIs) and integrase inhibitors(IIs). Directionality of ART-cognition associations varied by subgroup. Better psychomotor speed and fluency were associated with ART for women with well-controlled HIV with vascular comorbidities. This pattern contrasts women with profound HIV legacy effects for whom poorer executive function and fluency were associated with ART. Motor function was associated with ART for younger WWH and primarily 35–55 year olds. Memory was associated with ART only for women with poorly-controlled HIV/substance abuse. Findings demonstrate interindividual variability in ART-cognition associations among WWH and highlight the importance of considering sociodemographic, clinical, and behavioral factors as an underlying contributors to cognition. Graphical Abstract RUBIN et al. Page 2 J Neuroimmune Pharmacol. Author manuscript; available in PMC 2022 March 01. Author Manuscript Author Manuscript Author Manuscript Author Manuscript"
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in Journal of Neuroimmune Pharmacology in 2021 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -63,34 +60,5 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
-thumbnail_alt: "Publication preview for Associations between antiretrovirals and cognitive function in women with HIV"
+thumbnail_alt: "Schematic of trajectory clustering into homogeneous subgroups and modelling of antiretroviral drug associations with cognition."
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in Journal of Neuroimmune Pharmacology in 2021 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

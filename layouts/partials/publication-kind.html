@@ -1,0 +1,17 @@
+{{/*
+  Maps internal BibTeX publication_type values to reader-facing labels.
+  The raw values ("article", "inproceedings") were previously printed straight
+  onto cards. Returns a string; callers decide where to place it.
+*/}}
+{{- $t := . | default "" | lower -}}
+{{- if eq $t "article" -}}Journal article
+{{- else if eq $t "inproceedings" -}}Conference paper
+{{- else if eq $t "incollection" -}}Book chapter
+{{- else if eq $t "inbook" -}}Book chapter
+{{- else if eq $t "phdthesis" -}}Thesis
+{{- else if eq $t "mastersthesis" -}}Thesis
+{{- else if eq $t "techreport" -}}Report
+{{- else if eq $t "misc" -}}Preprint or abstract
+{{- else if eq $t "unpublished" -}}Preprint
+{{- else -}}{{ humanize $t }}
+{{- end -}}

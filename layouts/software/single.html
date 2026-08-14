@@ -5,6 +5,9 @@
   <header class="software-hero">
     <div>
       <h1>{{ .Title }}</h1>
+      {{/* Says plainly whether this is something you can download today. The
+           GitHub button only renders where a public repo actually exists. */}}
+      {{ with .Params.status }}<p class="software-status software-status--{{ . | urlize }}">{{ . }}</p>{{ end }}
       {{ with .Params.summary }}<p class="raha-section__lede">{{ . }}</p>{{ end }}
       <div class="publication-actions">
         {{ with .Params.github }}<a class="raha-button" href="{{ . }}">GitHub</a>{{ end }}
@@ -14,7 +17,7 @@
     </div>
     {{ with .Params.image }}
     <figure class="software-sticker">
-      <img src="{{ . | relURL }}" alt="{{ $.Title }} hex sticker">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }} hex sticker" loading="lazy" decoding="async">
     </figure>
     {{ else }}
     <div class="software-signal">
@@ -26,7 +29,7 @@
 
   {{ with .Params.workflow_figure }}
   <figure class="workflow-figure">
-    <img src="{{ . | relURL }}" alt="{{ $.Params.workflow_figure_alt | default $.Title }}">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.workflow_figure_alt | default $.Title }}" loading="lazy" decoding="async">
   </figure>
   {{ end }}
 

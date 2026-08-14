@@ -39,21 +39,18 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1007/s10461-020-02967-2"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "figure.png"
 visual_abstract: ""
-abstract: ""
+abstract: "Background: As the use of Integrase inhibitor (INSTI)-class antiretroviral medications becomes more common to maintain long-term viral suppression, early reports suggest the potential for CNS side-effects when starting or switching to an INSTI-based regimen. In a population already at higher risk for developing mood and anxiety disorders, these drugs may have significant effects on PTSD scale symptom scores, particularly in women with HIV (WWH). Methods: A total of 551 participants were included after completing ≥1 WIHS study visits before and after starting/switching to an INSTI-based ART regimen. Of these, 14% were ART naïve, the remainder switched from primarily a protease inhibitor (PI) or non-nucleoside reverse transcriptase inhibitor (NNRTI)-based regimen. Using multivariable linear mixed effects models, we compared PTSD Civilian Checklist subscale scores before and after a “start/switch” to dolutegravir (DTG), raltegravir (RAL), or elvitegravir (EVG). Results: Start/switch to EVG improved re-experiencing subscale symptoms (P’s<0.05). Switching to EVG improved symptoms of avoidance (P=0.01). Starting RAL improved arousal subscale symptoms (P=0.03); however, switching to RAL worsened re-experiencing subscale symptoms (P<0.005). Starting DTG worsened avoidance subscale symptoms (P=0.03), whereas switching to DTG did not change subscale or overall PTSD symptoms (P’s>0.08). Conclusions: In WWH, an EVG-based ART regimen is associated with improved PTSD symptoms, in both treatment naïve patients and those switching from other ART. While a RALbased regimen was associated with better PTSD symptoms than in treatment naïve patients, switching onto a RAL-based regimen was associated with worse PTSD symptoms. DTG-based regimens either did not affect, or worsened symptoms, in both naïve and switch patients. Further studies are needed to determine mechanisms underlying differential effects of EVG, RAL and DTG on stress symptoms in WWH."
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in AIDS and Behavior in 2021 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -66,34 +63,5 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
-thumbnail_alt: "Publication preview for Starting or switching to an integrase inhibitor-based regimen affects PTSD symptoms in women with HIV"
+thumbnail_alt: "PTSD subscale scores before and after starting or switching integrase inhibitor regimens, by prior treatment group."
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in AIDS and Behavior in 2021 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

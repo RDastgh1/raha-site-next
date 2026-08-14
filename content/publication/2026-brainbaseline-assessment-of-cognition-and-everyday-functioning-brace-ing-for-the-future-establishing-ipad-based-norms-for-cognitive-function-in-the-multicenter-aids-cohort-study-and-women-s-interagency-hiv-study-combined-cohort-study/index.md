@@ -40,12 +40,11 @@ extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Newly imported publication candidate from a structured publication scan. Add a manually curated plain-language summary."
-why_this_matters: "Newly imported publication candidate from a structured publication scan. Add manual scientific context after review."
+plain_language_summary: ""
+why_this_matters: ""
 research_significance: ""
 research_story: ""
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
+key_findings: []
 related_software:
   []
 related_research:
@@ -60,7 +59,3 @@ tags:
   - "article"
 thumbnail_alt: "Publication preview for BrainBaseline Assessment of Cognition and Everyday Functioning (\"BRACE\"-ing for the Future): Establishing iPad-Based Norms for Cognitive Function in the Multicenter AIDS Cohort Study and Women's Interagency HIV Study Combined Cohort Study."
 ---
-
-## Review Notes
-
-This record was imported automatically from a high-confidence publication scan and should receive manual summary/relationship curation.

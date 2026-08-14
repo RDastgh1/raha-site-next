@@ -28,15 +28,15 @@ authors:
   - "Raha Dastgheyb"
 doi: "10.2196/preprints.70207"
 pubmed: ""
-url_pdf: " BRACE-ing for the future- Establishing iPad-based norms for cognitive function in the MACS:WIHS Combined Cohort Study.pdf"
+url_pdf: "BRACE-ing for the future- Establishing iPad-based norms for cognitive function in the MACS-WIHS Combined Cohort Study.pdf"
 url_code: ""
 url_dataset: ""
 url_doi: "https://doi.org/10.2196/preprints.70207"
 tier: "highlighted"
 featured: true
-thumbnail: "media/publications/generated/2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint.svg"
+thumbnail: "figure.png"
 visual_abstract: "media/publications/generated/2025-brace-ing-for-the-future-establishing-ipad-based-norms-for-cognitive-function-in-the-macs-wihs-combined-cohort-study-preprint.svg"
-abstract: "BACKGROUND"
+abstract: "Background: Digital cognitive assessments are increasingly used in large-scale studies to assess brain health, offering scalable, standardized, and self-directed testing solutions. Cognitive function remains a concern for people with HIV (PWH) despite antiretroviral therapy. The BrainBaseline Assessment of Cognition and Everyday Functioning (BRACE) is a validated tabletbased screener for cognition in PWH. Preliminary pilot norms were established in a small sample (n=144), but full regressionbased normative data have not been developed. Consequently, HIV serostatus differences based on standardized BRACE scores and cognitive correlates have not been systematically examined. Objective: To develop regression-based normative data for BRACE performance in people without HIV (PWoH) who were demographically and behaviorally comparable to PWH within biological sex; to examine differences in cognitive performance by HIV status and biological sex; and to evaluate sociodemographic, behavioral, and clinical correlates of BRACE performance. Methods: A total of 2,937 participants (1063 PWoH [499 women] and 1,874 PWH [1,053 women]) in the Multicenter AIDS Cohort Study/Women’s Interagency HIV Study Combined Cohort Study completed BRACE once between November 2020 and March 2025. BRACE includes Trail Making Test (A&B), Stroop-Color, and Visual-Spatial Learning. Regression-based norms were derived from PWoH using multiple demographic models (e.g., age-only, age+education, age+education+sex). The age+education model was selected for primary analyses to maximize generalizability and avoid race-based corrections. HIV serostatus and sex differences were examined using analysis of variance and chi-square tests, with effect sizes calculated using Cohen’s d. Results: Cognitive performance was largely comparable between PWH and PWoH across all BRACE outcome measures. https://preprints.jmir.org/preprint/70207 [unpublished, peer-reviewed preprint]"
 extracted_figure: "braceabstract.png"
 extracted_figure_source_pdf: " BRACE-ing for the future- Establishing iPad-based norms for cognitive function in the MACS:WIHS Combined Cohort Study.pdf"
 extracted_figure_page: "1"
@@ -54,7 +54,7 @@ key_findings:
 related_software:
   - "dashboards-reporting-frameworks"
 related_research:
-  - "reproducible-infrastructure"
+  - "scientific-software-infrastructure"
   - "translational-neuroinformatics"
 related_talks:
   []
@@ -63,7 +63,8 @@ related_datasets:
 related_community:
   []
 tags:
-  - "reproducible-infrastructure"
+  - "scientific-software-infrastructure"
   - "translational-neuroinformatics"
 card_significance: "Establishes regression-based iPad cognitive norms for BRACE in the MACS/WIHS Combined Cohort Study."
+thumbnail_alt: "Grid of associations between iPad-based cognitive measures and participant characteristics."
 ---

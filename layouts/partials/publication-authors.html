@@ -1,7 +1,39 @@
+{{/*
+  Renders an author list with Dastgheyb emphasised.
+
+  Params:
+    authors  -- slice of author names
+    class    -- wrapper class
+    limit    -- max names to print before collapsing (0 or omitted = print all)
+
+  When the list is collapsed, Dastgheyb is always kept visible: if she falls
+  outside the first `limit` names she is appended after an ellipsis, so a card
+  never hides the site owner behind "et al."
+*/}}
 {{ $authors := .authors }}
 {{ $class := .class | default "publication-authors" }}
+{{ $limit := .limit | default 0 }}
 {{ with $authors }}
+  {{ $total := len . }}
+  {{ $shown := . }}
+  {{ $hidden := 0 }}
+  {{ if and (gt $limit 0) (gt $total $limit) }}
+    {{ $shown = first $limit . }}
+    {{ $hidden = sub $total $limit }}
+  {{ end }}
+  {{ $shownHasOwner := false }}
+  {{ range $shown }}{{ if findRE `(?i)dastgheyb` . }}{{ $shownHasOwner = true }}{{ end }}{{ end }}
+  {{ $owner := "" }}
+  {{ if and (not $shownHasOwner) (gt $hidden 0) }}
+    {{ range $authors }}{{ if and (findRE `(?i)dastgheyb` .) (not $owner) }}{{ $owner = . }}{{ end }}{{ end }}
+    {{ if $owner }}{{ $hidden = sub $hidden 1 }}{{ end }}
+  {{ end }}
 <p class="{{ $class }}">
-  {{ range $index, $author := . }}{{ if $index }}, {{ end }}{{ $author | htmlEscape | replaceRE `(?i)(dastgheyb)` `<strong>$1</strong>` | safeHTML }}{{ end }}
+  {{- range $index, $author := $shown -}}
+    {{ if $index }}, {{ end }}
+    {{- $author | htmlEscape | replaceRE `(?i)(dastgheyb)` `<strong>$1</strong>` | safeHTML -}}
+  {{- end -}}
+  {{- with $owner }} … {{ . | htmlEscape | replaceRE `(?i)(dastgheyb)` `<strong>$1</strong>` | safeHTML }}{{ end -}}
+  {{- if gt $hidden 0 }}<span class="author-more"> + {{ $hidden }} more</span>{{ end -}}
 </p>
 {{ end }}

@@ -36,21 +36,18 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1097/qad.0000000000003730"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "figure.png"
 visual_abstract: ""
-abstract: "Objective:"
+abstract: "Objective: While modern antiretroviral therapy (ART) is highly effective and safe, depressive symptoms have been associated with certain ART drugs. We examined the association between common ART regimens and depressive symptoms in women with HIV (WWH) with a focus on somatic vs. nonsomatic symptoms. Design: Analysis of longitudinal data from the Women’s Interagency HIV Study. Methods: Participants were classified into three groups based on the frequency of positive depression screening (CES-D ≥16): chronic depression (≥50% of visits since study enrollment), infrequent depression (<50% of visits), and never depressed (no visits). Novel Bayesian machine learning methods building upon a subset-tree kernel approach were developed to estimate the combined effects of ART regimens on depressive symptoms in each group after covariate adjustment. Results: The analysis included 1538 WWH who participated in 12 924 (mean = 8.4) visits. The mean age was 49.9 years, 72% were Black, and 14% Hispanic. In the chronic depression group, combinations including tenofovir alafenamide and cobicistat-boosted elvitegravir and/or darunavir were associated with greater somatic symptoms of depression, whereas those combinations containing tenofovir disoproxil fumarate and efavirenz or rilpivirine were associated with less somatic depressive symptoms. ART was not associated with somatic symptoms in the infrequent depression or never depressed groups. ART regimens were not associated with nonsomatic symptoms in any group. Conclusions: Specific ART combinations are associated with somatic depressive symptoms in WWH with chronic depression. Future studies should consider specific depressive symptoms domains as well as complete drug combinations when assessing the relationship between ART and depression."
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in AIDS in 2024 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -63,34 +60,5 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
-thumbnail_alt: "Publication preview for Common antiretroviral combinations are associated with somatic depressive symptoms in women with HIV"
+thumbnail_alt: "Forest plot of antiretroviral regimen associations with chronic, infrequent and never-depressed groups."
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in AIDS in 2024 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

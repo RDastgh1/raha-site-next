@@ -36,19 +36,16 @@ tier: "archive"
 featured: false
 thumbnail: "paper-figure-thumbnail.png"
 visual_abstract: ""
-abstract: ""
+abstract: "Cognitive complications remain common among people with HIV (PWH) globally, yet social cognition, critical for daily functioning, has received little attention, particularly in sub-Saharan Africa. We examined facial emotion perception (FEP), a core social cognitive process, among 235 PWH and 224 people without HIV (PWoH) from the Rakai Neurology Cohort Study. FEP was assessed using the FEP task and associations with cognitive and psychosocial factors were examined. While overall accuracy did not differ between groups, PWH demonstrated greater fear bias (Cohen’s d = 0.20, 95%CI 0.01,0.38) and lower sad bias (Cohen’s d=-0.21, 95%CI -0.40,-0.03) than PWoH. In PWH, better declarative memory was associated with higher accuracy for fear and neutral faces and with lower fear bias, whereas psychomotor speed was related to higher accuracy for sadness and higher sad bias. In PWoH, declarative memory related to anger recognition and reduced sad bias, whereas psychomotor speed was associated with improved accuracy for fear and neutral faces and lower anger bias. Psychosocial factors (e.g., anxiety, PTSD symptoms) were not related to FEP in either group. Findings indicate that HIV status is associated with differential patterns of FEP bias, with PWH showing heightened fear bias and PWoH demonstrating greater sad bias. These results highlight the potential value of FEP bias as a marker of brain health in HIV and underscore the importance of declarative memory and psychomotor speed as potential intervention targets to improve social functioning."
 extracted_figure: "paper-figure-thumbnail.png"
 extracted_figure_source_pdf: "13365_2025_1290_Fig2_HTML.png"
 extracted_figure_page: ""
 extracted_figure_confidence: "0.95"
-plain_language_summary: "Published in Journal of neurovirology in 2026 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -63,32 +60,3 @@ tags:
   - "translational-neuroinformatics"
 thumbnail_alt: "Figure from Beyond accuracy: facial emotion perception bias in people with HIV in Uganda"
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in Journal of neurovirology in 2026 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

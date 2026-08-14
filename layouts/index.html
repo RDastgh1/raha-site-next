@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{ $systems := hugo.Data.systems.items }}
-{{ $living := hugo.Data.living_systems.items }}
 {{ $highlightedPublications := hugo.Data.highlighted_publications.items }}
 {{ $talks := hugo.Data.featured_talks.items }}
 {{ $community := hugo.Data.community.items }}
@@ -34,40 +33,31 @@
           <span>Johns Hopkins School of Medicine</span>
         </div>
         <p class="raha-hero__tagline">Building computational tools that transform complex biomedical data into scientific insight through reproducible analytics, open-source scientific software, and human-in-the-loop AI-assisted discovery.</p>
-        <div class="raha-actions">
-          <a class="raha-button" href="{{ "software/" | relURL }}">Software</a>
-          <a class="raha-button" href="{{ "research-threads/" | relURL }}">Research Threads</a>
-          <a class="raha-button" href="{{ "publication/" | relURL }}">Publications</a>
-          <a class="raha-button" href="{{ "methods/" | relURL }}">Methods</a>
-          <a class="raha-button" href="{{ "leadership/" | relURL }}">Roles & Affiliations</a>
-          <a class="raha-button raha-button--secondary" href="#contact">Contact</a>
+        {{/* Two primary destinations, everything else demoted, so the hero has
+             one obvious path instead of six equal-weight buttons. */}}
+        <div class="raha-actions raha-actions--primary">
+          <a class="raha-button raha-button--primary" href="{{ "publication/" | relURL }}">Publications</a>
+          <a class="raha-button raha-button--primary" href="{{ "software/" | relURL }}">Software</a>
         </div>
-        <div class="raha-social" aria-label="Social links">
-          <a href="https://github.com/rdastgh1" aria-label="GitHub">
-            {{ partial "social-icon.html" "github" }}<span>GitHub</span>
+        <div class="raha-actions raha-actions--secondary">
+          <a class="raha-link-action" href="{{ "research-threads/" | relURL }}">Research Threads</a>
+          <a class="raha-link-action" href="{{ "methods/" | relURL }}">Methods</a>
+          <a class="raha-link-action" href="{{ "leadership/" | relURL }}">Roles &amp; Affiliations</a>
+          <a class="raha-link-action" href="#contact">Contact</a>
+        </div>
+        {{/* Rendered from params.yaml `social` -- the single source of truth,
+             shared with the JSON-LD sameAs list. */}}
+        <div class="raha-social raha-social--compact" aria-label="Profiles">
+          {{ range site.Params.social }}
+          <a href="{{ .link }}" aria-label="{{ .name }}"{{ if .icon }} title="{{ .name }}"{{ end }}>
+            {{ with .icon }}{{ partial "social-icon.html" . }}{{ end }}
+            <span{{ if .icon }} class="visually-hidden"{{ end }}>{{ .short_name | default .name }}</span>
           </a>
-          <a href="https://www.linkedin.com/in/raha-dastgheyb-67625a33/" aria-label="LinkedIn">
-            {{ partial "social-icon.html" "linkedin" }}<span>LinkedIn</span>
-          </a>
-          <a href="https://scholar.google.com/citations?user=aaBAo1YAAAAJ&hl=en&oi=ao" aria-label="Google Scholar">
-            {{ partial "social-icon.html" "scholar" }}<span>Scholar</span>
-          </a>
-          <a href="https://orcid.org/my-orcid?orcid=0000-0002-4992-711X" aria-label="ORCID">
-            {{ partial "social-icon.html" "orcid" }}<span>ORCID</span>
-          </a>
-          <a href="https://bsky.app/profile/rahaphd.bsky.social" aria-label="Bluesky">
-            {{ partial "social-icon.html" "bluesky" }}<span>Bluesky</span>
-          </a>
-          <a href="https://profiles.hopkinsmedicine.org/provider/raha-dastgheyb/2777202" aria-label="Hopkins Faculty Profile">
-            <span>Hopkins Faculty</span>
-          </a>
-          <a href="https://pure.johnshopkins.edu/en/persons/raha-dastgheyb/" aria-label="Hopkins PURE Fingerprint Profile">
-            <span>PURE Fingerprint</span>
-          </a>
+          {{ end }}
         </div>
       </div>
       <figure class="raha-portrait">
-        <img src="{{ "media/portraits/raha-headshot.jpg" | relURL }}" alt="Portrait of Raha Dastgheyb">
+        <img src="{{ "media/portraits/raha-headshot.jpg" | relURL }}" alt="Portrait of Raha Dastgheyb" decoding="async" fetchpriority="high">
         <figcaption>Biomedical data science · reproducible research · responsible AI</figcaption>
       </figure>
     </div>
@@ -80,6 +70,7 @@
           <div class="raha-section__eyebrow">Overall Positioning</div>
           <h2>The bottleneck is no longer data generation. The bottleneck is discovery.</h2>
           <p class="raha-section__lede">Modern biomedical research can generate thousands of clinical, imaging, molecular, behavioral, and omics measurements from a single study. This research program builds computational infrastructure that helps teams explore complex datasets, interpret findings, and generate biologically meaningful hypotheses while maintaining scientific rigor.</p>
+          <p class="raha-section__lede">Biomedical engineering and computer science training anchor a translational program that turns complex biomedical data into actionable insight for collaborators, cohorts, and grant-funded scientific teams.</p>
         </div>
         <div class="identity-pillars">
           {{ range $softwareEcosystem.pillars }}
@@ -128,48 +119,7 @@
     </div>
   </section>
 
-  <section class="raha-section identity-strip" id="identity">
-    <div class="raha-section__inner">
-      <div class="identity-grid">
-        <div>
-          <div class="raha-section__eyebrow">Scientific Identity</div>
-          <h2>Research at the intersection of engineering, data science, and neuroscience.</h2>
-          <p class="raha-section__lede">Biomedical engineering and computer science training anchor a translational program that turns complex biomedical data into actionable insight for collaborators, cohorts, and grant-funded scientific teams.</p>
-        </div>
-        <div class="identity-pillars">
-          <article>
-            <h3>Biomedical Engineer</h3>
-            <p>Bringing engineering design, quantitative neuroscience, and computational biology to translational brain health research.</p>
-          </article>
-          <article>
-            <h3>Translational Data Scientist</h3>
-            <p>Using machine learning, statistics, networks, and data visualization to reveal meaningful cognitive, clinical, and biomarker phenotypes.</p>
-          </article>
-          <article>
-            <h3>Scientific Software Builder</h3>
-            <p>Building open-source software, dashboards, and reporting systems that make methods reproducible, transparent, and accessible.</p>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="raha-section raha-living" id="living-systems">
-    <div class="raha-section__inner">
-      <div class="raha-section__eyebrow">Living Systems</div>
-      <h2>Active research infrastructure, publications, talks, and tools in motion.</h2>
-      <p class="raha-section__lede">A current layer of scientific momentum connecting software systems, computational phenotyping, biomedical data science, translational brain health, responsible AI-assisted discovery, and field-building work.</p>
-      <div class="raha-grid">
-        {{ range $living }}
-        <a class="raha-card" href="{{ .url | relURL }}">
-          <div class="raha-card__label">{{ .label }}</div>
-          <h3>{{ .title }}</h3>
-          <p>{{ .summary }}</p>
-        </a>
-        {{ end }}
-      </div>
-    </div>
-  </section>
 
   <section class="raha-section" id="software">
     <div class="raha-section__inner">
@@ -177,12 +127,21 @@
       <h2>Open-source software as scientific infrastructure.</h2>
       <p class="raha-section__lede">These systems are positioned as research outputs: reusable, inspectable, and designed to turn complex biomedical data into reproducible scientific insight, from quality control to biomarker analysis to AI-assisted discovery.</p>
       <div class="raha-systems">
+        {{/* The status chip is read from the linked software page rather than
+             duplicated here -- the same value that renders as a badge on that
+             page. It carries the "what's current" signal that the old separate
+             Living Systems section existed to provide. */}}
         {{ range $systems }}
+        {{ $status := "" }}
+        {{ with site.GetPage (strings.TrimSuffix "/" .url) }}{{ $status = .Params.status }}{{ end }}
         <a class="raha-card raha-system" href="{{ .url | relURL }}">
           {{ if .image }}
-          <div class="raha-system__image"><img src="{{ .image | relURL }}" alt=""></div>
+          <div class="raha-system__image"><img src="{{ .image | relURL }}" alt="" loading="lazy" decoding="async"></div>
           {{ end }}
-          <div class="raha-card__label">{{ .capability }}</div>
+          <div class="raha-card__label">
+            <span>{{ .capability }}</span>
+            {{ with $status }}<span class="raha-system__status software-status--{{ . | urlize }}">{{ . }}</span>{{ end }}
+          </div>
           <h3>{{ .title }}</h3>
           <p>{{ .impact }}</p>
         </a>
@@ -219,32 +178,32 @@
         <span class="research-network__label label-neuro">integrates cohorts</span>
         <span class="research-network__label label-loop">enables reproducibility</span>
 
-        <a class="raha-map__node network-node network-node--center" href="{{ "research/reproducible-infrastructure/" | relURL }}">
+        <a class="raha-map__node network-node network-node--center" href="{{ "research-threads/scientific-software-infrastructure/" | relURL }}">
           <span>Central system</span>
           <strong>Reproducible Infrastructure</strong>
           <em>Transparent workflows, reusable methods, and scientific software that make discovery auditable.</em>
         </a>
-        <a class="raha-map__node network-node network-node--cp" href="{{ "research/computational-phenotyping/" | relURL }}">
+        <a class="raha-map__node network-node network-node--cp" href="{{ "research-threads/computational-phenotyping/" | relURL }}">
           <span>Hidden structure</span>
           <strong>Computational Phenotyping</strong>
           <em>Finds interpretable subgroups, trajectories, and cognitive profiles.</em>
         </a>
-        <a class="raha-map__node network-node network-node--viz" href="{{ "research/scientific-visualization/" | relURL }}">
+        <a class="raha-map__node network-node network-node--viz" href="{{ "research-threads/scientific-visualization/" | relURL }}">
           <span>Evidence layer</span>
           <strong>Scientific Visualization</strong>
           <em>Makes multidimensional findings inspectable by collaborators.</em>
         </a>
-        <a class="raha-map__node network-node network-node--bio" href="{{ "research/biomarker-systems/" | relURL }}">
+        <a class="raha-map__node network-node network-node--bio" href="{{ "research-threads/biomarker-systems/" | relURL }}">
           <span>Mechanisms</span>
           <strong>Biomarker Systems</strong>
           <em>Links molecular signals, multi-omics, and clinical brain health questions.</em>
         </a>
-        <a class="raha-map__node network-node network-node--soft" href="{{ "research/software-systems/" | relURL }}">
+        <a class="raha-map__node network-node network-node--soft" href="{{ "research-threads/scientific-software-infrastructure/" | relURL }}">
           <span>Reusable tools</span>
           <strong>Software Systems</strong>
           <em>Turns analytical methods into maintained scientific infrastructure.</em>
         </a>
-        <a class="raha-map__node network-node network-node--neuro" href="{{ "research/translational-neuroinformatics/" | relURL }}">
+        <a class="raha-map__node network-node network-node--neuro" href="{{ "research-threads/translational-neuroinformatics/" | relURL }}">
           <span>Cohort translation</span>
           <strong>Translational Neuroinformatics</strong>
           <em>Connects cohorts, cognition, biomarkers, and brain health translation.</em>
@@ -367,7 +326,7 @@
         {{ range $leadership.primary }}
         <a class="leadership-card leadership-card--primary" href="{{ .url }}">
           {{ $logoAlt := .logo_alt | default .title }}
-          {{ with .logo }}<figure class="leadership-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
+          {{ with .logo }}<figure class="leadership-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async"></figure>{{ end }}
           <div class="raha-card__label">Leadership role</div>
           <h3>{{ .title }}</h3>
           <strong>{{ .role }}</strong>
@@ -381,7 +340,7 @@
         {{ $badge := .badge | default .title }}
         {{ if .url }}
         <a class="affiliation-card" href="{{ .url | default "#" }}">
-          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
           <div class="affiliation-card__body">
             <h3>{{ .title }}</h3>
             <strong>{{ .role }}</strong>
@@ -390,7 +349,7 @@
         </a>
         {{ else }}
         <article class="affiliation-card">
-          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+          {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
           <div class="affiliation-card__body">
             <h3>{{ .title }}</h3>
             <strong>{{ .role }}</strong>
@@ -422,7 +381,7 @@
         {{ $logoAlt := .logo_alt | default .institution }}
         <a class="timeline-card training-timeline__item" href="{{ "profile/" | relURL }}">
           <span class="training-timeline__badge">
-            {{ with .logo }}<img src="{{ . }}" alt="{{ $logoAlt }}">{{ end }}
+            {{ with .logo }}<img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async">{{ end }}
             <span class="training-timeline__badge-text">{{ $badge }}</span>
           </span>
           <h3>{{ .title }}</h3>
@@ -461,7 +420,9 @@
     <div class="raha-section__inner">
       <div class="raha-section__eyebrow">Future Directions</div>
       <h2>AI that helps scientists think more effectively.</h2>
-      <p class="raha-section__lede">The lab is extending reproducible computational science toward conversational data exploration, cross-domain biomedical integration, and SciDataAgent, an in-development AI reasoning layer for human-in-the-loop scientific discovery.</p>
+      {{/* Was "The lab is extending…", which asserted a lab that has no page and
+           is described nowhere on the site. Named the actual roles instead. */}}
+      <p class="raha-section__lede">Through the Brain Health Program's Data Science and Mathematical Modeling Core and the JH-CAHN Biomarker Core, this work is extending reproducible computational science toward conversational data exploration, cross-domain biomedical integration, and SciDataAgent, an in-development AI reasoning layer for human-in-the-loop scientific discovery.</p>
       <div class="raha-grid">
         <article class="raha-card">
           <div class="raha-card__label">Human-in-the-loop AI</div>

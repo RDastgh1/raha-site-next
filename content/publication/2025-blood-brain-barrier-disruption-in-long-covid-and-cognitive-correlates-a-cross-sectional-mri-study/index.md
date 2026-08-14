@@ -30,7 +30,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1016/j.bbi.2025.07.024"
 tier: "highlighted"
 featured: true
-thumbnail: "media/publications/generated/2025-blood-brain-barrier-disruption-in-long-covid-and-cognitive-correlates-a-cross-sectional-mri-study.svg"
+thumbnail: "figure.png"
 visual_abstract: "media/publications/generated/2025-blood-brain-barrier-disruption-in-long-covid-and-cognitive-correlates-a-cross-sectional-mri-study.svg"
 abstract: ""
 extracted_figure: "extracted-figure-page-1.png"
@@ -60,4 +60,5 @@ related_community:
 tags:
   - "translational-neuroinformatics"
 card_significance: "Uses non-contrast MRI to study blood-brain barrier permeability and cognition in Long COVID."
+thumbnail_alt: "Violin plots comparing perfusion, cerebral blood flow and brain volume between controls and Long COVID participants."
 ---

@@ -41,19 +41,16 @@ tier: "archive"
 featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
-abstract: ""
+abstract: "This study examined the association between cognitive intra-individual variability (IIV), a non-meanbased indicator of underlying neuropathology, and self-reported everyday functioning of 1,086 women with HIV (WWH) and 494 socio-demographically similar women without HIV (WWoH). Objective cognitive performance across seven domains and the self-rated Lawton & Brody scale of Instrumental Activities of Daily Living (IADL) were assessed among participants of the Women’s Interagency HIV Study. Two types of cognitive IIV were calculated by taking the standard deviation across seven cognitive domains to calculate dispersion: 1) intra-individual standard deviation (denoted as sdIIV) and 2) coefficient of variation (denoted as covIIV). To account for the longitudinal nature of the data, generalized linear mixed effect models were conducted to examine associations between the dispersion coefficient of cognitive IIV (predictor (sdIIV and covIV)) and functional outcomes (item level scores). Models were conducted in the overall sample (WWH + WWoH), WWH only, virally suppressed (VS)-WWH, and WWoH. sdIIV and covIIV were not associated with any of the IADL items among WWoH but were for WWH and VS-WWH. In WWH covIIV was predictive of poorer functional performance on twice as many IADL items (10 items—money and bills, buying groceries, getting where you need to go, using the phone, home repairs, dressing, laundry, taking/keeping track of medications, taking care of children, work) than sdIIV (5 items). In this study, cognitive IIV predicts functional impairment and different calculations of IIV produce differential predictive value, especially for WWH."
 extracted_figure: "extracted-figure-page-1.png"
 extracted_figure_source_pdf: "Does cognitive intra-individual variability predict change in everyday functioning performance in women with and without HIV in the Women’s Interagency HIV Study.pdf"
 extracted_figure_page: "1"
 extracted_figure_confidence: "0.62"
-plain_language_summary: "Published in Applied Neuropsychology: Adult in 2024 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -67,32 +64,3 @@ related_community:
 tags:
   - "translational-neuroinformatics"
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in Applied Neuropsychology: Adult in 2024 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

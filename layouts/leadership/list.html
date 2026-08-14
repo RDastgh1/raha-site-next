@@ -8,7 +8,7 @@
     {{ range hugo.Data.leadership.primary }}
     <a class="leadership-card leadership-card--primary" href="{{ .url }}">
       {{ $logoAlt := .logo_alt | default .title }}
-      {{ with .logo }}<figure class="leadership-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ end }}
+      {{ with .logo }}<figure class="leadership-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async"></figure>{{ end }}
       <div class="raha-card__label">Leadership role</div>
       <h2>{{ .title }}</h2>
       <strong>{{ .role }}</strong>
@@ -25,7 +25,7 @@
       {{ $badge := .badge | default .title }}
       {{ if .url }}
       <a class="affiliation-card" href="{{ .url | default "#" }}">
-        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
         <div class="affiliation-card__body">
           <strong>{{ .title }}</strong>
           <span>{{ .role }}</span>
@@ -34,7 +34,7 @@
       </a>
       {{ else }}
       <article class="affiliation-card">
-        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
+        {{ with .logo }}<figure class="affiliation-card__logo"><img src="{{ . }}" alt="{{ $logoAlt }}" loading="lazy" decoding="async"></figure>{{ else }}<span class="affiliation-card__badge" aria-hidden="true">{{ $badge }}</span>{{ end }}
         <div class="affiliation-card__body">
           <strong>{{ .title }}</strong>
           <span>{{ .role }}</span>

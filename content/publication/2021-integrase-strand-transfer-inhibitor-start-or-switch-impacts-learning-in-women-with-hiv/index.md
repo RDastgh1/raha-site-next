@@ -41,19 +41,16 @@ tier: "archive"
 featured: false
 thumbnail: "insti.jpeg"
 visual_abstract: ""
-abstract: "Background:"
+abstract: "Background: Integrase strand transfer inhibitors(INSTIs) are first-line regimens for HIV treatment. We aimed to examine their impact on cognitive performance and depressive symptoms in women with HIV(WWH). Setting: Women’s Interagency HIV Study(WIHS) a multisite, prospective, cohort study Methods: WWH who started or switched to INSTI-based ART and completed neuropsychological(NP) testing and the Center for Epidemiological Studies-Depression(CES-D) scale before and after INSTI start/switch were included in the analyses. Primary outcomes were demographically corrected cognitive domain T-scores. Linear mixed effects models adjusted for relevant covariates were used to examine effects of start/switch of any INSTI and individual INSTI drugs on cognition and CES-D. Results: 639 WWH, median age 49(interquartile range 12) years, 66% Black non-Hispanic, had NP and CES-D data before and after INSTI start/switch. While 14% started INSTI-based ART, the remainder switched to INSTI-based ART from another regimen. Overall, any INSTI use was associated with poorer learning post-INSTI. Specifically, use of elvitegravir, but not raltegravir, was associated with poorer learning. In analyses restricted to INSTI switch, any INSTI use, and specifically dolutegravir use, was associated with poorer learning. Among those switching from a PI-based regimen, INSTIs overall and dolutegravir remained associated with poorer learning; switching from an NNRTI to dolutegravir was also associated with poorer learning. INSTI start/ switch was not related to depressive symptom changes. Conclusions: INSTI use was associated with poorer learning among WWH. These changes were mainly observed in elvitegravir and dolutegravir users, indicating that the impact of INSTI on cognition in WWH may not be a class effect."
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in JAIDS Journal of Acquired Immune Deficiency Syndromes in 2021 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -68,32 +65,3 @@ tags:
   - "translational-neuroinformatics"
 thumbnail_alt: "Publication preview for Integrase strand transfer inhibitor start or switch impacts learning in women with HIV"
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in JAIDS Journal of Acquired Immune Deficiency Syndromes in 2021 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

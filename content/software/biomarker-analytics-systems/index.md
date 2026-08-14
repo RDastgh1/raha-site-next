@@ -1,8 +1,8 @@
 ---
 title: "Biomarker Analytics Systems"
 summary: "Computational systems for connecting biomarker data to brain health outcomes."
+status: "capability area"
 tags: ["biomarkers", "analytics", "translational science"]
-github: "https://github.com/RDastgh1"
 documentation: ""
 problem: "Biomarker discovery requires integrating molecular, imaging, cognitive, behavioral, and clinical data streams without losing interpretability."
 needed: "Brain health studies need reproducible pipelines that can connect multi-omics and neuroimaging measurements to cognition, mental health, and disease trajectories across cohorts."

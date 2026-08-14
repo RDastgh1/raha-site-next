@@ -29,21 +29,18 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1002/alz70856_103135"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "figure.png"
 visual_abstract: ""
-abstract: "Abstract"
+abstract: "Background: Health determinants such as income and employment significantly influence declarative memory in women with HIV (WWH). These social exposures may contribute to cognitive decline through complex biological mechanisms. We used high-throughput metabolomics data and causal mediation analysis to identify multiple biological pathways linking adverse socioeconomic conditions and cognitive decline. Method: A total of 324 women (n = 225 WWH) from the New York sites of the Women’s Interagency HIV Study completed biennial cognitive testing, starting in 2009 and every two years, which included the Hopkins Verbal Learning Test (HVLT)-R, a measure of verbal learning and memory. Metabolomic assessment was conducted from serum samples collected prior to or at first cognitive visit using liquid chromatography tandem mass spectrometry. We used multivariable generalized estimating equation models to link peripheral metabolomic profiles and cognitive trajectories in verbal learning and memory. Linear mixed effect models were used to predict subject-specific trajectories for downstream mediation models. We used regression-based multiple mediation analyses to estimate the joint effect of multiple metabolic mediators as pathways between income, employment, and cognitive trajectories. We considered a false discovery rate (FDR) of 5% for metabolomic discovery. Result: Our sample had average age of 43.1 years and were followed-up for 11.9 years, 63% were non-Hispanic Black, 76% reported earnings of <24K, and 65% were unemployed. We identified 16 FDR-corrected metabolites associated with trajectories in verbal memory and 15 with verbal learning. Top metabolites (serotonin, taurine, adenosine, niacinamide, α-glycerophosphocholine, ADMA, pseudouridine, and sphingomyelins) were common in both domains. Stratified models by serostatus"
 extracted_figure: "extracted-figure-page-1.png"
 extracted_figure_source_pdf: "Alzheimer s   Dementia - 2025 - Tejera - Metabolic changes mediate the link between social determinants and declarative.pdf"
 extracted_figure_page: "1"
 extracted_figure_confidence: "0.62"
-plain_language_summary: "Published in Alzheimer's & Dementia in 2025 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to biomarker-systems, translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   - "biomarker-analytics-systems"
 related_research:
@@ -58,33 +55,5 @@ related_community:
 tags:
   - "biomarker-systems"
   - "translational-neuroinformatics"
+thumbnail_alt: "Effect size plots for individual metabolites against verbal learning and verbal memory."
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to biomarker-systems, translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in Alzheimer's & Dementia in 2025 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

@@ -42,7 +42,7 @@ key_findings:
 related_software:
   - "meanalyzer"
 related_research:
-  - "software-systems"
+  - "scientific-software-infrastructure"
 related_talks:
   []
 related_datasets:
@@ -50,7 +50,7 @@ related_datasets:
 related_community:
   []
 tags:
-  - "software-systems"
+  - "scientific-software-infrastructure"
 card_significance: "Introduces MEAnalyzer as reproducible software for spike train analysis in multi-electrode array experiments."
 thumbnail_alt: "Figure from MEAnalyzer-a spike train analysis tool for multi electrode arrays"
 ---

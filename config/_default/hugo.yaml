@@ -1,4 +1,7 @@
-baseURL: "/"
+# Must be the full production URL: sitemap.xml and the RSS feed require absolute
+# locations, and og:image / canonical are built from it. The live site redirects
+# www -> apex, so the apex is canonical.
+baseURL: "https://rahadastgheyb.com/"
 title: "Raha Dastgheyb"
 locale: "en-us"
 defaultContentLanguage: "en"

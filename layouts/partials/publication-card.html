@@ -2,18 +2,12 @@
 {{ $variant := .variant | default "standard" }}
 {{ $thumb := $page.Params.thumbnail }}
 {{ $thumbAlt := $page.Params.thumbnail_alt | default (printf "Figure from %s" $page.Title) }}
-{{ $thumbURL := "" }}
-{{ if $thumb }}
-  {{ if hasPrefix $thumb "media/" }}
-    {{ $thumbURL = ($thumb | relURL) }}
-  {{ else }}
-    {{ $thumbURL = printf "%s%s" $page.RelPermalink $thumb }}
-  {{ end }}
-{{ end }}
-<a class="publication-card publication-card--{{ $variant }} publication-card--{{ $page.Params.tier | default "archive" }}" href="{{ $page.RelPermalink }}">
+{{ $t := partial "pub-thumb.html" (dict "page" $page "width" (cond (eq $variant "highlighted") 900 640)) }}
+{{ $search := printf "%s %s %s %s" $page.Title (delimit ($page.Params.authors | default slice) " ") ($page.Params.publication | default "") ($page.Params.year | default "") | lower }}
+<a class="publication-card publication-card--{{ $variant }} publication-card--{{ $page.Params.tier | default "archive" }}" href="{{ $page.RelPermalink }}" data-pub-item data-search="{{ $search }}">
   <div class="publication-card__media">
     {{ if $thumb }}
-    <img src="{{ $thumbURL }}" alt="{{ $thumbAlt }}">
+    <img src="{{ $t.url }}" alt="{{ $thumbAlt }}"{{ if $t.width }} width="{{ $t.width }}" height="{{ $t.height }}"{{ end }} loading="lazy" decoding="async">
     {{ else }}
     <div class="publication-card__placeholder" aria-hidden="true"></div>
     {{ end }}
@@ -21,24 +15,20 @@
   <div class="publication-card__body">
     <div class="publication-card__meta">
       <span>{{ $page.Params.year }}</span>
-      <span>{{ $page.Params.publication_type }}</span>
-      <span>{{ $page.Params.tier | default "archive" }}</span>
+      <span>{{ partial "publication-kind.html" $page.Params.publication_type }}</span>
     </div>
     <h3>{{ $page.Title }}</h3>
-    {{ partial "publication-authors.html" (dict "authors" $page.Params.authors "class" "publication-card__authors") }}
+    {{ partial "publication-authors.html" (dict "authors" $page.Params.authors "class" "publication-card__authors" "limit" 4) }}
     {{ with $page.Params.publication }}<p class="publication-card__venue">{{ . }}</p>{{ end }}
-    {{ with $page.Params.card_significance }}
-    <p class="publication-card__significance">{{ . }}</p>
-    {{ else }}
-    {{ with $page.Params.why_this_matters }}
-    <p class="publication-card__significance">{{ . }}</p>
-    {{ else }}
-    {{ with $page.Params.plain_language_summary }}
-    <p class="publication-card__significance">{{ . }}</p>
-    {{ else }}
-    <p class="publication-card__significance">{{ $page.Summary | plainify | truncate 180 }}</p>
+    {{/* Best available one-line description, in order of how deliberate it is.
+         Falls back to the abstract so cards are not blank now that the
+         generated filler prose has been removed. */}}
+    {{ $blurb := "" }}
+    {{ range (slice $page.Params.card_significance $page.Params.why_this_matters $page.Params.plain_language_summary $page.Params.abstract) }}
+      {{ if and (not $blurb) . }}{{ $blurb = . }}{{ end }}
     {{ end }}
-    {{ end }}
+    {{ with $blurb }}
+    <p class="publication-card__significance">{{ . | plainify | truncate 190 }}</p>
     {{ end }}
   </div>
 </a>

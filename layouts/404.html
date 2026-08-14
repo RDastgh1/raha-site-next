@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ partial "site-nav.html" . }}
+<main class="content-page">
+  <p class="raha-kicker">404</p>
+  <h1>That page isn't here.</h1>
+  <p class="raha-section__lede">The link may be out of date, or the page may have moved. These are the main places to look:</p>
+  <div class="raha-actions">
+    <a class="raha-button" href="{{ "" | relURL }}">Home</a>
+    <a class="raha-button" href="{{ "publication/" | relURL }}">Publications</a>
+    <a class="raha-button" href="{{ "software/" | relURL }}">Software</a>
+    <a class="raha-button" href="{{ "research-threads/" | relURL }}">Research Threads</a>
+    <a class="raha-button raha-button--secondary" href="{{ "#contact" | relURL }}">Contact</a>
+  </div>
+</main>
+{{ end }}

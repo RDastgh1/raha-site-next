@@ -21,19 +21,30 @@ appearance:
   mode: dark
   color: raha
 
+# Single source of truth for profile links. The hero strip in layouts/index.html
+# and the JSON-LD sameAs list in baseof.html both read this -- do not hardcode
+# links in templates.
+#   icon: must match a branch in layouts/partials/social-icon.html; omit for a
+#         text-only link.
 social:
   - icon: github
-    icon_pack: fab
+    name: GitHub
     link: "https://github.com/RDastgh1"
   - icon: linkedin
-    icon_pack: fab
-    link: "#"
-  - icon: google-scholar
-    icon_pack: ai
-    link: "#"
+    name: LinkedIn
+    link: "https://www.linkedin.com/in/raha-dastgheyb-67625a33/"
+  - icon: scholar
+    name: Google Scholar
+    link: "https://scholar.google.com/citations?user=aaBAo1YAAAAJ&hl=en"
   - icon: orcid
-    icon_pack: ai
-    link: "#"
+    name: ORCID
+    link: "https://orcid.org/0000-0002-4992-711X"
   - icon: bluesky
-    icon_pack: fab
-    link: "#"
+    name: Bluesky
+    link: "https://bsky.app/profile/rahaphd.bsky.social"
+  - name: Hopkins Faculty Profile
+    short_name: Hopkins Faculty
+    link: "https://profiles.hopkinsmedicine.org/provider/raha-dastgheyb/2777202"
+  - name: Hopkins PURE Profile
+    short_name: PURE
+    link: "https://pure.johnshopkins.edu/en/persons/raha-dastgheyb/"

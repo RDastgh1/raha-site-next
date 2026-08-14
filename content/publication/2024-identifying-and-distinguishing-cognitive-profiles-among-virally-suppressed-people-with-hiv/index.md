@@ -27,7 +27,7 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1037/neu0000935"
 tier: "highlighted"
 featured: true
-thumbnail: "Long_COVID_Brain_Barrier_Leak"
+thumbnail: "clusterboxplot.png"
 visual_abstract: ""
 abstract: ""
 extracted_figure: ""
@@ -59,5 +59,5 @@ tags:
   - "computational-phenotyping"
   - "translational-neuroinformatics"
 card_significance: "Identifies six cognitive profiles among virally suppressed people with HIV and the factors that distinguish them."
-thumbnail_alt: "Publication preview for Identifying and distinguishing cognitive profiles among virally suppressed people with HIV."
+thumbnail_alt: "Boxplots of neuropsychological T-scores across six cognitive profiles, from unimpaired to global deficits."
 ---

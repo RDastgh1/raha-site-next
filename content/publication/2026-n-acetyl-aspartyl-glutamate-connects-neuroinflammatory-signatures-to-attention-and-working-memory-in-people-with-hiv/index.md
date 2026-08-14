@@ -28,21 +28,18 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1097/qad.0000000000004407"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "figure.png"
 visual_abstract: ""
-abstract: "Despite viral suppression, many people with HIV (PWH) experience persistent cognitive difficulties. We previously demonstrated that cerebrospinal fluid (CSF)"
+abstract: "Despite viral suppression, many people with HIV (PWH) experience persistent cognitive difficulties. We previously demonstrated that cerebrospinal fluid (CSF) N-acetyl-aspartylglutamate (NAAG) was associated with spatial attention and working memory. Here, we report that CSF NAAG also correlates with an inflammatory signature (MCSF, IL-15, MCP-1, sCD40L, IL-18, MMP-9) that relates to spatial attention and working memory. These results suggest that CSF NAAG may serve as an immunomodulatory biomarker relevant to cognition in PWH."
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in AIDS in 2026 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -55,34 +52,5 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
-thumbnail_alt: "Publication preview for N-acetyl-aspartyl-glutamate connects neuroinflammatory signatures to attention and working memory in people with HIV"
+thumbnail_alt: "Correlation heatmap of immune markers with NAAG alongside scatter plots against attention and working memory."
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in AIDS in 2026 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

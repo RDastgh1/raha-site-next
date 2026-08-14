@@ -27,21 +27,18 @@ url_dataset: ""
 url_doi: "https://doi.org/10.1016/s2352-3018(25)00262-0"
 tier: "archive"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "figure.png"
 visual_abstract: ""
-abstract: ""
+abstract: "Parkinsonism is increasingly recognised in people who are ageing with virally suppressed HIV, with bradykinesia emerging earlier and more frequently than in idiopathic Parkinson’s disease. Despite effective antiretroviral therapy (ART), studies report persistent motor symptoms —such as motor slowing, postural instability, and symmetric postural tremor—and non-motor features, including sleep disturbance, cognitive decline, and autonomic dysfunction. Neuroimaging reveals basal ganglia atrophy, white matter hyperintensities, and reduced dopamine transporter activity, underscoring a pathophysiology distinct from idiopathic Parkinson’s disease. Proposed mechanisms include chronic neuroinflammation, cerebrovascular dysfunction, mitochondrial injury, disturbed iron metabolism, and possible ART-induced neurotoxicity, all contributing to basal ganglia dysfunction. Diagnosis is made complex by under-recognition, non-specific assessment tools, and comorbidities. Standardised rating scales, such as the Unified Parkinson’s"
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in The Lancet HIV in 2026 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -54,34 +51,5 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
-thumbnail_alt: "Publication preview for Parkinsonism in people with virally suppressed HIV"
+thumbnail_alt: "Schematic of direct and indirect pathways from CNS HIV infection to dopaminergic neuron loss and parkinsonism."
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in The Lancet HIV in 2026 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

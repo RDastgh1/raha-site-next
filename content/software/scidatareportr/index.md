@@ -1,9 +1,10 @@
 ---
 title: "SciDataReportR"
 summary: "An open-source framework for reproducible biomedical data analysis and reporting."
-image: "/media/software/scidatareportr/sticker.png"
+status: "released"
+image: "/media/software/scidatareportr/sticker.webp"
 tags: ["scientific software", "open-source software", "reproducible research", "R", "biomedical data science"]
-github: "https://github.com/RDastgh1"
+github: "https://github.com/RDastgh1/SciDataReportR"
 documentation: ""
 problem: "Modern biomedical studies can generate thousands of clinical, imaging, molecular, and omics measurements, but complex analyses often produce fragile reports, manual tables, and hard-to-audit outputs."
 needed: "Translational teams need a way to move from data cleaning, quality control, and metadata checks to publication-ready figures, statistical summaries, biomarker analysis, and dynamic reports without rebuilding the same reporting scaffold for every project."

@@ -32,19 +32,16 @@ tier: "archive"
 featured: false
 thumbnail: "extracted-figure-page-1.png"
 visual_abstract: ""
-abstract: "Abstract"
+abstract: "Loneliness confers a significant risk to numerous health outcomes including cognitive impairment. This study assessed the relationship between loneliness subtypes (social and emotional) and cognition in older people with HIV (OPWH ≥ aged 50). Forty-two participants (mean age = 61.5 years; 48% male; 74% Black) completed the 6-item De Jong Gierveld Loneliness Scale and measures assessing objective and subjective cognition and depressive symptoms (Patient Health Questionnaire [PHQ-9]). Loneliness-cognition associations were examined using linear regression. Models were first adjusted for age, sex, race, and education, and then PHQ-9 score. Mean emotional and social loneliness scores were 1.24 (SD = 1.22) and 1.21 (SD = 1.14), respectively. After sociodemographic and PHQ-9 adjustment, emotional, but not social, loneliness was associated with poorer objective cognitive performance on processing speed (Digit Symbol) and executive function (CalCAP™). Findings have potential clinical importance for interventions that target specific loneliness subtypes to optimize cognitive performance in OPWH."
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in Journal of the Association of Nurses in AIDS Care in 2024 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -59,32 +56,3 @@ tags:
   - "translational-neuroinformatics"
 thumbnail_alt: "Publication preview for Emotional Loneliness Is Related to Objective Cognitive Function in Older People With HIV in the Washington-Baltimore Area: A Cross-sectional Study"
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in Journal of the Association of Nurses in AIDS Care in 2024 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

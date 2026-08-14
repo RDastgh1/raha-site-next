@@ -3,12 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.Params.description }}">
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+
+    {{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
+    {{/* Per-page description: the page's own summary, else a trimmed abstract,
+         else the site default. Every page used to share one description. */}}
+    {{- $desc := "" -}}
+    {{- with .Params.summary }}{{ $desc = . }}{{ end -}}
+    {{- if not $desc }}{{ with .Params.abstract }}{{ $desc = (. | plainify | truncate 180) }}{{ end }}{{ end -}}
+    {{- if not $desc }}{{ $desc = site.Params.description }}{{ end -}}
+    {{- $ogImage := partial "og-image.html" . -}}
+
+    <title>{{ $title }}</title>
+    <meta name="description" content="{{ $desc }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <meta property="og:site_name" content="{{ site.Title }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="{{ if eq .Section "publication" }}article{{ else }}website{{ end }}">
+    {{ with $ogImage }}<meta property="og:image" content="{{ . }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">{{ end }}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $title }}">
+    <meta name="twitter:description" content="{{ $desc }}">
+    {{ with $ogImage }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+
+    <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+    <link rel="alternate icon" href="{{ "favicon.png" | relURL }}" sizes="any">
+    <link rel="apple-touch-icon" href="{{ "favicon.png" | relURL }}">
+    <meta name="theme-color" content="#07111d">
+    {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
+
+    {{/* Fonts are self-hosted (see the @font-face block in custom.scss), so there
+         is no third-party request and no connection to set up. Preloading the
+         two latin subsets starts them in parallel with the stylesheet. */}}
+    <link rel="preload" as="font" type="font/woff2" href="{{ "fonts/akaya-kanadaka-400-latin.woff2" | relURL }}" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="{{ "fonts/caveat-700-latin.woff2" | relURL }}" crossorigin>
+
     {{ $styles := resources.Get "scss/custom.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+
+    {{ if .IsHome }}
+    {{- $sameAs := slice -}}
+    {{- range site.Params.social -}}
+      {{- if and .link (ne .link "#") }}{{ $sameAs = $sameAs | append .link }}{{ end -}}
+    {{- end -}}
+    <script type="application/ld+json">
+      {{- dict
+        "@context" "https://schema.org"
+        "@type" "Person"
+        "name" site.Params.author
+        "url" site.BaseURL
+        "jobTitle" "Assistant Professor of Neurology"
+        "description" site.Params.description
+        "image" $ogImage
+        "affiliation" (dict "@type" "Organization" "name" "Johns Hopkins School of Medicine" "url" "https://www.hopkinsmedicine.org/")
+        "sameAs" $sameAs
+      | jsonify (dict "indent" "  ") | safeJS -}}
+    </script>
+    {{ end }}
   </head>
   <body class="{{ if .IsHome }}home{{ end }}">
     {{ block "main" . }}{{ end }}
+    {{ $nav := resources.Get "js/site-nav.js" | minify | fingerprint }}
+    <script src="{{ $nav.RelPermalink }}" integrity="{{ $nav.Data.Integrity }}" defer></script>
   </body>
 </html>

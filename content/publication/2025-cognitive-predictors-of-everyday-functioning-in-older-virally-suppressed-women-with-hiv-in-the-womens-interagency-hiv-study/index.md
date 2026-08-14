@@ -36,21 +36,18 @@ url_dataset: ""
 url_doi: "https://doi.org/10.21203/rs.3.rs-6136690/v1"
 tier: "selected"
 featured: false
-thumbnail: "extracted-figure-page-1.png"
+thumbnail: "figure.png"
 visual_abstract: ""
-abstract: "Abstract"
+abstract: "Background As the number of older people with HIV is expected to grow and experience age-related cognitive declines, concerns mount that such existing cognitive impairments may become exacerbated in already cognitively vulnerable subgroups such as women with HIV. These cognitive impairments can develop into everyday functional impairment in either basic or instrumental activities of daily living. Methods In the Women’s Interagency HIV Study, we examined the association between objective cognitive test performance and the self-rated Lawton and Brody scale of Independent Activities of Daily Living (IADL) in 754 older (50+) women with HIV (WWH; 84% virally suppressed). To handle this longitudinal data, weighted logistic mixed effect models examined associations between cognitive domain performance (predictor) and functional outcomes (IADL item level scores). Results In the total sample, poorer motor performance was associated with impairments in home repairs, housekeeping, and laundry and poorer executive functioning was associated with impairment in planning social activities. Among older virally suppressed-WWH, poorer motor performance was associated with deficits in home repair and poorer executive performance was associated with deficits in planning social activities. Conclusion Since motor and executive performance were related to impairments in certain IADLs, strategies such as cognitive training targeting these domains could improve everyday functioning. Such approaches could improve autonomy as WWH age."
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in Research square in 2025 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -63,34 +60,5 @@ related_community:
   []
 tags:
   - "translational-neuroinformatics"
-thumbnail_alt: "Publication preview for Cognitive Predictors of Everyday Functioning in Older Virally Suppressed Women with HIV in the Women’s Interagency HIV Study"
+thumbnail_alt: "Forest plot of associations between cognitive performance and individual instrumental activities of daily living."
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to translational-neuroinformatics and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in Research square in 2025 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

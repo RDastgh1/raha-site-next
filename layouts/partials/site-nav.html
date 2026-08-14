@@ -1,12 +1,25 @@
-<nav class="raha-nav" aria-label="Primary navigation">
+{{/*
+  Primary navigation. Links come from config/_default/menus.yaml so editing that
+  file actually changes the nav -- it used to be dead config while this template
+  hardcoded its own copy of the links.
+
+  Mobile: below 900px the link row becomes a panel toggled by the button. The
+  panel is rendered open and `site-nav.js` collapses it on load, so a phone with
+  JavaScript disabled still gets every link rather than no navigation at all.
+*/}}
+<nav class="raha-nav" aria-label="Primary navigation" data-site-nav>
   <a class="raha-brand" href="{{ "" | relURL }}">{{ site.Title }}</a>
-  <div class="raha-nav__links">
-    <a href="{{ "software/" | relURL }}">Software</a>
-    <a href="{{ "research-threads/" | relURL }}">Threads</a>
-    <a href="{{ "publication/" | relURL }}">Publications</a>
-    <a href="{{ "methods/" | relURL }}">Methods</a>
-    <a href="{{ "leadership/" | relURL }}">Roles & Affiliations</a>
-    <a href="{{ "people/" | relURL }}">People</a>
-    <a href="{{ "#contact" | relURL }}">Contact</a>
+  <button class="raha-nav__toggle" type="button" aria-expanded="true" aria-controls="site-menu" data-nav-toggle>
+    <span class="visually-hidden">Menu</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path class="raha-nav__bars" d="M4 7h16M4 12h16M4 17h16" />
+      <path class="raha-nav__x" d="M6 6l12 12M18 6L6 18" />
+    </svg>
+  </button>
+  <div class="raha-nav__links" id="site-menu" data-nav-panel>
+    {{ $current := . }}
+    {{ range site.Menus.main }}
+    <a href="{{ .URL | relURL }}"{{ if $current.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+    {{ end }}
   </div>
 </nav>

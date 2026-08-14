@@ -25,7 +25,7 @@ tier: "highlighted"
 featured: true
 thumbnail: "longpolypharmacyabstract.jpeg"
 visual_abstract: ""
-abstract: "Objective:"
+abstract: ""
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""

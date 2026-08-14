@@ -8,7 +8,7 @@
   {{ with .Params.summary }}<p class="raha-section__lede">{{ . }}</p>{{ end }}
   {{ with .Params.thread_figure }}
   <figure class="thread-figure">
-    <img src="{{ . | relURL }}" alt="{{ $.Params.thread_figure_alt | default $.Title }}">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.thread_figure_alt | default $.Title }}" loading="lazy" decoding="async">
   </figure>
   {{ end }}
   {{ .Content }}
@@ -19,22 +19,13 @@
     <p>{{ .question }}</p>
   </section>
 
+  {{/* The former "Research Areas" column resolved site.GetPage "research/..."
+       and was dropped when /research/ was merged into these threads. */}}
   <section class="ecosystem-columns">
     <div class="portal-panel">
       <div class="raha-section__eyebrow">Software</div>
       {{ range .software }}
         {{ with site.GetPage (printf "software/%s" .) }}
-        <a class="ecosystem-link" href="{{ .RelPermalink }}">
-          <strong>{{ .Title }}</strong>
-          <span>{{ .Params.summary }}</span>
-        </a>
-        {{ end }}
-      {{ end }}
-    </div>
-    <div class="portal-panel">
-      <div class="raha-section__eyebrow">Research Areas</div>
-      {{ range .research }}
-        {{ with site.GetPage (printf "research/%s" .) }}
         <a class="ecosystem-link" href="{{ .RelPermalink }}">
           <strong>{{ .Title }}</strong>
           <span>{{ .Params.summary }}</span>

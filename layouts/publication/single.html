@@ -4,25 +4,21 @@
   <header class="publication-hero">
     <div>
       {{ $tierLabel := .Params.tier | default "archive" }}
-      <p class="raha-kicker">{{ if eq $tierLabel "highlighted" }}Highlighted{{ else }}{{ title $tierLabel }}{{ end }} Publication</p>
+      <p class="raha-kicker">{{ if eq $tierLabel "highlighted" }}Highlighted publication{{ else if eq $tierLabel "selected" }}Selected publication{{ else }}Publication{{ end }}</p>
       <h1>{{ .Title }}</h1>
       <div class="publication-meta">
         {{ with .Params.year }}<span>{{ . }}</span>{{ end }}
         {{ with .Params.publication }}<span>{{ . }}</span>{{ end }}
-        {{ with .Params.publication_type }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.publication_type }}<span>{{ partial "publication-kind.html" . }}</span>{{ end }}
       </div>
       {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-authors") }}
     </div>
     {{ with .Params.thumbnail }}
-    {{ $thumbURL := "" }}
     {{ $thumbAlt := $.Params.thumbnail_alt | default (printf "Figure from %s" $.Title) }}
-    {{ if hasPrefix . "media/" }}
-      {{ $thumbURL = (. | relURL) }}
-    {{ else }}
-      {{ $thumbURL = printf "%s%s" $.RelPermalink . }}
-    {{ end }}
+    {{ $t := partial "pub-thumb.html" (dict "page" $ "width" 1200) }}
     <figure class="publication-hero__thumb">
-      <img src="{{ $thumbURL }}" alt="{{ $thumbAlt }}">
+      {{/* Above the fold on a publication page, so it loads eagerly. */}}
+      <img src="{{ $t.url }}" alt="{{ $thumbAlt }}"{{ if $t.width }} width="{{ $t.width }}" height="{{ $t.height }}"{{ end }} decoding="async" fetchpriority="high">
     </figure>
     {{ end }}
   </header>
@@ -42,17 +38,16 @@
   </section>
 
   <section class="publication-portal">
+    {{/* Generated placeholder prose has been stripped from the source files, so
+         these fields are either hand-written or empty -- no guard needed. */}}
     <article class="publication-main">
       {{ with .Params.why_this_matters }}
-      {{ if not (in . "helps define a research thread") }}
       <div class="portal-panel">
         <div class="raha-section__eyebrow">Why This Matters</div>
         <p>{{ . }}</p>
       </div>
       {{ end }}
-      {{ end }}
       {{ with .Params.key_findings }}
-      {{ if not (in (delimit . " ") "Summarize the primary empirical or methodological finding") }}
       <div class="portal-panel">
         <div class="raha-section__eyebrow">Key Findings</div>
         <ul>
@@ -60,14 +55,20 @@
         </ul>
       </div>
       {{ end }}
-      {{ end }}
       {{ with .Params.plain_language_summary }}
-      {{ if not (in . "connected research program") }}
       <div class="portal-panel">
         <div class="raha-section__eyebrow">Plain-Language Summary</div>
         <p>{{ . }}</p>
       </div>
       {{ end }}
+      {{ with .Params.abstract }}
+      <div class="portal-panel portal-panel--abstract">
+        <div class="raha-section__eyebrow">Abstract</div>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ with .Content }}
+      <div class="portal-panel publication-body">{{ . }}</div>
       {{ end }}
     </article>
 
@@ -75,7 +76,7 @@
       <div class="portal-panel">
         <div class="raha-section__eyebrow">Research Ecosystem</div>
         {{ partial "relationship-list.html" (dict "title" "Software" "items" .Params.related_software "base" "software") }}
-        {{ partial "relationship-list.html" (dict "title" "Research Areas" "items" .Params.related_research "base" "research") }}
+        {{ partial "relationship-list.html" (dict "title" "Research Threads" "items" .Params.related_research "base" "research-threads") }}
         {{ partial "relationship-list.html" (dict "title" "Talks" "items" .Params.related_talks "base" "talks") }}
         {{ partial "relationship-list.html" (dict "title" "Datasets" "items" .Params.related_datasets "base" "") }}
         {{ partial "relationship-list.html" (dict "title" "Community" "items" .Params.related_community "base" "community") }}

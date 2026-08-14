@@ -1,8 +1,10 @@
 ---
 title: "MEAnalyzer"
 summary: "Published, citable, downloadable MATLAB software for multi-electrode array data analysis."
+status: "released"
 tags: ["published software", "scientific software", "MATLAB", "MEA", "visualization"]
-github: "https://github.com/RDastgh1"
+image: "/media/software/meanalyzer/featured.webp"
+github: "https://github.com/RDastgh1/MEAnalyzer"
 documentation: "https://www.mathworks.com/matlabcentral/fileexchange/68260-meanalyzer"
 problem: "Multi-electrode array experiments generate dense spike-train data that can be difficult to process consistently without specialized coding."
 needed: "Commercial MEA systems make acquisition fast, but analysis bottlenecks can limit how efficiently researchers extract physiological features, compare manipulations, and interpret network activity."

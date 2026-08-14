@@ -1,3 +1,5 @@
+# Navigation links. layouts/partials/site-nav.html renders this, so changes here
+# take effect on the site -- add, remove or reorder entries freely.
 main:
   - name: Software
     url: /software/
@@ -11,7 +13,7 @@ main:
   - name: Methods
     url: /methods/
     weight: 40
-  - name: Leadership
+  - name: Roles & Affiliations
     url: /leadership/
     weight: 50
   - name: People

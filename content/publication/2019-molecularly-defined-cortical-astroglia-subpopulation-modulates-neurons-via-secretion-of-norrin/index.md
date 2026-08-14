@@ -42,19 +42,16 @@ tier: "archive"
 featured: false
 thumbnail: "norrin.webp"
 visual_abstract: ""
-abstract: ""
+abstract: "Despite expanding knowledge regarding the role of astroglia in regulating neuronal function, little is known about regional or functional subgroups of brain astroglia and how they may interact with neurons. We use an astroglia-specific promoter fragment in transgenic mice to identify an anatomically defined subset of adult grey matter astroglia. Using transcriptomic and histological analyses, we generate a combinatorial profile for in vivo identification and characterization of this astroglia subpopulation. These astroglia are enriched in cortical layer V, express distinct molecular markers, including norrin and LGR6, with corresponding layer-specific neuronal ligands, are found in human cortex and modulate neuronal activity. Astrocytic norrin appears to regulate dendrites and spines and its loss, as occurs in Norrie disease, contributes to cortical dendritic spine loss. These studies provide evidence that human and rodent astroglia subtypes are regionally and functionally distinct, can regulate local neuronal dendrite and synaptic spine development and contribute to disease."
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in Nature neuroscience in 2019 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to the research architecture and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -69,32 +66,3 @@ tags:
   - "article"
 thumbnail_alt: "Publication preview for Molecularly defined cortical astroglia subpopulation modulates neurons via secretion of Norrin"
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to the research architecture and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in Nature neuroscience in 2019 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.

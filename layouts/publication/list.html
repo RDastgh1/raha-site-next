@@ -5,6 +5,17 @@
   <h1>{{ .Title }}</h1>
   {{ with .Content }}{{ . }}{{ end }}
 
+  {{/* Client-side filter. Works on title, authors, venue and year, all of which
+       are mirrored into data-search on each entry below. Progressive: with JS
+       off the controls are hidden and the full list still renders. */}}
+  <form class="publication-filter" role="search" data-pub-filter hidden>
+    <label class="publication-filter__field">
+      <span class="visually-hidden">Search publications</span>
+      <input type="search" data-pub-search placeholder="Search title, author, journal, year…" autocomplete="off">
+    </label>
+    <p class="publication-filter__count" role="status" aria-live="polite" data-pub-count></p>
+  </form>
+
   {{ $pages := where (where .Pages "Params.tier" "!=" "report") "Params.manual_featured" "!=" true }}
   {{ $highlightedConfig := hugo.Data.highlighted_publications.items }}
   {{ $articles := where $pages "Params.publication_type" "article" }}
@@ -13,7 +24,7 @@
   {{ $proceedings := where $pages "Params.publication_type" "inproceedings" }}
   {{ $otherOutputs := where (where $pages "Params.publication_type" "!=" "article") "Params.publication_type" "!=" "inproceedings" }}
 
-  <section class="publication-tier">
+  <section class="publication-tier" data-pub-section>
     <div class="raha-section__eyebrow">Highlighted Peer-Reviewed Publications</div>
     <div class="publication-grid publication-grid--highlighted">
       {{ range $highlightedConfig }}
@@ -28,7 +39,7 @@
     </div>
   </section>
 
-  <section class="publication-tier">
+  <section class="publication-tier" data-pub-section>
     <div class="raha-section__eyebrow">Selected Peer-Reviewed Publications</div>
     <div class="publication-grid">
       {{ range $selected.ByDate.Reverse }}
@@ -37,46 +48,51 @@
     </div>
   </section>
 
-  <section class="publication-tier">
+  <section class="publication-tier" data-pub-section>
     <div class="raha-section__eyebrow">Peer-Reviewed Journal Articles</div>
     <div class="publication-archive">
       {{ range $articleArchive.ByDate.Reverse }}
-      <a href="{{ .RelPermalink }}">
+      {{ $search := printf "%s %s %s %s" .Title (delimit (.Params.authors | default slice) " ") (.Params.publication | default "") (.Params.year | default "") | lower }}
+      <a href="{{ .RelPermalink }}" data-pub-item data-search="{{ $search }}">
         <span>{{ .Params.year }}</span>
         <strong>{{ .Title }}</strong>
-        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors") }}
+        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors" "limit" 6) }}
         <em>{{ .Params.publication }}</em>
       </a>
       {{ end }}
     </div>
   </section>
 
-  <section class="publication-tier">
+  <section class="publication-tier" data-pub-section>
     <div class="raha-section__eyebrow">Conferences, Abstracts, and Proceedings</div>
     <div class="publication-archive">
       {{ range $proceedings.ByDate.Reverse }}
-      <a href="{{ .RelPermalink }}">
+      {{ $search := printf "%s %s %s %s" .Title (delimit (.Params.authors | default slice) " ") (.Params.publication | default "") (.Params.year | default "") | lower }}
+      <a href="{{ .RelPermalink }}" data-pub-item data-search="{{ $search }}">
         <span>{{ .Params.year }}</span>
         <strong>{{ .Title }}</strong>
-        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors") }}
+        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors" "limit" 6) }}
         <em>{{ .Params.publication }}</em>
       </a>
       {{ end }}
     </div>
   </section>
 
-  <section class="publication-tier">
+  <section class="publication-tier" data-pub-section>
     <div class="raha-section__eyebrow">Other Scholarly Outputs</div>
     <div class="publication-archive">
       {{ range $otherOutputs.ByDate.Reverse }}
-      <a href="{{ .RelPermalink }}">
+      {{ $search := printf "%s %s %s %s" .Title (delimit (.Params.authors | default slice) " ") (.Params.publication | default "") (.Params.year | default "") | lower }}
+      <a href="{{ .RelPermalink }}" data-pub-item data-search="{{ $search }}">
         <span>{{ .Params.year }}</span>
         <strong>{{ .Title }}</strong>
-        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors") }}
+        {{ partial "publication-authors.html" (dict "authors" .Params.authors "class" "publication-archive__authors" "limit" 6) }}
         <em>{{ .Params.publication }}</em>
       </a>
       {{ end }}
     </div>
   </section>
 </main>
+{{ $filter := resources.Get "js/publication-filter.js" | minify | fingerprint }}
+<script src="{{ $filter.RelPermalink }}" integrity="{{ $filter.Data.Integrity }}" defer></script>
 {{ end }}

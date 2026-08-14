@@ -1,9 +1,9 @@
 ---
 title: "MetabolomicsReportR"
 summary: "In-development metabolomics reporting for multi-omics biomedical discovery."
-image: "/media/software/metabolomicsreportr/sticker.png"
+status: "in development"
+image: "/media/software/metabolomicsreportr/sticker.webp"
 tags: ["In Development", "scientific software", "open-source software", "metabolomics", "multi-omics", "biomarker discovery"]
-github: "https://github.com/RDastgh1"
 documentation: ""
 problem: "Modern metabolomics studies generate hundreds to thousands of molecular measurements that require rigorous quality control, normalization, statistical modeling, pathway interpretation, and biological contextualization."
 

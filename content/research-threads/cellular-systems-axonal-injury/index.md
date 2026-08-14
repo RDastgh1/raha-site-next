@@ -2,7 +2,7 @@
 title: "Cellular Systems & Axonal Injury"
 summary: "Biomedical engineering foundations in traumatic brain injury, axonal pathology, electrophysiology, and neural systems."
 thread_key: "cellular-systems-axonal-injury"
-thread_figure: "/media/research-threads/bench-to-computation-figure.png"
+thread_figure: "/media/research-threads/bench-to-computation-figure.webp"
 thread_figure_alt: "Illustration of bench experiments connected to computational analysis, imaging, and cellular signal visualization."
 ---
 

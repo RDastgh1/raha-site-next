@@ -14,9 +14,6 @@ items:
       - "2021-patterns-and-predictors-of-cognitive-function-among-virally-suppressed-women-with-hiv"
     talks:
       - "biomedical-data-science-brain-health"
-    research:
-      - "computational-phenotyping"
-      - "translational-neuroinformatics"
   - title: "Biomarker Systems"
     slug: "biomarker-systems"
     label: "Molecular signals"
@@ -32,9 +29,6 @@ items:
       - "2025-plasma-neurofilament-light-chain-and-glial-fibrillary-acidic-protein-as-biomarkers-of-cognitive-decline-in-people-with-human-immunodeficiency-virus"
     talks:
       - "biomedical-data-science-brain-health"
-    research:
-      - "biomarker-systems"
-      - "translational-neuroinformatics"
   - title: "Scientific Software & Infrastructure"
     slug: "scientific-software-infrastructure"
     label: "Reusable systems"
@@ -51,10 +45,6 @@ items:
       - "2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
     talks:
       - "biomedical-data-science-brain-health"
-    research:
-      - "software-systems"
-      - "reproducible-infrastructure"
-      - "scientific-visualization"
   - title: "Long COVID & Brain Health"
     slug: "long-covid-brain-health"
     label: "Translational cohorts"
@@ -69,9 +59,6 @@ items:
       - "2025-putting-the-pasc-score-to-the-test-clinical-vs-statistical-accuracy-in-long-covid-diagnosis-azola-et-al"
     talks:
       - "biomedical-data-science-brain-health"
-    research:
-      - "biomarker-systems"
-      - "translational-neuroinformatics"
   - title: "Organoid Intelligence"
     slug: "organoid-intelligence"
     label: "Emerging field"
@@ -85,9 +72,6 @@ items:
       - "2025-altered-development-and-network-connectivity-in-a-human-neuronal-model-of-15q11-2-deletion-related-neurodevelopmental-disorders"
     talks:
       - "biomedical-data-science-brain-health"
-    research:
-      - "software-systems"
-      - "scientific-visualization"
   - title: "Sleep, Wearables & Digital Phenotyping"
     slug: "sleep-wearables-digital-phenotyping"
     label: "Modifiable signals"
@@ -103,9 +87,6 @@ items:
       - "2024-does-cognitive-intra-individual-variability-predict-change-in-everyday-functioning-performance-in-women-with-and-without-hiv-in-the-womens-interagency-hiv-study"
     talks:
       - "biomedical-data-science-brain-health"
-    research:
-      - "computational-phenotyping"
-      - "translational-neuroinformatics"
   - title: "Cellular Systems & Axonal Injury"
     slug: "cellular-systems-axonal-injury"
     label: "Engineering foundations"
@@ -121,6 +102,31 @@ items:
       - "2022-cx43-hemichannels-contribute-to-astrocyte-mediated-toxicity-in-sporadic-and-familial-als"
     talks:
       - "biomedical-data-science-brain-health"
-    research:
-      - "software-systems"
-      - "scientific-visualization"
+  - title: "Translational Neuroinformatics"
+    slug: "translational-neuroinformatics"
+    label: "Cohort translation"
+    summary: "Computational infrastructure linking cohorts, biomarkers, cognition, and brain health outcomes."
+    question: "How do cohort data, biomarkers, and cognitive measures become comparable enough to answer translational questions?"
+    software:
+      - "scidatareportr"
+      - "computational-phenotyping-pipelines"
+    publications:
+      - "2025-development-of-a-refined-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
+      - "2025-international-application-of-an-optimized-harmonization-approach-for-longitudinal-cognitive-data-in-people-with-hiv"
+      - "2024-biopsychosocial-phenotypes-in-people-with-hiv-in-the-charter-cohort"
+      - "2019-heterogeneity-in-neurocognitive-change-trajectories-among-people-with-hiv-starting-antiretroviral-therapy-in-rakai-uganda"
+    talks:
+      - "biomedical-data-science-brain-health"
+  - title: "Scientific Visualization"
+    slug: "scientific-visualization"
+    label: "Evidence layer"
+    summary: "Visual systems for making complex analyses interpretable, inspectable, and useful."
+    question: "How should multidimensional evidence be shown so collaborators can inspect assumptions rather than take results on trust?"
+    software:
+      - "dashboards-reporting-frameworks"
+      - "scidatareportr"
+    publications:
+      - "2024-identifying-and-distinguishing-cognitive-profiles-among-virally-suppressed-people-with-hiv"
+      - "2020-sex-differences-in-the-patterns-and-predictors-of-cognitive-function-in-hiv"
+    talks:
+      - "biomedical-data-science-brain-health"

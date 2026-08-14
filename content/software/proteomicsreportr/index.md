@@ -1,9 +1,9 @@
 ---
 title: "ProteomicsReportR"
 summary: "In-development reporting workflows for proteomics quality control, biomarker discovery, and biological interpretation."
-image: "/media/software/proteomicsreportr/sticker.png"
+status: "in development"
+image: "/media/software/proteomicsreportr/sticker.webp"
 tags: ["In Development", "scientific software", "open-source software", "proteomics", "multi-omics", "biomarker discovery"]
-github: "https://github.com/RDastgh1"
 documentation: ""
 problem: "Proteomics studies produce high-dimensional molecular measurements that can be difficult to quality-control, summarize, visualize, and connect to biological hypotheses reproducibly."
 needed: "Teams need reusable analytical reports that move from metadata checks and QC to statistical workflows, dimensionality reduction, clustering, and biomarker analysis without losing transparency."

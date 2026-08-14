@@ -1,4 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Caveat:wght@500;600;700&display=swap");
+/* Self-hosted fonts. Previously loaded from fonts.googleapis.com, which cost a
+   third-party connection on every page and left a visible flash of fallback
+   text before the swap.
+
+   Akaya Kanadaka ships weight 400 only, and Caveat is used solely by
+   .raha-brand at 700 -- so those are the only faces shipped. Headings must
+   therefore be set at 400: asking for bold makes the browser synthesise it,
+   which smears the outlines (this was the real cause of the "blobby headings"). */
+
+@font-face {
+  font-family: "Akaya Kanadaka";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/akaya-kanadaka-400-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Akaya Kanadaka";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/akaya-kanadaka-400-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/caveat-700-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/caveat-700-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Metric-matched stand-in used while the display face loads. Numbers derived
+   from the actual font tables: Akaya's mean lowercase advance is 0.4495em
+   against Georgia's 0.4991em, so Georgia is scaled to 90.1% and its vertical
+   metrics are restated against that scale. Keeps the swap from reflowing the
+   8.4rem hero heading. */
+@font-face {
+  font-family: "Akaya Fallback";
+  src: local("Georgia"), local("Times New Roman");
+  size-adjust: 90.1%;
+  ascent-override: 102.2%;
+  descent-override: 30.6%;
+  line-gap-override: 0%;
+}
+
 
 :root {
   --raha-bg: #07111d;
@@ -43,7 +101,10 @@ h4,
 .program-card h3,
 .timeline-card h2,
 .timeline-card h3 {
-  font-family: "Akaya Kanadaka", Georgia, serif;
+  font-family: "Akaya Kanadaka", "Akaya Fallback", Georgia, serif;
+  /* Akaya Kanadaka has a single 400 weight. h1-h4 default to bold, which made
+     the browser synthesise it and smear every heading on the site. */
+  font-weight: 400;
 }
 
 body.home {
@@ -101,6 +162,55 @@ a {
 
 .raha-nav__links a:hover {
   color: var(--raha-text);
+}
+
+.raha-nav__links a[aria-current='page'] {
+  color: var(--raha-cyan);
+}
+
+/* Hidden above the mobile breakpoint; the media query below reveals it. */
+.raha-nav__toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  color: var(--raha-text);
+  background: rgba(13, 25, 38, 0.72);
+  border: 1px solid var(--raha-border);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.raha-nav__toggle svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+}
+
+/* Icon state is driven by aria-expanded, not a JS-only class, so the markup as
+   served is already self-consistent. */
+.raha-nav__toggle .raha-nav__x {
+  display: none;
+}
+
+.raha-nav__toggle[aria-expanded='true'] .raha-nav__bars {
+  display: none;
+}
+
+.raha-nav__toggle[aria-expanded='true'] .raha-nav__x {
+  display: block;
+}
+
+.raha-nav__toggle:focus-visible,
+.raha-nav__links a:focus-visible,
+.raha-brand:focus-visible {
+  outline: 2px solid var(--raha-cyan);
+  outline-offset: 3px;
 }
 
 .raha-hero {
@@ -180,7 +290,7 @@ a {
 .raha-kicker {
   color: var(--raha-cyan);
   font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
@@ -201,7 +311,7 @@ a {
   margin-top: 1.1rem;
   color: var(--raha-violet-soft);
   font-size: clamp(1.2rem, 2.2vw, 2rem);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .raha-title-rotator span {
@@ -302,6 +412,62 @@ a {
   color: var(--raha-cyan);
 }
 
+/* Hero hierarchy: two filled primary actions, then a quiet row of text links,
+   then icon-only profiles. Replaces six equal-weight buttons. */
+.raha-actions--primary {
+  gap: 0.6rem;
+}
+
+.raha-button--primary {
+  padding: 0 1.4rem;
+  font-weight: 600;
+  color: #05131c;
+  background: linear-gradient(135deg, var(--raha-cyan), var(--raha-mint));
+  border-color: transparent;
+}
+
+.raha-button--primary:hover {
+  color: #05131c;
+  background: linear-gradient(135deg, #7ee2f5, #a6f0dd);
+  border-color: transparent;
+}
+
+.raha-actions--secondary {
+  gap: 1.1rem;
+  margin-top: 1rem;
+}
+
+.raha-link-action {
+  color: rgba(238, 247, 251, 0.78);
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(139, 219, 235, 0.28);
+  padding-bottom: 2px;
+}
+
+.raha-link-action:hover {
+  color: var(--raha-cyan);
+  border-bottom-color: var(--raha-cyan);
+}
+
+.raha-social--compact {
+  gap: 0.5rem;
+  margin-top: 1.4rem;
+}
+
+.raha-social--compact a {
+  min-height: 2.3rem;
+  padding: 0 0.75rem;
+}
+
+/* Icon-only entries collapse to a square; text-only entries (the two Hopkins
+   profiles, which have no icon) keep their label. */
+.raha-social--compact a:has(svg) {
+  width: 2.3rem;
+  padding: 0;
+  justify-content: center;
+}
+
 .raha-social a {
   display: inline-flex;
   align-items: center;
@@ -389,7 +555,7 @@ a {
 .raha-section__eyebrow {
   color: var(--raha-cyan);
   font-size: 0.76rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -489,7 +655,7 @@ a {
   display: block;
   align-self: start;
   color: var(--raha-text);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .tool-chip p {
@@ -624,7 +790,7 @@ a {
 .raha-card__label {
   color: var(--raha-violet-soft);
   font-size: 0.74rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -1063,7 +1229,7 @@ a {
   display: block;
   color: var(--raha-cyan);
   font-size: 0.49rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -1150,7 +1316,7 @@ a {
   display: block;
   color: var(--raha-cyan);
   font-size: 0.58rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -1316,14 +1482,36 @@ a {
   font-family: Georgia, "Times New Roman", serif;
 }
 
+/* The publication area deliberately runs on Georgia rather than the display
+   face -- a journal voice for the bibliography. Georgia ships a real bold, so
+   these headings take 700 back after the weight-400 rule above, which exists
+   only because Akaya Kanadaka has no bold to load. */
+.publication-index h1,
+.publication-index h2,
+.publication-index h3,
+.publication-index .raha-kicker,
+.publication-index .raha-section__eyebrow,
+.publication-page h1,
+.publication-page h2,
+.publication-page h3,
+.publication-page .raha-kicker,
+.publication-page .raha-section__eyebrow,
+.publication-card h3 {
+  font-weight: 700;
+}
+
 .publication-card:hover {
   border-color: rgba(98, 216, 239, 0.62);
   color: var(--raha-text);
 }
 
+/* Figures are authored for white journal pages, so they are matted on a light
+   panel rather than dropped straight onto the dark surface. `contain` is
+   deliberate: cropping a multi-panel scientific figure loses data, and the
+   letterboxing now reads as a mat instead of as broken bars. */
 .publication-card__media {
   min-height: 100%;
-  background: rgba(3, 8, 18, 0.72);
+  background: #f2f5f8;
 }
 
 .publication-card__media img,
@@ -1333,6 +1521,15 @@ a {
   height: 100%;
   min-height: 17rem;
   object-fit: contain;
+  padding: 0.55rem;
+  background: #f2f5f8;
+}
+
+.publication-card__placeholder {
+  background:
+    radial-gradient(circle at 30% 30%, rgba(98, 216, 239, 0.16), transparent 60%),
+    radial-gradient(circle at 70% 65%, rgba(156, 119, 216, 0.18), transparent 62%),
+    #0d1926;
 }
 
 .publication-card__body {
@@ -1579,7 +1776,7 @@ a {
 .ecosystem-node span {
   color: var(--raha-cyan);
   font-size: 0.58rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -1637,7 +1834,7 @@ a {
   margin-bottom: 0;
   color: var(--raha-cyan);
   font-size: 0.58rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -2086,13 +2283,119 @@ a {
   border: 1px solid var(--raha-border);
   border-radius: 0.5rem;
   overflow: hidden;
-  background: var(--raha-surface);
+  background: #f2f5f8;
 }
 
 .publication-hero__thumb img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  padding: 0.6rem;
+}
+
+/* Abstracts are long; give them a slightly quieter treatment than the
+   hand-written panels above them so they read as reference material. */
+.portal-panel--abstract p {
+  color: var(--raha-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.publication-card__authors .author-more {
+  color: var(--raha-muted);
+  white-space: nowrap;
+}
+
+/* Status chip on the homepage Featured Systems cards. Carries the "what's
+   current" signal that the separate Living Systems section used to duplicate. */
+.raha-card__label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.raha-system__status {
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--raha-border);
+  border-radius: 999px;
+  color: var(--raha-muted);
+  font-size: 0.62rem;
+}
+
+/* Software availability badge */
+.software-status {
+  display: inline-block;
+  margin: 0 0 0.9rem;
+  padding: 0.28rem 0.7rem;
+  border: 1px solid var(--raha-border);
+  border-radius: 999px;
+  color: var(--raha-muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.software-status--released {
+  color: var(--raha-mint);
+  border-color: rgba(141, 235, 210, 0.5);
+}
+
+.software-status--in-development {
+  color: var(--raha-violet-soft);
+  border-color: rgba(192, 167, 236, 0.45);
+}
+
+/* Publications index filter */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.publication-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+}
+
+.publication-filter__field {
+  flex: 1 1 22rem;
+}
+
+.publication-filter input[type='search'] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  color: var(--raha-text);
+  font-family: inherit;
+  font-size: 1rem;
+  background: rgba(13, 25, 38, 0.72);
+  border: 1px solid var(--raha-border);
+  border-radius: 0.5rem;
+}
+
+.publication-filter input[type='search']:focus-visible {
+  outline: 2px solid var(--raha-cyan);
+  outline-offset: 2px;
+}
+
+.publication-filter input[type='search']::placeholder {
+  color: rgba(167, 184, 198, 0.75);
+}
+
+.publication-filter__count {
+  margin: 0;
+  color: var(--raha-muted);
+  font-size: 0.88rem;
 }
 
 .publication-actions {
@@ -2194,12 +2497,43 @@ a {
 }
 
 @media (max-width: 900px) {
+  /* Stays fixed so the menu button is always reachable while scrolling. It was
+     previously `absolute`, which scrolled the whole bar away. */
   .raha-nav {
-    position: absolute;
+    position: fixed;
+    flex-wrap: wrap;
+    row-gap: 0.75rem;
+    background: rgba(3, 8, 18, 0.94);
   }
 
+  .raha-nav__toggle {
+    display: inline-flex;
+  }
+
+  /* Rendered open, collapsed by site-nav.js. Without JS this stays a visible
+     stacked list rather than disappearing entirely. */
   .raha-nav__links {
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 0;
+    font-size: 1rem;
+    border-top: 1px solid var(--raha-border);
+  }
+
+  /* Hidden only once something has actively collapsed it. The button ships
+     with aria-expanded="true", so with JavaScript disabled the panel stays
+     visible and every link remains reachable. */
+  .raha-nav__toggle[aria-expanded='false'] ~ .raha-nav__links {
     display: none;
+  }
+
+  .raha-nav__links a {
+    padding: 0.85rem 0.25rem;
+    border-bottom: 1px solid rgba(139, 219, 235, 0.12);
+  }
+
+  .raha-nav__links a:last-child {
+    border-bottom: 0;
   }
 
   .raha-hero {

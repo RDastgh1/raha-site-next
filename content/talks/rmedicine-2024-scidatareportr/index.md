@@ -9,8 +9,7 @@ event_type: "Talk / software communication"
 slides: "https://rdastgh1.quarto.pub/rmedicine-2024-scidatareportr"
 video: ""
 event_url: "https://rdastgh1.quarto.pub/rmedicine-2024-scidatareportr"
-related_publications:
-  - "hidden-structure-brain-health"
+related_publications: []
 related_software:
   - "scidatareportr"
 related_research:

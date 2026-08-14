@@ -1,0 +1,43 @@
+{{/*
+  Resolves a publication thumbnail to a display-sized image.
+
+  Call:  {{ $t := partial "pub-thumb.html" (dict "page" $page "width" 800) }}
+  Returns a dict: { url, width, height } -- width/height are 0 when the source
+  cannot be measured (static paths and SVG), in which case the caller should
+  omit the attributes rather than guess.
+
+  Originals are full journal figures, several megabytes each; cards only ever
+  display them a few hundred pixels wide. Bundle resources are therefore resized
+  to WebP. Skipped deliberately:
+    - "media/..." paths, which are static files, not page resources
+    - .svg, which Hugo cannot raster-process (and does not need to)
+    - .gif, because p188cells.gif is animated and processing flattens it
+*/}}
+{{- $page := .page -}}
+{{- $width := .width | default 800 -}}
+{{- $thumb := $page.Params.thumbnail -}}
+{{- $out := dict "url" "" "width" 0 "height" 0 -}}
+
+{{- with $thumb -}}
+  {{- $t := . -}}
+  {{- $lower := lower $t -}}
+  {{- if hasPrefix $t "media/" -}}
+    {{- $out = dict "url" ($t | relURL) "width" 0 "height" 0 -}}
+  {{- else if or (strings.HasSuffix $lower ".svg") (strings.HasSuffix $lower ".gif") -}}
+    {{- $out = dict "url" (printf "%s%s" $page.RelPermalink $t) "width" 0 "height" 0 -}}
+  {{- else -}}
+    {{- with $page.Resources.GetMatch $t -}}
+      {{- $img := . -}}
+      {{- if gt .Width $width -}}
+        {{- $img = .Resize (printf "%dx webp q82" $width) -}}
+      {{- end -}}
+      {{- $out = dict "url" $img.RelPermalink "width" $img.Width "height" $img.Height -}}
+    {{- else -}}
+      {{/* Referenced file is missing from the bundle; fall back to the raw path
+           so the build still succeeds and the broken link is visible. */}}
+      {{- $out = dict "url" (printf "%s%s" $page.RelPermalink $t) "width" 0 "height" 0 -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $out -}}

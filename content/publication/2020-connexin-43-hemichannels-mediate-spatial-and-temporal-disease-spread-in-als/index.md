@@ -35,19 +35,16 @@ tier: "archive"
 featured: true
 thumbnail: "connexin.png"
 visual_abstract: ""
-abstract: "Abstract"
+abstract: "Connexin 43 (Cx43) gap junctions and hemichannels mediate astrocyte intercellular communication in the central nervous system under normal conditions and may contribute to astrocyte-mediated neurotoxicity in amyotrophic lateral sclerosis (ALS). Here we show that astrocyte-specific knockout of Cx43 in a mouse model of ALS slows disease progression both spatially and temporally, provides motor neuron (MN) protection, and improves survival. In human ALS tissues and biofluids, we observe that higher levels of Cx43 correlate with accelerated disease progression. Using human iPSC-derived astrocytes (hiPSC-A) from both familial and sporadic ALS, we show that Cx43 is upregulated and that Cx43-hemichannels are enriched at the astrocyte membrane. We then demonstrate that the pharmacological blockade of Cx43-hemichannels in ALS astrocytes, during a specific temporal window, provides neuroprotection of hiPSC-MN and reduces ALS astrocyte-mediated neuronal hyperexcitability. Our data identify Cx43 hemichannels as novel conduits of astrocyte-mediated disease progression and a pharmacological target for disease-modifying ALS therapies. (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted March 15, 2020.; https://doi.org/10.1101/2020.03.14.990747"
 extracted_figure: ""
 extracted_figure_source_pdf: ""
 extracted_figure_page: ""
 extracted_figure_confidence: ""
-plain_language_summary: "Published in BioRxiv in 2020 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure."
-why_this_matters: "This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems."
-research_significance: "The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend."
-research_story: "Within the site ecosystem, this paper connects to the research architecture and helps show how individual studies accumulate into a systems-level research agenda."
-key_findings:
-  - "Summarize the primary empirical or methodological finding after manual review."
-  - "Identify the cohort, system, or data modality most central to the paper."
-  - "Connect the finding to related software, research areas, datasets, or talks where relevant."
+plain_language_summary: ""
+why_this_matters: ""
+research_significance: ""
+research_story: ""
+key_findings: []
 related_software:
   []
 related_research:
@@ -62,32 +59,3 @@ tags:
   - "article"
 thumbnail_alt: "Publication preview for Connexin 43 hemichannels mediate spatial and temporal disease spread in ALS"
 ---
-## Why this paper matters
-
-This paper helps define a research thread in translational brain health research, providing context for how computational and translational evidence can be organized into reusable scientific systems.
-
-## Key findings
-
-- Summarize the primary empirical or methodological finding after manual review.
-- Identify the cohort, system, or data modality most central to the paper.
-- Connect the finding to related software, research areas, datasets, or talks where relevant.
-
-## Research significance
-
-The work supports the broader program of connecting heterogeneous biomedical data with interpretable analysis, reproducible workflows, and research outputs that collaborators can inspect and extend.
-
-## Research story
-
-Within the site ecosystem, this paper connects to the research architecture and helps show how individual studies accumulate into a systems-level research agenda.
-
-## Plain-language summary
-
-Published in BioRxiv in 2020 contributes to translational brain health research. It is included here as part of a connected research program linking data, methods, and reusable scientific infrastructure.
-
-## Commentary
-
-Add manual scientific context, interpretation, and links to related systems.
-
-## Figures and visual abstracts
-
-Add publication figures, visual abstracts, and explanatory graphics to this bundle.
