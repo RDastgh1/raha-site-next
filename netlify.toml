@@ -1,0 +1,33 @@
+# Build settings for Netlify, which serves rahadastgheyb.com.
+#
+# These previously existed only in the Netlify UI, so nothing in the repository
+# pinned the Hugo version. Keeping them here makes the build reproducible and
+# keeps the version next to the code that depends on it.
+#
+# IMPORTANT: this repository's root IS the Hugo site root, so there is no base
+# directory. If the Netlify UI has "Base directory" set to `raha-site-next`
+# (as DEPLOYMENT.md used to instruct), clear it — otherwise Netlify looks for
+# raha-site-next/raha-site-next/ and the build fails before Hugo ever runs.
+
+[build]
+  publish = "public"
+  command = "hugo --minify"
+
+[build.environment]
+  # Keep at or above 0.145. content/posts/ and content/quarto-generated/ use the
+  # `build:` front matter key that replaced `_build` in that release; an older
+  # Hugo silently ignores it and republishes both sections. Separately,
+  # layouts/index.html uses hugo.Data, which needs 0.144 or newer.
+  HUGO_VERSION = "0.162.1"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "false"
+
+# config/_default/hugo.yaml hardcodes the production baseURL so the sitemap,
+# canonicals and og:image come out absolute. Previews and branch builds need to
+# point at their own address instead, or every link on a preview sends you to
+# the live site.
+[context.deploy-preview]
+  command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"

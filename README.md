@@ -21,9 +21,15 @@ hugo server
 
 ## Deployment
 
-GitHub Pages deployment is handled by `.github/workflows/deploy.yml`.
+Netlify serves rahadastgheyb.com. Build settings are committed in `netlify.toml`;
+see `DEPLOYMENT.md` for the full procedure and rollback steps.
 
-The workflow renders Quarto first, then builds Hugo, then deploys the generated `public/` artifact through GitHub Pages Actions.
+A GitHub Pages workflow used to live at `.github/workflows/deploy.yml`. It was
+removed: it pinned Hugo 0.125.7 and so had failed on every run since June 2026
+(the site needs >= 0.144 for `hugo.Data`), and had it worked it would have
+published a second copy of the site at `rdastgh1.github.io`, competing with the
+canonical domain. Restore it with `git revert` only if you actually want a
+second published copy.
 
 ## Content model
 

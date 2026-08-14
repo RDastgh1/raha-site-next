@@ -4,18 +4,15 @@ This site is a Hugo site with optional Quarto-generated content. The current pro
 
 ## Netlify Build Settings
 
-- **Base directory:** `raha-site-next`
+These are committed in `netlify.toml`, so the Netlify UI should not need to set
+them. Check the UI only if a build fails before Hugo runs.
+
+- **Base directory:** *(leave empty)* — this repository's root is already the
+  Hugo site root. An earlier version of this document said `raha-site-next`,
+  which makes Netlify look for `raha-site-next/raha-site-next/` and fail.
 - **Build command:** `hugo --minify`
 - **Publish directory:** `public`
-- **Hugo version:** `0.162.1`
-
-Set the Hugo version in Netlify environment variables:
-
-```text
-HUGO_VERSION=0.162.1
-HUGO_ENV=production
-HUGO_ENABLEGITINFO=false
-```
+- **Hugo version:** `0.162.1` (must be >= 0.145; see `netlify.toml` for why)
 
 No Node.js, npm, or package install step is required for the current Hugo build.
 
@@ -72,11 +69,7 @@ Do not add secrets unless a feature explicitly requires them.
 1. Push the site repository to GitHub.
 2. In Netlify, choose **Add new site** -> **Import an existing project**.
 3. Connect the GitHub repository.
-4. Set the base directory to:
-
-   ```text
-   raha-site-next
-   ```
+4. Leave the base directory **empty** (the repository root is the site root).
 
 5. Set the build command to:
 
