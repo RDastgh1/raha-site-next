@@ -42,6 +42,12 @@ pillars:
     label: "Pillar 3"
     summary: "Human-in-the-loop AI, conversational data exploration, scientific reasoning, and transparent workflows that help scientists think more effectively."
 ecosystem:
+  - title: "Other Support & Effort Planner"
+    status: "Available now"
+    role: "Interactive research-administration planning tool"
+    summary: "A practical planning tool for organizing research support, monitoring committed effort, and preparing information for Other Support reporting."
+    url: "/software/other-support-effort-planner/"
+    monogram: "OSP"
   - title: "MEAnalyzer"
     status: "Published software"
     role: "Established MATLAB app"

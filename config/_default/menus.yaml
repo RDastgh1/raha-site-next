@@ -1,24 +1,21 @@
 # Navigation links. layouts/partials/site-nav.html renders this, so changes here
 # take effect on the site -- add, remove or reorder entries freely.
 main:
+  - name: Research
+    url: /research-threads/
+    weight: 10
   - name: Software
     url: /software/
-    weight: 10
-  - name: Threads
-    url: /research-threads/
     weight: 20
   - name: Publications
     url: /publication/
     weight: 30
-  - name: Methods
-    url: /methods/
-    weight: 40
-  - name: Roles & Affiliations
-    url: /leadership/
-    weight: 50
   - name: People
     url: /people/
-    weight: 55
+    weight: 40
+  - name: About
+    url: /#about
+    weight: 50
   - name: Contact
     url: /#contact
     weight: 60

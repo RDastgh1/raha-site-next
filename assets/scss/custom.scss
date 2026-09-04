@@ -408,6 +408,11 @@ a {
   transform: translateY(-1px);
 }
 
+.raha-button:focus-visible {
+  outline: 2px solid var(--raha-cyan);
+  outline-offset: 3px;
+}
+
 .raha-button--secondary {
   color: var(--raha-cyan);
 }
@@ -573,6 +578,114 @@ a {
   color: var(--raha-muted);
   font-size: 1.05rem;
   line-height: 1.75;
+}
+
+.raha-section__action {
+  display: inline-flex;
+  margin-top: 1.8rem;
+}
+
+.raha-section--evidence {
+  background: linear-gradient(180deg, rgba(10, 22, 35, 0.3), rgba(13, 25, 38, 0.72));
+  border-top: 1px solid rgba(139, 219, 235, 0.12);
+  border-bottom: 1px solid rgba(139, 219, 235, 0.12);
+}
+
+.front-door-evidence {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  margin-top: 2rem;
+}
+
+.front-door-evidence > div > h3 {
+  margin: 0 0 1rem;
+  color: var(--raha-violet-soft);
+  font-size: 1.25rem;
+}
+
+.front-door-evidence .thread-grid,
+.front-door-evidence .publication-grid {
+  grid-template-columns: 1fr;
+}
+
+.front-door-evidence .publication-card:nth-child(n + 4) {
+  display: none;
+}
+
+.front-door-links,
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem 1.6rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.people-front-door {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(17rem, 0.65fr);
+  gap: clamp(2rem, 8vw, 7rem);
+  align-items: center;
+}
+
+.people-front-door__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.people-front-door__stats article {
+  min-height: 8rem;
+  padding: 1rem;
+  border: 1px solid var(--raha-border);
+  border-radius: 0.5rem;
+  background: rgba(13, 25, 38, 0.62);
+}
+
+.people-front-door__stats strong {
+  display: block;
+  color: var(--raha-cyan);
+  font-family: "Akaya Kanadaka", "Akaya Fallback", Georgia, serif;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.people-front-door__stats span {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--raha-muted);
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.contact-section {
+  background: radial-gradient(circle at 80% 35%, rgba(98, 216, 239, 0.1), transparent 26rem);
+}
+
+.raha-footer .raha-section__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.raha-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.25rem;
+}
+
+.raha-footer a {
+  color: var(--raha-muted);
+  text-decoration: none;
+}
+
+.raha-footer a:hover,
+.raha-footer a:focus-visible {
+  color: var(--raha-cyan);
 }
 
 .tool-strip {
@@ -1449,9 +1562,9 @@ a {
 }
 
 .publication-card {
-  display: grid;
-  grid-template-columns: minmax(11rem, 0.46fr) minmax(0, 0.54fr);
-  min-height: 17rem;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
   border: 1px solid var(--raha-border);
   border-radius: 0.5rem;
   overflow: hidden;
@@ -1510,7 +1623,8 @@ a {
    deliberate: cropping a multi-panel scientific figure loses data, and the
    letterboxing now reads as a mat instead of as broken bars. */
 .publication-card__media {
-  min-height: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 0;
   background: #f2f5f8;
 }
 
@@ -1519,7 +1633,7 @@ a {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 17rem;
+  min-height: 0;
   object-fit: contain;
   padding: 0.55rem;
   background: #f2f5f8;
@@ -1971,6 +2085,30 @@ a {
 
 .software-capabilities {
   margin-top: 3rem;
+}
+
+.software-launch-note,
+.software-disclaimer p {
+  max-width: 48rem;
+  color: var(--raha-muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.software-launch-note {
+  margin: -1.1rem 0 0;
+}
+
+.software-disclaimer {
+  max-width: 760px;
+  margin-top: 2rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid rgba(98, 216, 239, 0.58);
+  background: rgba(13, 25, 38, 0.5);
+}
+
+.software-disclaimer p {
+  margin: 0;
 }
 
 .capability-grid {
@@ -2575,6 +2713,15 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .front-door-evidence,
+  .people-front-door {
+    grid-template-columns: 1fr;
+  }
+
+  .people-front-door__stats {
+    max-width: 30rem;
+  }
+
   .raha-portrait {
     justify-self: start;
     width: 12.5rem;
@@ -2595,13 +2742,14 @@ a {
     max-width: 22rem;
   }
 
+  .raha-footer .raha-section__inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .raha-system:nth-child(3),
   .raha-system:nth-child(4) {
     transform: none;
-  }
-
-  .publication-card {
-    grid-template-columns: 1fr;
   }
 
   .identity-pillars article {
@@ -2612,11 +2760,6 @@ a {
     min-height: auto;
     max-width: none;
     justify-self: stretch;
-  }
-
-  .publication-card__media img,
-  .publication-card__placeholder {
-    min-height: 12rem;
   }
 
   .publication-archive a {

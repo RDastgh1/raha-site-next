@@ -11,17 +11,17 @@
       <div class="people-item">
         {{ if .url }}<a href="{{ .url }}"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
         <span>{{ .role }}{{ with .institution }} · {{ . }}{{ end }}</span>
-        <p>{{ .summary }}</p>
+        <p><strong>Focus:</strong> {{ .summary }}</p>
       </div>
       {{ end }}
     </div>
     <div class="portal-panel">
-      <div class="raha-section__eyebrow">Former Trainees</div>
+      <div class="raha-section__eyebrow">Alumni</div>
       {{ range hugo.Data.people.former_trainees }}
       <div class="people-item">
         {{ if .url }}<a href="{{ .url }}"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
         <span>{{ .role }}{{ with .institution }} · {{ . }}{{ end }}</span>
-        <p>{{ .summary }}</p>
+        <p><strong>Focus:</strong> {{ .summary }}</p>
       </div>
       {{ end }}
     </div>
@@ -32,14 +32,14 @@
       <div class="people-item">
         {{ if .url }}<a href="{{ .url }}"><strong>{{ .name }}</strong></a>{{ else }}<strong>{{ .name }}</strong>{{ end }}
         <span>{{ .role }}{{ with .institution }} · {{ . }}{{ end }}</span>
-        <p>{{ .summary }}</p>
+        <p><strong>Focus:</strong> {{ .summary }}</p>
       </div>
       {{ end }}
       </div>
     </div>
   </section>
   <section class="publication-tier">
-    <div class="raha-section__eyebrow">Teaching and Training</div>
+    <div class="raha-section__eyebrow">Teaching &amp; Mentorship</div>
     <div class="program-grid program-grid--service">
       {{ range hugo.Data.people.teaching }}
       <article class="program-card">

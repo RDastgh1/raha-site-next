@@ -10,10 +10,12 @@
       {{ with .Params.status }}<p class="software-status software-status--{{ . | urlize }}">{{ . }}</p>{{ end }}
       {{ with .Params.summary }}<p class="raha-section__lede">{{ . }}</p>{{ end }}
       <div class="publication-actions">
+        {{ with .Params.launch_url }}<a class="raha-button raha-button--primary" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="{{ $.Params.launch_label | default "Launch the Planner" }} (opens in a new tab)">{{ $.Params.launch_label | default "Launch the Planner" }}<span class="visually-hidden"> (opens in a new tab)</span></a>{{ end }}
         {{ with .Params.github }}<a class="raha-button" href="{{ . }}">GitHub</a>{{ end }}
         {{ with .Params.documentation }}<a class="raha-button" href="{{ . }}">Documentation</a>{{ end }}
         {{ with .Params.tutorial }}<a class="raha-button raha-button--secondary" href="{{ . }}">Tutorial</a>{{ end }}
       </div>
+      {{ with .Params.launch_note }}<p class="software-launch-note">{{ . }}</p>{{ end }}
     </div>
     {{ with .Params.image }}
     <figure class="software-sticker">
@@ -50,7 +52,7 @@
 
   {{ with .Params.capabilities }}
   <section class="software-capabilities">
-    <div class="raha-section__eyebrow">Capabilities</div>
+    <div class="raha-section__eyebrow">{{ $.Params.capabilities_heading | default "Capabilities" }}</div>
     <div class="capability-grid">
       {{ range . }}
       <article>
@@ -60,6 +62,12 @@
       {{ end }}
     </div>
   </section>
+  {{ end }}
+
+  {{ with .Params.disclaimer }}
+  <aside class="software-disclaimer" aria-label="Planning disclaimer">
+    <p>{{ . }}</p>
+  </aside>
   {{ end }}
 
   {{ if .Params.related_publications }}

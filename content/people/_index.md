@@ -1,6 +1,6 @@
 ---
 title: "People"
-summary: "Trainees, alumni, and collaborators connected to the scientific software and translational data science ecosystem."
+summary: "Trainees, alumni, collaborators, and teaching relationships connected through translational brain health research."
 ---
 
-Trainees, alumni, and collaborators contribute to an interdisciplinary research ecosystem spanning computational neuroscience, biomedical data science, scientific software, neuroHIV, brain health, long COVID, and community-centered translational research.
+This page documents the people connected through mentorship, shared research, and teaching—not a formal laboratory roster. It includes current trainees, alumni, collaborators, and educational work across computational neuroscience, biomedical data science, scientific software, neuroHIV, and translational brain health.
